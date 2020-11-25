@@ -1,0 +1,8 @@
+node_modules/
+_site/
+dist/
+documentation/
+*.psd
+# Local Netlify folder
+.netlify
+.yarn

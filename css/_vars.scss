@@ -1,0 +1,78 @@
+@mixin bp($point) {
+  @if $point==xl {
+    @media (min-width: 1800px) {
+      @content;
+    }
+  }
+  @if $point==l {
+    @media (min-width: 1500px) {
+      @content;
+    }
+  } @else if $point==m {
+    @media (min-width: 1100px) {
+      @content;
+    }
+  } @else if $point==s {
+    @media (min-width: 600px) {
+      @content;
+    }
+  } @else if $point== "landscape" {
+    @media (orientation: landscape) {
+      @content;
+    }
+  }
+}
+
+@font-face {
+  font-family: "everson";
+  src: url("./assets/fonts/everson.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "everson";
+  src: url("./assets/fonts/everson-oblique.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "everson";
+  src: url("./assets/fonts/everson-bold.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "everson";
+  src: url("./assets/fonts/everson-bold-oblique.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+}
+
+$everson: "everson", monospace;
+$helvetica: "Helvetica Now Text", "Helvetica", sans-serif;
+$blue: #00ffeb;
+$brown: #845013;
+$black: #171000;
+
+:root {
+  @media (min-resolution: 125dpi) {
+    // scale down type on high-res screens
+    font-size: 14px;
+  }
+
+  // Modular Scale with variable base
+  --ratio: 1.2;
+  --ms-0: clamp(0.815rem, 3vw, 1.15rem);
+  --ms--3: calc(var(--ms--2) / var(--ratio));
+  --ms--2: calc(var(--ms--1) / var(--ratio));
+  --ms--1: calc(var(--ms-0) / var(--ratio));
+  --ms-1: calc(var(--ms-0) * var(--ratio));
+  --ms-2: calc(var(--ms-1) * var(--ratio));
+  --ms-3: calc(var(--ms-2) * var(--ratio));
+  --ms-4: calc(var(--ms-3) * var(--ratio));
+  --ms-5: calc(var(--ms-4) * var(--ratio));
+}

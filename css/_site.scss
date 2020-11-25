@@ -1,0 +1,42 @@
+.site-header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  color: $brown;
+  top: 0;
+  left: 0;
+  padding: 1rem 1.5rem;
+  font-size: var(--ms-0);
+}
+
+.site-title {
+  margin-right: 0.3em;
+  display: flex;
+  align-items: center;
+  &:after {
+    content: "";
+    height: 1px;
+    width: 1em;
+    margin-left: 0.3em;
+    display: inline-block;
+    background: currentColor;
+  }
+}
+
+.site-footer {
+  display: none;
+}
+
+.site-nav {
+  display: flex;
+  a {
+    margin-right: 0.2em;
+    &:after {
+      content: "/";
+      padding-left: 0.2em;
+    }
+    &:last-of-type:after {
+      content: "";
+    }
+  }
+}

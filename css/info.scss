@@ -1,0 +1,29 @@
+.info--text {
+  grid-column: 1 / 6;
+  text-rendering: optimizeLegibility;
+  font-family: $helvetica;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  p {
+    font-weight: 400;
+    margin-bottom: .8em;
+  }
+}
+
+.info--timeline {
+  grid-column: 6 / 10;
+}
+
+.timeline--item {
+  list-style: none;
+}
+.timeline--item--copy {
+  padding-left: 2em;
+}
+
+.info--colophon {
+  grid-column: 10 / 13;
+  align-self: flex-end;
+  font-size: var(--ms--1);
+  line-height: 1.1;
+}
