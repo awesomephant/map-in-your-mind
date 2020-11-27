@@ -1,5 +1,9 @@
 .site-header {
   display: flex;
+  flex-flow: column;
+  @include bp(m) {
+    flex-flow: row;
+  }
   position: fixed;
   width: 100%;
   color: $brown;
@@ -7,7 +11,8 @@
   left: 0;
   padding: 1rem 1.5rem;
   font-size: var(--ms-1);
-  color: red;
+  color: $brown;
+  background: linear-gradient(to bottom, white 0%, white 50%, transparent 100%);
 }
 
 .site-title {
@@ -19,8 +24,11 @@
     height: 1px;
     width: 1em;
     margin-left: 0.3em;
-    display: inline-block;
     background: currentColor;
+    display: none;
+    @include bp(m) {
+      display: inline-block;
+    }
   }
 }
 
