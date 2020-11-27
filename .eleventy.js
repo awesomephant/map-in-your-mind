@@ -1,6 +1,8 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdownIt = require("markdown-it");
-const md = new markdownIt();
+const md = new markdownIt({
+  breaks: true
+});
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("project", function (collectionApi) {

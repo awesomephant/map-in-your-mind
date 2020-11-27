@@ -34,8 +34,6 @@
   @include bp(l) {
     grid-column: 6 / 10;
   }
-  font-size: var(--ms-0);
-  line-height: 1.22;
 }
 
 .timeline--item {

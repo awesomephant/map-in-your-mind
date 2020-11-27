@@ -1,0 +1,37 @@
+{
+    "items": [
+        {
+            "title": "Octopus of Offshoots",
+            "subtitle": "Werkplaats Typografie Reader",
+            "copy": "Category: Magazine\nPublisher: Wasted Talent Ltd, 2020\nDesign: Arun Gogna, Oliver Boulton\n[Purchase Here](www.google.com)\n\nStarring: Jorja Smith, Stormzy, Dominic Calvert-Lewin, Beabadoobee, Gabriel Krauze, Conducta, Racheal Crowther, Amarah-Jae St Aubyn, Maximilian Davis, Conrad Khan, Joshua Virasami, Shaybo, M Huncho, Potter Payper, BackRoad Gee, Nafe Smallz, TeeZandos, K-Trap, V9, Frosty, S1mba, Abra Cadabra, Br3nya, Ify Adenuga, Munya Chawawa.\n\nSoftback, 300pp.\nOffset, glued, 230 × 300mm\nISBN: 978-1-908971-43-2",
+            "images": [
+                "/assets/images/test-3.gif",
+                "/assets/images/test-0.png",
+                "/assets/images/test-1.jpg",
+                "/assets/images/test-2.png",
+                "/assets/images/test-4.gif"
+            ]
+        },
+        {
+            "title": "Octopus of Offshoots",
+            "subtitle": "Werkplaats Typografie Reader",
+            "images": [
+                "/assets/images/test-0.png",
+                "/assets/images/test-1.jpg",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-4.gif"
+            ]
+        },
+        {
+            "title": "Octopus of Offshoots",
+            "subtitle": "Werkplaats Typografie Reader",
+            "images": [
+                "/assets/images/test-1.jpg",
+                "/assets/images/test-3.gif",
+                "/assets/images/test-4.gif"
+            ]
+        }
+    ]
+}
