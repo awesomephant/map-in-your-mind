@@ -65,8 +65,8 @@ $black: #171000;
   }
 
   // Modular Scale with variable base
-  --ratio: 1.2;
-  --ms-0: clamp(0.815rem, 3vw, 1.15rem);
+  --ratio: 1.125;
+  --ms-0: clamp(0.815rem, calc(.7vw + 0.25rem), 1.4rem);
   --ms--3: calc(var(--ms--2) / var(--ratio));
   --ms--2: calc(var(--ms--1) / var(--ratio));
   --ms--1: calc(var(--ms-0) / var(--ratio));

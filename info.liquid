@@ -32,13 +32,16 @@ class: info
 </article>
 
 <section class="info--timeline">
-    <h2>Exhibitions, Publications, Workshops & Other Projects</h2>
+    <h2 class='subheader'>Exhibitions, Publications, Workshops & Other Projects</h2>
     <ul class='timeline'>
         {% for item in timeline.items %}
         <li class="timeline--item">
             <h3 class="timeline--item--title">{{item.title}}</h3>
             <div class="timeline--item--copy">
                 {{item.copy}}
+            </div>
+               <div class="place">
+                {{item.place}}
             </div>
         </li>
         {% endfor %}

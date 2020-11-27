@@ -3,15 +3,21 @@
   text-rendering: optimizeLegibility;
   font-family: $helvetica;
   letter-spacing: 0.01em;
-  line-height: 1.2;
+  word-spacing: 0.01em;
+  line-height: 1.22;
+  font-size: calc(var(--ms-0)*1.1);
+  padding-right: 2em;
   p {
-    font-weight: 400;
-    margin-bottom: .8em;
+    font-weight: 200;
+    margin-bottom: .6em;
+
   }
 }
 
 .info--timeline {
   grid-column: 6 / 10;
+  font-size: var(--ms-0); 
+  line-height: 1.22
 }
 
 .timeline--item {
@@ -25,5 +31,12 @@
   grid-column: 10 / 13;
   align-self: flex-end;
   font-size: var(--ms--1);
-  line-height: 1.1;
+  line-height: 1.25;
+}
+
+.place {
+  padding-left: 2em;
+}
+
+.subheader {
 }
