@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
   font-family: $everson;
   padding-top: 4.5rem;
-  @include bp(m){
+  @include bp(m) {
     padding-top: 3.5rem;
   }
 }
@@ -30,6 +30,30 @@ a {
   text-decoration: none;
 }
 
+.helvetica-copy {
+  text-rendering: optimizeLegibility;
+  hyphens: auto;
+  font-family: $helvetica;
+  letter-spacing: 0.01em;
+  word-spacing: 0.01em;
+  line-height: 1.22;
+  font-size: calc(var(--ms-0) * 1.1);
+  p {
+    font-weight: 200;
+    margin-bottom: 0.6em;
+    // Need to go up a weight in windows
+    // because font rendering issues
+    .is-windows & {
+      font-weight: 400;
+    }
+  }
+  a {
+    font-family: $everson;
+    display: block;
+    color: $brown;
+    font-size: var(--ms-0);
+  }
+}
 .everson-copy {
   font-size: var(--ms-0);
   line-height: 1.22;
