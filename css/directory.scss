@@ -1,0 +1,65 @@
+.directory {
+  background: $black;
+  .site-header {
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(
+      to bottom,
+      $black 0%,
+      $black 45%,
+      transparent 100%
+    );
+  }
+}
+
+.directory--filters {
+  position: fixed;
+  height: calc(100vh - 5rem);
+  top: 4rem;
+  justify-content: space-evenly;
+  flex-flow: column;
+  display: none;
+  @media (min-height: 40rem) {
+    display: flex;
+  }
+  button {
+    text-align: left;
+    appearance: none;
+    font-size: var(--ms-0);
+    font-family: $everson;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+.directory--nav {
+  grid-column: 8 / 13;
+  color: white;
+}
+.directory--nav--title {
+  @include bp(m) {
+    position: absolute;
+    top: 1rem;
+  }
+}
+.directory--entry {
+  grid-column: 2 / 7;
+  grid-row: 1;
+  color: white;
+}
+
+.directory--item {
+  list-style: none;
+  cursor: pointer;
+  &:hover {
+    color: $blue;
+  }
+  .description {
+    padding-left: 2em;
+  }
+}

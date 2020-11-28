@@ -3,9 +3,9 @@
   @include bp(m) {
     grid-column: 1 / 7;
   }
-  @include bp(l){
+  @include bp(l) {
     grid-column: 1 / 6;
-    padding-right: 2em;
+    padding-right: 1em;
   }
 }
 
@@ -18,6 +18,15 @@
   @include bp(l) {
     grid-row: span 1;
     grid-column: 6 / 10;
+  }
+}
+
+.timeline--title {
+  font-size: var(--ms-1);
+  margin-bottom: .5em;
+  @include bp(m) {
+    position: absolute;
+    top: 1rem;
   }
 }
 
@@ -44,7 +53,4 @@
 
 .place {
   padding-left: 2em;
-}
-
-.subheader {
 }

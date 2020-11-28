@@ -1,7 +1,7 @@
 .site-header {
   display: flex;
   flex-flow: column;
-  @include bp(m) {
+  @include bp(l) {
     flex-flow: row;
   }
   position: fixed;
@@ -9,7 +9,7 @@
   color: $brown;
   top: 0;
   left: 0;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
   font-size: var(--ms-1);
   color: $brown;
   background: linear-gradient(to bottom, white 0%, white 45%, transparent 100%);
@@ -26,7 +26,7 @@
     margin-left: 0.3em;
     background: currentColor;
     display: none;
-    @include bp(m) {
+    @include bp(l) {
       display: inline-block;
     }
   }

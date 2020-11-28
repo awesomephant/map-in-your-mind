@@ -1,4 +1,39 @@
 ---
 layout: base
-class: inventory
+class: directory
 ---
+{% assign alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" | split: "" %}
+<nav class="directory--filters">
+    {% for letter in alphabet %}
+    <button>
+        {{letter}}
+    </button>
+    {% endfor %}
+    <button>
+        A–Z
+    </button>
+</nav>
+
+<section class="directory--nav">
+    <h2 class='directory--nav--title'>2015–2020</h2>
+    <ul>
+        {% for item in collections.directory_item%}
+        <li class="directory--item">
+            <h3>{{item.data.title}}</h3>
+            <h4>{{item.data.subtitle}}</h4>
+            <div class='description'>
+                {{item.data.description | renderMarkdown}}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+
+<main class="directory--entry helvetica-copy">
+    <p>[...] The phenomenon of the positive afterimage is created when a person, standing in a dark space, experiences a
+        sudden and short flash of light. This results in a ‘positive’ afterimage of whatever the person was looking at
+        during the time the flash went off. This image is ephemeral in the sense that
+        it dissipates within seconds of being created but at the same it creates a memory, we can relive that image only
+        in our minds. Studying this afterimage becomes an exercise in studying its effects, its lingering traces on the
+        people that experienced them. — Introduction excerpt</p>
+</main>

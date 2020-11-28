@@ -1,12 +1,12 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdownIt = require("markdown-it");
 const md = new markdownIt({
-  breaks: true
+  breaks: true,
 });
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addCollection("project", function (collectionApi) {
-    return collectionApi.getFilteredByGlob(["./projects/*.md"]);
+  eleventyConfig.addCollection("directory_item", function (collectionApi) {
+    return collectionApi.getFilteredByGlob(["./directory-items/*.md"]);
   });
 
   eleventyConfig.addFilter("renderMarkdown", function (value) {

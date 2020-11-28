@@ -9,6 +9,10 @@
 ::selection {
   background: black;
   color: white;
+  .directory & {
+    background: white;
+    color: $black;
+  }
 }
 
 body {
@@ -19,8 +23,8 @@ body {
   row-gap: 2rem;
   min-height: 100vh;
   font-family: $everson;
-  padding-top: 4.5rem;
-  @include bp(m) {
+  padding-top: 5rem;
+  @include bp(l) {
     padding-top: 3.5rem;
   }
 }
