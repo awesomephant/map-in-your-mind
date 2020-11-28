@@ -13,8 +13,10 @@
   grid-column: 1 / 13;
   @include bp(m) {
     grid-column: 7 / 13;
+    grid-row: span 4;
   }
   @include bp(l) {
+    grid-row: span 1;
     grid-column: 6 / 10;
   }
 }
@@ -30,11 +32,12 @@
   grid-column: 1 / 13;
   @include bp(m) {
     grid-column: 1 / 6;
+    align-self: flex-start;
   }
   @include bp(l) {
     grid-column: 11 / 13;
+    align-self: flex-end;
   }
-  align-self: flex-end;
   font-size: var(--ms--1);
   line-height: 1.25;
 }
