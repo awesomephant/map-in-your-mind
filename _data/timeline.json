@@ -2,33 +2,38 @@
     "items": [
 
         {
-            "title": "Diorama No.2—Geometric City",
-            "copy": "⃰Reading: My Mouth Became an ‘O’ and I Made a Similar Sound",
-            "place": "Book Launch: Diorama No.2—Geometric City<br>Subaru, Montreuil (FR), 2019"
+            "title": "My Mouth Became an ‘O’ and I Made a Similar Sound",
+            "copy": "⃰Reading<br>Diorama No.2—Geometric City, Book Launch",
+            "place": "Subaru, Montreuil (FR), 2019"
         },
         {
-            "title": "Diorama No.2—Geometric City",
-            "copy": "⃰Contribution: Footnotes",
-            "place": "Diorama (FR), 2019"
+            "title": "Footnotes",
+            "copy": "⃰Contribution<br>Diorama No.2—Geometric City",
+            "place": "Publisher: Diorama (FR), 2019"
+        },
+        {
+            "title": "Made up Between Two Ends",
+            "copy": "⃰Studio Open-Doors",
+            "place": "Les Ateliers ouverts de l'Île-Saint-Denis (FR), 2020"
         },
         {
             "title": "Octopus of Offshoots, Werkplaats Typografie Reader",
             "copy": "⃰Book Launch<br>Oliver Boulton, Adriaan van Leuven, Maxine Kopsa",
-            "place": "Kunstverein Amsterdam (NL), 2019"
+            "place": "Kunstverein, Amsterdam (NL), 2019"
         },
         {
             "title": "Octopus of Offshoots, Werkplaats Typografie Reader",
             "copy": "⃰Publication<br>Oliver Boulton, Adriaan van Leuven, Maxine Kopsa",
-            "place": "Werkplaats Typografie and ArtEZ Press (NL), 2019"
+            "place": "Publisher: Werkplaats Typografie, ArtEZ Press (NL), 2019"
         },
         {
             "title": "Guttural Flex [echo]",
-            "copy": "⃰Group Exhibition: Where Nostalgia Meets Time Pressure",
+            "copy": "⃰Group Exhibition<br>Where Nostalgia Meets Time Pressure",
             "place": "Mediamatic, Amsterdam (NL), 2018"
         },
         {
             "title": "Ideolect (Verbal Identity)",
-            "copy": "⃰Group Exhibition: Where Nostalgia Meets Time Pressure",
+            "copy": "⃰Group Exhibition<br>Where Nostalgia Meets Time Pressure",
             "place": "Mediamatic, Amsterdam (NL), 2018"
         },
         {
@@ -37,79 +42,94 @@
             "place": "THE BOX, Werkplaats Typografie, Arnhem (NL), 2018"
         },
         {
+            "title": "blue, Oliver Boulton BLUE Derek Jarman",
+            "copy": "⃰Performance, Screening",
+            "place": "Doc&, Werkplaats Typografie (NL), 2018"
+        },
+        {
             "title": "Speelplaats",
             "copy": "⃰Workshop Program<br>Oliver Boulton, Adriaan van Leuven, Maxine Kopsa",
-            "place": "Werkplaats Typografie (NL), 2017—2018"
+            "place": "Werkplaats Typografie, Arnhem (NL), 2017—18"
         },
         {
-            "title": "18 Magazine, Home",
-            "copy": "⃰Contribution: Painted Walls",
-            "place": "Werkplaats Typografie (NL), 2017"
+            "title": "Painted Walls",
+            "copy": "⃰Contribution<br>18 Magazine, Home",
+            "place": "Publisher: Werkplaats Typografie (NL), 2017"
         },
         {
-            "title": "Fruits of Fraud",
-            "copy": "⃰Contribution: Contractual Colour Agreement",
-            "place": "New York Art Book Fair<br>Museum of Modern Art PS1 (US), 2016"
+            "title": "Contractual Colour Agreement",
+            "copy": "⃰Contribution<br>Fruits of Fraud",
+            "place": "New York Art Book Fair<br>Museum of Modern Art PS1, New York, (US), 2016"
         },
         {
-            "title": "Maps to the Stars: WT in LA",
-            "copy": "⃰Group Exhibition",
+            "title": "Glyph(s)",
+            "copy": "⃰Group Exhibition<br>Maps to the Stars: WT in LA",
             "place": "ArtCenter, Los Angeles (US), 2017"
         },
         {
-            "title": "WT Papier Launch",
-            "copy": "⃰Contribution: Walking on Splinters, A4/A5",
-            "place": "New York Art Book Fair<br>Museum of Modern Art PS1 (US), 2016"
+            "title": "Walking on Splinters, A4/A5",
+            "copy": "⃰Contribution<br>WT Papier Launch",
+            "place": "New York Art Book Fair<br>Museum of Modern Art PS1, New York, (US), 2016"
         },
         {
-            "title": "18 Magazine, The Process Was a Joy to Watch",
-            "copy": "⃰Contribution: Ok So",
-            "place": "Werkplaats Typografie (NL), 2016"
+            "title": "Looking to be Looked at",
+            "copy": "⃰Group Exhibition<br>WT ’17",
+            "place": "Werkplaats Typografie, Arnhem (NL), 2017"
         },
         {
-            "title": "Typography Summer School",
-            "copy": "⃰Workshop<br>Oliver Boulton, Samuel Jones, work-form",
-            "place": "Chelsea College of Arts (UK), 2016"
+            "title": "Ok So",
+            "copy": "⃰Contribution<br>18 Magazine, The Process Was a Joy to Watch",
+            "place": "Publisher: Werkplaats Typografie, (NL), 2016"
         },
         {
-            "title": "Into the Fold",
-            "copy": "⃰Workshop<br>Oliver Boulton, Samuel Jones",
-            "place": "Camberwell College of Arts (UK), 2016"
+            "title": "Particitype #9",
+            "copy": "⃰Workshop<br>Typography Summer School<br>Oliver Boulton, Samuel Jones, work-form",
+            "place": "Chelsea College of Arts (UK), London 2016"
         },
         {
-            "title": "Foundation",
-            "copy": "⃰Workshop<br>Oliver Boulton, Samuel Jones",
-            "place": "Camberwell College of Arts (UK), 2016"
+            "title": "Particitype #8",
+            "copy": "⃰Workshop<br>Into the Fold<br>Oliver Boulton, Samuel Jones",
+            "place": "Camberwell College of Arts, London (UK), 2016"
         },
         {
-            "title": "Open House",
-            "copy": "⃰Workshop<br>Oliver Boulton, Samuel Jones",
-            "place": "Camberwell College of Arts (UK), 2016"
+            "title": "Particitype #7",
+            "copy": "⃰Workshop<br>Foundation<br>Oliver Boulton, Samuel Jones",
+            "place": "Camberwell College of Arts, London (UK), 2016"
+        },
+        {
+            "title": "Particitype #6",
+            "copy": "⃰Workshop<br>Open House<br>Oliver Boulton, Samuel Jones",
+            "place": "Camberwell College of Arts, London (UK), 2016"
         },        
         {
-            "title": "BA Graphic Design",
-            "copy": "⃰Workshop<br>Oliver Boulton, Samuel Jones",
-            "place": "Camberwell College of Arts (UK), 2016"
+            "title": "Particitype #5",
+            "copy": "⃰Workshop<br>BA Graphic Design<br>Oliver Boulton, Samuel Jones",
+            "place": "Camberwell College of Arts, London (UK), 2016"
         },        
         {
-            "title": "BA Graphic Design",
-            "copy": "⃰Workshop<br>Oliver Boulton, Samuel Jones",
-            "place": "Camberwell College of Arts (UK), 2016"
+            "title": "Particitype #4",
+            "copy": "⃰Workshop<br>BA Graphic Design<br>Oliver Boulton, Samuel Jones",
+            "place": "Camberwell College of Arts, London (UK), 2016"
         },        
         {
-            "title": "BA Graphic Design",
-            "copy": "⃰Workshop<br>Oliver Boulton, Samuel Jones",
-            "place": "Camberwell College of Arts (UK), 2015"  
+            "title": "Particitype #3",
+            "copy": "⃰Workshop<br>BA Graphic Design<br>Oliver Boulton, Samuel Jones",
+            "place": "Camberwell College of Arts, London (UK), 2015"  
         },
         {
-            "title": "Conversas",
-            "copy": "⃰Talk: Particitype<br>Oliver Boulton, Samuel Jones",
-            "place": "Peckham Pelican (UK), 2015"
+            "title": "Particitype",
+            "copy": "⃰Talk<br>Conversas<br>Oliver Boulton, Samuel Jones",
+            "place": "Peckham Pelican, London (UK), 2015"
         },   
         {
-            "title": "Foundation",
-            "copy": "⃰Workshop<br>Oliver Boulton, Samuel Jones",
-            "place": "Camberwell College of Arts (UK), 2016"
-        }   
+            "title": "Particitype #2",
+            "copy": "⃰Workshop<br>Foundation<br>Oliver Boulton, Samuel Jones",
+            "place": "Camberwell College of Arts, London (UK), 2015"
+        },
+        {
+            "title": "Particitype #1",
+            "copy": "⃰Workshop<br>Foundation<br>Oliver Boulton, Samuel Jones",
+            "place": "Camberwell College of Arts, London (UK), 2014"
+        }     
     ]
 }
