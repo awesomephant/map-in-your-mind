@@ -7,7 +7,7 @@
 }
 
 ::selection {
-  background: black;
+  background: #00018B;
   color: white;
   .directory & {
     background: white;
@@ -44,7 +44,7 @@ a {
   font-size: calc(var(--ms-0) * 1.1);
   p {
     font-weight: 200;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.9em;
     // Need to go up a weight in windows
     // because font rendering issues
     .is-windows & {
