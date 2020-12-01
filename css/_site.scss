@@ -12,6 +12,7 @@
   padding: 1rem 2rem;
   font-size: var(--ms-1);
   color: $brown;
+  z-index: 2000;
   background: linear-gradient(to bottom, white 0%, white 5%, transparent 100%);
 }
 
