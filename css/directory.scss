@@ -14,11 +14,15 @@
 
 .directory--filters {
   position: fixed;
-  height: calc(100vh - 5rem);
-  top: 4rem;
   justify-content: space-evenly;
   flex-flow: column;
   display: none;
+  top: 4.5rem;
+  height: calc(100vh - 5rem);
+  @include bp(l){
+    top: 3rem;
+    height: calc(100vh - 4rem);
+  }
   @media (min-height: 40rem) {
     display: flex;
   }
