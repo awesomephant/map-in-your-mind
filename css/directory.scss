@@ -61,6 +61,7 @@
 
 .directory--item {
   list-style: none;
+  font-size: var(--ms-0);
   cursor: pointer;
   &:hover {
     color: $blue;
