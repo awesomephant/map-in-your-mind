@@ -1,8 +1,8 @@
 {
     "items": [
         {
-            "title": "Octopus of Offshoots",
-            "subtitle": "Werkplaats Typografie",
+            "title": "The Face",
+            "subtitle": "Vol. 4, Issue 5 Winter 2020",
             "copy": "Magazine\nPublisher: Wasted Talent Ltd, 2020\nDesign: Arun Gogna, Oliver Boulton\n\n[Purchase Here](www.google.com)\n\nStarring: Jorja Smith, Beabadoobee, Dominic Calvert-Lewin, Gabriel Krauze, Munya Chawawa, Ify Adenuga and Stormzy.\n\nSoftback, 300pp.\nOffset, glued, 230 × 300mm\nISBN: 978-1-908971-43-2",
             "images": [
                 "/assets/images/eigengrau/oliver-boulton-eigengrau-front.png",
@@ -19,6 +19,17 @@
         {
             "title": "Octopus of Offshoots",
             "subtitle": "Werkplaats Typografie",
+            "copy": "Book\nPublisher: Werkplaats Typografie & ArtEZ Press, 2019\nDesign: Oliver Boulton, Adriaan Van Leuven\nEditors: Oliver Boulton, Adriaan van Leuven, Maxine Kopsa\n\n[Purchase Here](www.google.com)\n\nContributions and selected work: Kathy Acker, Eleanor Antin, Maria Barnas, Roland Barthes, Oliver Boulton, Ulises Carrión, Theresa Hak Kyung Cha, Philip Gooden, Elizabeth Grosz, Rob Horning, Mustapha Khayati, Conrad Knickerbocker, Simona Koutná, Mariana Lobão, Harry Mathews, Luca Napoli, Moriz Oberberger, John Oswald, Mark Owens, Francis Ponge, Austin Redman, Yeliz Secerli, Robert Smithson, Gertrude Stein, Brad Troemel, Susan van Veen, Boris Siemaszko & Melina Wilson and The Wombles.\n\nSoftback, 300pp.\nOffset, glued, 230 × 300mm\nISBN: 978-1-908971-43-2",
+            "images": [
+                "/assets/images/test-1.jpg",
+                "/assets/images/test-3.gif",
+                "/assets/images/test-4.gif"
+            ]
+        },
+        {
+            "title": "Perspectives",
+            "subtitle": "Paulina Korobkiewicz",
+            "copy": "Artist Book\nPublisher: Camberwell Press, 2017\nDesign: Oliver Boulton, Samuel Jones\nEditors:  Oliver Boulton, James Edgar, Sigune Hamann, Sam Jones, Duncan Wooldridge\n\nEdition of 150, softback, 45pp. + PVC dust jacket + insert\nIndigo, French fold, singer sewn, 249 × 320mm\nISBN: 978-1-908971-53-1",
             "images": [
                 "/assets/images/map-in-your-mind-pentagon-petal-front.png",
                 "/assets/images/test-1.jpg",
@@ -29,11 +40,93 @@
             ]
         },
         {
-            "title": "Octopus of Offshoots",
-            "subtitle": "Werkplaats Typografie",
+            "title": "Fine Art",
+            "subtitle": "Camberwell College of Art, University of the Arts London (UAL)",
+            "copy": "Catalogue\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boulton, Samuel Jones\nEditors:  Oliver Boulton, Kirsten Houser, Sam Jones\n\nContributions and selected work: Alice Theobald, Annette Robinson, Daniel Sturgis, Duncan Wooldridge, Neil Rumming, Paulina Korobkiewicz, Ruth Pilston, Griselda Pollock and the students of Drawing, Painting, Photography and Sculpture at Camberwell College of Arts.\n\nMonoprints by Will Asheton, Jack Ashley, Harry Badrick, Bình Hà, Vanessa Bizarri, Billy Crosby, Callum Farrell, Joy Finzi, Christina Goodall, Thomas Greig, Rebecca Guez, Melloney Harvey, Catherine Hulme, Becca James, Alice Muir, Ben Mullins, Oliver Newman, Tom Penney, Ruth Pilston, Josie Ralfs, Paulo Sousa, Halszka Staniewicz, Cat Thompson, Bethan Wilkins, Josh Wright and Rosie Wyllie.\n\nEdition of 1400, softback, 186pp.\nMonoprint, offset and glued, 190 × 265mm\nISBN: 978-1-908971-47-0",
             "images": [
+                "/assets/images/map-in-your-mind-pentagon-petal-front.png",
                 "/assets/images/test-1.jpg",
-                "/assets/images/test-3.gif",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-4.gif"
+            ]
+        },
+        {
+            "title": "Glyph(s)",
+            "subtitle": "Oliver Boulton",
+            "copy": "Sculpture\nExhibition: WT in LA, Maps to the Stars\nHoffmitz Milken Center for Typography, Los Angeles, 2017\nAcrylic on Steel, Wood and Concrete, Variable Dimensions\nPhotographs by Joshua White",
+            "images": [
+                "/assets/images/map-in-your-mind-pentagon-petal-front.png",
+                "/assets/images/test-1.jpg",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-4.gif"
+            ]
+        },
+        {
+            "title": "Eigengrau",
+            "subtitle": "Jonito Aerts Arguelles",
+            "copy": "Artist Book\nPublisher: Werkplaats Typografie, 2017\nEditor & Designer: Oliver Boulton\n\nEdition of 400, softback, 273pp.\nOffset, sewn and glued, 215 × 270mm",
+            "images": [
+                "/assets/images/map-in-your-mind-pentagon-petal-front.png",
+                "/assets/images/test-1.jpg",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-4.gif"
+            ]
+        },
+        {
+            "title": "Top/Top",
+            "subtitle": "Liam Magee",
+            "copy": "Artist Book\nPublisher: Camberwell Press, 2015\nDesign: Oliver Boulton\nEditors: Duncan Wooldridge, James Edgar, Oliver Boulton, Sigune Hamann\n\nEdition of 150, softback, 36pp. + Envelope + insert\nOffset, stapled,  215 × 270mm / 270 × 215mm\nISBN: 978-1-908971-41-8",
+            "images": [
+                "/assets/images/map-in-your-mind-pentagon-petal-front.png",
+                "/assets/images/test-1.jpg",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-4.gif"
+            ]
+        },
+        {
+            "title": "Pentagon Petal",
+            "subtitle": "Fran Cottell, Marianne Mueller",
+            "copy": "Website, Booklet, Flyer\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boulton, Samuel Jones\n\npentagon-petal.org\n\nBooklet\nEdition of 1000, 16pp.\nOffset, stapled, 165 × 225mm\nISBN: 978-1-90897-51-7\n\nFlyer\nEdition of 250, 2pp.\nRisograph, 148 × 210mm",
+            "images": [
+                "/assets/images/map-in-your-mind-pentagon-petal-front.png",
+                "/assets/images/test-1.jpg",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-4.gif"
+            ]
+        },
+        {
+            "title": "Guttural Flex [echo]",
+            "subtitle": "Oliver Boulton",
+            "copy": "Sculpture\nExhibition: As Nostalgia Meets Time-Pressure\nMediamatic, Netherlands, 2018\nPhotographs by Franziska Schulz",
+            "images": [
+                "/assets/images/map-in-your-mind-pentagon-petal-front.png",
+                "/assets/images/test-1.jpg",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-4.gif"
+            ]
+        },
+        {
+            "title": "Walking on Splinters",
+            "subtitle": "Oliver Boulton, WT Papier",
+            "copy": "Book\nPublisher: Werkplaats Typografie & WT Papier, 2016\nDesigner: Oliver Boulton\nEditors: Oliver Boulton, Sabo Day, Eloise Harris, Robert Milne\n\nContributions and selected work: Bas Jan Ader, David Bachelor, Josef Bauer, Christian Bök, Sophie Calle, Italo Calvino, Wim Crouwel, René Denizot, James Flint, Vilém Flusser, Paul Gangloff, Myles na gCopaleen, Dom Sylvester Houédard, Rosalind E. Krauss, François Le Lionnais, Dada Manifesto, Georges Perec, Francis Picabia, Matt Siber, Nicola Simpson, David Thorpe, Sol Le Witt and Thomas Zaunschirm\n\nEdition of 150, softback, 36pp. + Envelope + insert\nEdition of 10, softback, 252pp.\nDigital and glued, 148 × 210mm",
+            "images": [
+                "/assets/images/map-in-your-mind-pentagon-petal-front.png",
+                "/assets/images/test-1.jpg",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
+                "/assets/images/test-2.png",
                 "/assets/images/test-4.gif"
             ]
         }
