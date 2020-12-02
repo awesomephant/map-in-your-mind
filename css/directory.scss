@@ -49,6 +49,7 @@
   @include bp(m) {
     position: absolute;
     top: 1rem;
+    z-index: 5000;
   }
 }
 .directory--entry {
