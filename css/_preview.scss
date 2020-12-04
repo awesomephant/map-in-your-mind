@@ -27,20 +27,21 @@
   }
 }
 .preview-item--title {
+  color: $brown;
+}
+
+.preview-item--subtitle {
+  color: $black;
   @include bp(m) {
     color: $brown;
-  }
-}
-.preview-item--subtitle {
-  color: $brown;
-  @include bp(m) {
     margin-bottom: 1em;
   }
 }
 .preview-item--copy {
   text-align: left;
   display: none;
-  @include bp(m){
+
+  @include bp(m) {
     display: block;
   }
   p {
@@ -52,6 +53,7 @@
 }
 
 .slider {
+  margin-bottom: 1rem;
   img {
     display: none;
     width: 100%;
@@ -67,4 +69,7 @@
 
 .slider-count {
   text-align: center;
+  position: relative;
+  top: -1rem;
+  font-size: var(--ms-0);
 }

@@ -7,7 +7,7 @@
 }
 
 ::selection {
-  background: #00018B;
+  background: #000000;
   color: white;
   .directory & {
     background: white;
@@ -15,16 +15,33 @@
   }
 }
 
+:root {
+  scrollbar-width: auto;
+  scrollbar-color: $black rgb(228, 228, 228);
+
+  /* Works on Chrome/Edge/Safari */
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+  &::-webkit-scrollbar-track {
+    background: gray;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $black;
+    border-radius: 2px;
+  }
+}
+
 body {
   padding: 2rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  column-gap: 2rem;
+  column-gap: 1.5%;
   row-gap: 2rem;
   min-height: 100vh;
   font-family: $everson;
   padding-top: 5rem;
-  @include bp(l) {
+  @include bp(m) {
     padding-top: 3.5rem;
   }
 }
@@ -32,6 +49,9 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  &:hover, &:focus {
+    color: $black;
+  }
 }
 
 .helvetica-copy {

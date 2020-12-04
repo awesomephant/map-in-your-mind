@@ -5,11 +5,11 @@
     }
   }
   @if $point==l {
-    @media (min-width: 1500px) {
+    @media (min-width: 1350px) {
       @content;
     }
   } @else if $point==m {
-    @media (min-width: 800px) {
+    @media (min-width: 1000px) {
       @content;
     }
   } @else if $point==s {
@@ -52,7 +52,7 @@
   font-style: italic;
 }
 
-$everson: "everson", monospace;
+$everson: "everson", Courier New, monospace;
 $helvetica: "Helvetica Now Text", "Helvetica", sans-serif;
 $blue: #00ffeb;
 $brown: #845013;

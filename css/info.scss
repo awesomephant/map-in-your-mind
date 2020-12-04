@@ -13,17 +13,26 @@
   grid-column: 1 / 13;
   @include bp(m) {
     grid-column: 7 / 13;
-    grid-row: span 4;
+    grid-row: span 2;
+    height: 90vh;
+    overflow-y: scroll;
   }
   @include bp(l) {
     grid-row: span 1;
     grid-column: 6 / 10;
   }
+
+  .subtitle {
+    list-style: none;
+    font-size: var(--ms-1);
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
 }
 
 .timeline--title {
   font-size: var(--ms-1);
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   @include bp(m) {
     position: absolute;
     top: 1rem;
@@ -42,10 +51,10 @@
   grid-column: 1 / 13;
   @include bp(m) {
     grid-column: 1 / 6;
-    align-self: flex-start;
+    align-self: flex-end;
   }
   @include bp(l) {
-    grid-column: 11 / 13;
+    grid-column: 10 / 13;
     align-self: flex-end;
   }
   font-size: var(--ms--1);
