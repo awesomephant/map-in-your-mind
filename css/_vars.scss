@@ -23,6 +23,13 @@
   }
 }
 
+%hide-scrollbar {
+  scrollbar-width: none; /* Firefox implementation */
+  &::-webkit-scrollbar {
+    display: none; /* webkit browsers implementation */
+  }
+}
+
 @font-face {
   font-family: "everson";
   src: url("./assets/fonts/everson.ttf") format("truetype");

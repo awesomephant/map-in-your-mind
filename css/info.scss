@@ -1,5 +1,6 @@
 .info--text {
   grid-column: 1 / 13;
+  align-self: flex-start;
   @include bp(m) {
     grid-column: 1 / 7;
   }
@@ -11,33 +12,42 @@
 
 .info--timeline {
   grid-column: 1 / 13;
+  @extend %hide-scrollbar;
+  z-index: 5000;
+  ul {
+    margin-bottom: 3em;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
   @include bp(m) {
     grid-column: 7 / 13;
-    grid-row: span 2;
-    height: 90vh;
+    grid-row: span 2 ;
+    height: calc(100vh - 2em);
+    top: -2.5em;
+    position: relative;
     overflow-y: scroll;
+    margin-bottom: -4rem;
   }
   @include bp(l) {
-    grid-row: span 1;
     grid-column: 6 / 10;
   }
 
   .subtitle {
     list-style: none;
     font-size: var(--ms-1);
-    padding-top: 1.5em;
     padding-bottom: 1em;
+    background: linear-gradient(to bottom, white 50%, transparent 100%);
+    @include bp(m) {
+      position: sticky;
+      top: 0rem;
+    }
   }
 }
 
 .timeline--title {
   font-size: var(--ms-1);
   margin-bottom: 0.5em;
-  @include bp(m) {
-    position: absolute;
-    top: 1rem;
-    z-index: 5000;
-  }
 }
 
 .timeline--item {
@@ -49,16 +59,20 @@
 
 .info--colophon {
   grid-column: 1 / 13;
+  line-height: 1.25;
+  font-size: var(--ms-0);
+  .colophon--inner {
+    font-size: var(--ms--1);
+  }
   @include bp(m) {
     grid-column: 1 / 6;
     align-self: flex-end;
   }
   @include bp(l) {
-    grid-column: 10 / 13;
+    grid-row-start: 2;
     align-self: flex-end;
+    grid-column: 10 / 13;
   }
-  font-size: var(--ms--1);
-  line-height: 1.25;
 }
 
 .place {
