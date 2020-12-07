@@ -3,28 +3,30 @@ import { gri } from "./utils.js";
 const alternates = require("./letters.json");
 
 function initHover(el) {
-  const text = el.innerText;
+  const letters = el.innerText.split("");
+  el.innerText = "";
 
-  el.addEventListener("mouseout", (e) => {
-    el.innerText = text;
-  });
-
-  el.addEventListener("mouseover", (e) => {
-    const letters = text.split("");
-    let newText = "";
-    // We're going to loop through each letter
-    // and pick an alternate for each one.
-
-    letters.forEach((l) => {
+  letters.forEach((l) => {
+    let span = document.createElement("span");
+    span.innerText = l;
+    span.addEventListener("mouseout", (e) => {
+      span.innerText = l;
+    });
+    span.addEventListener("mouseover", (e) => {
+      let newLetter = "";
+      // We're going to loop through each letter
+      // and pick an alternate for each one.
       if (alternates[l]) {
         let alts = alternates[l].split("");
         let alt = alts[gri(0, alts.length - 1)];
-        newText += alt;
+        newLetter = alt;
       } else {
-        newText += l;
+        newLetter = l;
       }
+      span.innerText = newLetter;
     });
-    el.innerText = newText;
+
+    el.appendChild(span);
   });
 }
 
