@@ -8,6 +8,11 @@
     grid-column: 1 / 6;
     padding-right: 1em;
   }
+  a {
+    font-family: $everson;
+    color: $brown;
+    font-size: var(--ms-0);
+  }
 }
 
 .info--timeline {
@@ -22,7 +27,7 @@
   }
   @include bp(m) {
     grid-column: 7 / 13;
-    grid-row: span 2 ;
+    grid-row: span 2;
     height: calc(100vh - 2em);
     top: -2.5em;
     position: relative;

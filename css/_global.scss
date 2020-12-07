@@ -74,10 +74,7 @@ a {
     }
   }
   a {
-    font-family: $everson;
-    display: block;
-    color: $brown;
-    font-size: var(--ms-0);
+    text-decoration: underline;
   }
 }
 .everson-copy {

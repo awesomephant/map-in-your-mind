@@ -17,11 +17,11 @@
   justify-content: space-evenly;
   flex-flow: column;
   display: none;
-  top: 4.5rem;
+  top: 2rem;
   height: calc(100vh - 5rem);
-  @include bp(l){
-    top: 3rem;
-    height: calc(100vh - 4rem);
+  @include bp(l) {
+    top: 2.5rem;
+    height: calc(100vh - 2rem);
   }
   @media (min-height: 40rem) {
     display: flex;
@@ -35,15 +35,47 @@
     border: 0;
     cursor: pointer;
     color: white;
-    &:hover {
+    &:hover,
+    &.active {
       color: $blue;
     }
   }
 }
 
 .directory--nav {
-  grid-column: 8 / 13;
+  grid-column: 1 / 13;
+  @extend %hide-scrollbar;
+  z-index: 5000;
   color: white;
+  ul {
+    margin-bottom: 3em;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  @include bp(m) {
+    grid-column: 7 / 13;
+    grid-row: span 2;
+    height: calc(100vh - 2em);
+    top: -2.5em;
+    position: relative;
+    overflow-y: scroll;
+    margin-bottom: -4rem;
+  }
+  @include bp(l) {
+    grid-column: 8 / 13;
+  }
+
+  .subtitle {
+    list-style: none;
+    font-size: var(--ms-1);
+    padding-bottom: 1em;
+    background: linear-gradient(to bottom, $black 30%, transparent 100%);
+    @include bp(m) {
+      position: sticky;
+      top: 0rem;
+    }
+  }
 }
 .directory--nav--title {
   @include bp(m) {
@@ -63,8 +95,12 @@
   list-style: none;
   font-size: var(--ms-0);
   cursor: pointer;
-  &:hover {
+  &:hover,
+  &.active {
     color: $blue;
+  }
+  &.hidden {
+    display: none;
   }
   .description {
     padding-left: 2em;
