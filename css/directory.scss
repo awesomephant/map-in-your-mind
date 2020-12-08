@@ -89,6 +89,9 @@
   grid-column: 2 / 7;
   grid-row: 1;
   color: white;
+  img {
+    width: 100%;
+  }
 }
 
 .directory--item {
@@ -96,9 +99,7 @@
   font-size: var(--ms-0);
   cursor: pointer;
 
-  img {
-    width: 100%;
-  }
+
 
   &:hover,
   &.active {

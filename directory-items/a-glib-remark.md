@@ -6,7 +6,20 @@ layout: project
 --- 
 
 ![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-1.png)
-
-Change this copy by editing the respective Markdown file inside the "directory-items" folder. For example, edit "a-glib-remark.md" to change the copy for the "A Glib Remark" project.
-
-You can use the full [Markdown Syntax](https://www.markdownguide.org/getting-started/) here to produce things like headlines, *emphasis*, links, and even images when we get to them.
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-2.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-3.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-4.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-5.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-6.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-7.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-8.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-9.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-10.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-11.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-12.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-13.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-14.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-15.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-16.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-17.png)
+![jsfh](/assets/images/meter-limb/oliver-boulton-meter-limb-18.png)
