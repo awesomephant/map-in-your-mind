@@ -2,6 +2,7 @@ import initHover from "./initHover";
 import initSlider from "./initSlider";
 import initDirectory from "./initDirectory";
 import initHome from "./initHome";
+import initCursor from "./initCursor";
 
 function initHovers() {
   const links = document.querySelectorAll(".site-header a");
@@ -26,4 +27,5 @@ window.addEventListener("DOMContentLoaded", () => {
   initHovers();
   initDirectory();
   initHome();
+  initCursor();
 });

@@ -9,7 +9,7 @@ function initHome(el) {
   });
 
   homeItems.forEach((item) => {
-    observer.observe(item);
+//    observer.observe(item);
   });
 }
 
