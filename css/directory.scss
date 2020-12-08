@@ -95,6 +95,11 @@
   list-style: none;
   font-size: var(--ms-0);
   cursor: pointer;
+
+  img {
+    width: 100%;
+  }
+
   &:hover,
   &.active {
     color: $blue;
