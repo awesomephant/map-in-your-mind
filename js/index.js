@@ -1,6 +1,8 @@
 import initHover from "./initHover";
 import initSlider from "./initSlider";
 import initDirectory from "./initDirectory";
+import initHome from "./initHome";
+
 function initHovers() {
   const links = document.querySelectorAll(".site-header a");
   links.forEach((l) => {
@@ -23,4 +25,5 @@ window.addEventListener("DOMContentLoaded", () => {
   initSliders();
   initHovers();
   initDirectory();
+  initHome();
 });
