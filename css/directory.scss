@@ -63,7 +63,7 @@
     margin-bottom: -4rem;
   }
   @include bp(l) {
-    grid-column: 8 / 13;
+    grid-column: 9 / 13;
   }
 
   .subtitle {
@@ -86,7 +86,10 @@
   }
 }
 .directory--entry {
-  grid-column: 2 / 7;
+  grid-column: 1 / 8;
+  padding-left: 3em;
+  height: calc(100vh - 5em);
+  overflow: scroll;
   grid-row: 1;
   color: white;
   img {
