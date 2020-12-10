@@ -5,12 +5,12 @@ description: "Booklet\nPublisher: Werkplaats Typografie, 2019\nDesign: Adriaan V
 layout: project
 ---
 ![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-front.png)
+![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-1.png)
 ![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-2.png)
 ![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-3.png)
 ![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-4.png)
 ![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-5.png)
 ![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-6.png)
-![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-7.png)
 ![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-back.png)
 
 Dear Reader, <br>

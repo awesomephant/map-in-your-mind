@@ -87,9 +87,9 @@
   }
 }
 .directory--entry {
-  grid-column: 1 / 8;
-  padding-left: 3em;
-  height: calc(100vh - 5em);
+  grid-column: 1 / 7;
+  padding-left: 2.4em;
+  height: calc(100vh - 3em);
   overflow-y: scroll;
   @extend %hide-scrollbar;
   grid-row: 1;

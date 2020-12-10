@@ -19,10 +19,6 @@ layout: project
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-11.png)
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-12.png)
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-13.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-14.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-15.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-16.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-17.png)
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-back.png)
 
 Contributions and selected work: Alice Theobald, Annette Robinson, Daniel Sturgis, Duncan Wooldridge, Neil Rumming, Paulina Korobkiewicz, Ruth Pilston, Griselda Pollock and the students of Drawing, Painting, Photography and Sculpture at Camberwell College of Arts.

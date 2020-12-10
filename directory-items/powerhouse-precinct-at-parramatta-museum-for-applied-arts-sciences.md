@@ -11,5 +11,3 @@ layout: project
 ![jsfh](/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-3.png)
 ![jsfh](/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-4.png)
 ![jsfh](/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-5.png)
-![jsfh](/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-6.png)
-![jsfh](/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-7.png)
