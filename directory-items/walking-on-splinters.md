@@ -5,7 +5,9 @@ description: "Book\nPublisher: Werkplaats Typografie, WT Papier, 2016\nDesign: O
 Digital, glued, 148 × 210mm"
 layout: project
 ---
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-front.png)
+
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-front.png" "alt" "left" %}
+
 ![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-0.png)
 ![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-1.png)
 ![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-2.png)
@@ -17,17 +19,20 @@ layout: project
 ![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-8.png)
 ![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-9.png)
 ![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-10.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-back.png)
+
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-back.png" "alt" "right" %}
 
 Walking on Splinters was first published in 2004 by Werkplaats Typografie, edited and designed by Marieke Cobbenhagen, Joana Katte, Louis Luthi, Janna Meeus, Radim Peško, Willi Schmid and Maxine Kopsa. This edition was the first incarnation of the now annual Werkplaats Typografie Reader, incorporating an assortment of collectively relevant content, selected and curated by the participants of Werkplaats Typografie.
 
 On the occasion of the launch of WT Papier at MOMA PS1, the book was re-worked with content removed, added, chopped and changed to form a collection of personally subject specific content. WT Papier was initiated by Sabo Day, Eloise Harris and Robert Milne. — Introduction excerpt
 
-![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-front.png)
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-front.png" "alt" "left" %}
+
 ![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-1.png)
 ![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-2.png)
 ![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-3.png)
 ![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-4.png)
 ![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-5.png)
 ![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-6.png)
-![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-back.png)
+
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-back.png" "alt" "right" %}

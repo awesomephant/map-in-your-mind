@@ -12,6 +12,11 @@
     font-family: $everson;
     color: $brown;
     font-size: var(--ms-0);
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: $navy;
+    }
   }
 }
 
@@ -60,6 +65,12 @@
 }
 .timeline--item--copy {
   padding-left: 2em;
+  &:before {
+    content: "~";
+    display: inline-block;
+    margin-right: -.45em;
+    margin-left: -.6em;
+  }
 }
 
 .info--colophon {
@@ -82,4 +93,45 @@
 
 .place {
   padding-left: 2em;
+}
+
+#mc_embed_signup {
+  padding-top: 2em;
+  p {
+    margin-bottom: .25em;
+  }
+  label {
+    display: block;
+    font-size: 0;
+  }
+  #mc_embed_signup_scroll {
+    display: flex;
+    align-items: flex-end;
+  }
+  input {
+    border: 0;
+  }
+  .button {
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: $everson;
+    color: $brown;
+    &:hover, &:focus {
+      color: $navy
+    }
+  }
+  .email {
+    border: .5px solid $brown;
+    padding-left: .2em;
+    margin-right: 0.5em;
+    font-family: $everson;
+    &::placeholder {
+      color: $brown;
+      opacity: 1;
+    }
+
+  }
+  .mc-field-group {
+  }
 }

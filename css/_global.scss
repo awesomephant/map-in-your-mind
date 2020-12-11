@@ -7,7 +7,7 @@
 }
 
 ::selection {
-  background: #000000;
+  background: #013485;
   color: white;
   .directory & {
     background: white;
@@ -64,13 +64,16 @@ a {
   word-spacing: 0.01em;
   line-height: 1.22;
   font-size: calc(var(--ms-0) * 1.1);
+  font-feature-settings: "ss06" 1;
+  p + p {
+    padding-top: 0.75em;
+  }
   p {
-    font-weight: 200;
-    margin-bottom: 0.9em;
+    font-weight: 300;
     // Need to go up a weight in windows
     // because font rendering issues
     .is-windows & {
-      font-weight: 400;
+      font-weight: 500;
     }
   }
   a {

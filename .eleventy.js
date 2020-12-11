@@ -13,6 +13,15 @@ module.exports = function (eleventyConfig) {
     return md.render(value);
   });
 
+  eleventyConfig.addShortcode(
+    "fig",
+    function (url, alt, className) {
+       return `<figure class='post-figure ${className}'>
+        <img alt="${alt}" loading="lazy" src='${url}'/>
+        </figure>
+        `;
+    }
+  );
   eleventyConfig.addPassthroughCopy("./admin");
   eleventyConfig.addPassthroughCopy({ "./admin/config.yml": "config.yml" });
   eleventyConfig.addPassthroughCopy("./dist");

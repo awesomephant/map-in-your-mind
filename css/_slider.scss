@@ -23,6 +23,7 @@
     visibility: visible;
   }
   &:last-of-type {
-    position: static;
+    position: relative;
+    top: -1rem;
   }
 }

@@ -12,7 +12,7 @@
         "build": "run-s build:*",
         "watch:sass": "sass ./css/style.scss ./_site/style.css --watch",
         "watch:webpack": "webpack --watch --mode development",
-        "watch:eleventy": "npx @11ty/eleventy --serve --quiet",
+        "watch:eleventy": "npx @11ty/eleventy --serve --quiet --incremental",
         "start": "run-p watch:*"
     },
     "dependencies": {

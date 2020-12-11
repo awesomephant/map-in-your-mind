@@ -59,9 +59,37 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "helvetica-now";
+  src: url("./assets/fonts/Monotype-Helvetica-Now-Text.otf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "helvetica-now";
+  src: url("./assets/fonts/Monotype-Helvetica-Now-Text-ExtraLight.otf") format("truetype");
+  font-display: swap;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "helvetica-now";
+  src: url("./assets/fonts/Monotype-Helvetica-Now-Text-Light.otf") format("truetype");
+  font-display: swap;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "helvetica-now";
+  src: url("./assets/fonts/Monotype-Helvetica-Now-Text-Lt-It.otf") format("truetype");
+  font-display: swap;
+  font-weight: 300;
+  font-style: italic;
+}
+
 $everson: "everson", Courier New, monospace;
-$helvetica: "Helvetica Now Text", "Helvetica", sans-serif;
-$blue: #00ffeb;
+$helvetica: "helvetica-now", "Helvetica", sans-serif;
+$navy: #03387e;
+//$blue: #00ffeb;
+$blue: #94c2ff;
 $brown: #845013;
 $black: #171000;
 

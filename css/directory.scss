@@ -22,7 +22,7 @@
   height: calc(100vh - 5rem);
   @include bp(l) {
     top: 2.5rem;
-    height: calc(100vh - 2rem);
+    height: calc(100vh - 3rem);
   }
   @media (min-height: 40rem) {
     display: flex;
@@ -87,25 +87,52 @@
   }
 }
 .directory--entry {
-  grid-column: 1 / 6;
-  padding-left: 2.4em;
-  height: calc(100vh - 3em);
+  display: grid;
+  grid-column: 1 / 7;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 1.5vw;
+  height: calc(100vh - 5em);
+  padding-left: 2.5em;
+  padding-bottom: 2.5em;
   overflow-y: scroll;
   @extend %hide-scrollbar;
   grid-row: 1;
   color: white;
+  p {
+    grid-column: 1 / 6;
+  }
+  .post-figure {
+    grid-column: 1 / 6;
+    display: flex;
+    margin-bottom: var(--ms-0);
+    img {
+      margin-bottom: 0;
+      width: 100%
+    }
+    &.left, &.right {
+      img {
+        width: 50%;
+      }
+    }
+    &.right {
+      justify-content: flex-end;
+    }
+    &.big {
+      grid-column: 1 / 7;
+    }
+  }
+
   img {
+    margin-bottom: var(--ms-0);
+    grid-column: 1 / 6;
     width: 100%;
   }
 }
 
 .directory--item {
   list-style: none;
-  font-size: var(--ms-0);
+  font-size: var(--ms-0);;
   cursor: pointer;
-
-
-
   &:hover,
   &.active {
     color: $blue;

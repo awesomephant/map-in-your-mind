@@ -29,12 +29,16 @@
   &:after {
     content: "";
     height: 1px;
-    width: 1em;
-    margin-left: 0.3em;
     background: currentColor;
     display: none;
-    @include bp(l) {
+    transition: 500ms;
+    @include bp(m) {
       display: inline-block;
+      margin-left: 0.3em;
+      width: .5em;
+    }
+    @include bp(l) {
+      width: 1em;
     }
   }
 }
@@ -49,6 +53,7 @@
     margin-right: 0.2em;
     &:after {
       content: "/";
+      color: $brown;
       padding-left: 0.2em;
     }
     &:last-of-type:after {

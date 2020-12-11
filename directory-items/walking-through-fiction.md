@@ -5,8 +5,12 @@ description: "Exhibition Leaflet\nPublisher: Camberwell Press, 2015\nDesign: Oli
 layout: project
 ---
 
-![jsfh](/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-1.png)
-![jsfh](/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-2.png)
-![jsfh](/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-3.png)
-![jsfh](/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-4.png)
-![jsfh](/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-5.png)
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-1.png" "alt" "left" %}
+
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-2.png" "alt" "" %}
+
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-3.png" "alt" "right" %}
+
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-4.png" "alt" "left" %}
+
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-5.png" "alt" "big" %}
