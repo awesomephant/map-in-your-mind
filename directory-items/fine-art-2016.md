@@ -9,15 +9,12 @@ layout: project
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-1.png)
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-2.png)
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-3.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-4.png)
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-5.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-6.png)
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-7.png)
+![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-6.png)
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-8.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-9.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-10.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-11.png)
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-12.png)
+![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-11.png)
 ![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-13.png)
 {% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-back.png" "alt" "left" %}
 

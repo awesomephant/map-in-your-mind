@@ -5,7 +5,7 @@ description: "Identity\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boulto
 layout: project
 ---
 
-![jsfh](/assets/images/into-the-fold/oliver-boulton-Into-the-fold-1.png)
+{% fig "/assets/images/into-the-fold/oliver-boulton-Into-the-fold-1.png" "alt" "" %}
 
 Into the Fold is a project that questions the ideology of the studio and gallery space, materialising in the form of an exhibition and publication through a temporary and spontaneous community of practice.
 

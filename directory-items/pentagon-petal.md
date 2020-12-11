@@ -4,8 +4,7 @@ subtitle: Fran Cottell, Marianne Mueller
 description: "Booklet, Flyer, Website\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boulton, Samuel Jones\nEdition of 1000, 16pp.\nOffset, stapled, 165 × 225mm\nISBN: 978-1-90897-51-7"
 layout: project
 ---
-{% fig "/assets/images/perspectives/oliver-boulton-perspectives-front.png" "alt" "left" %}
-![jsfh](/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-front.png)
+{% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-front.png" "alt" "left" %}
 ![jsfh](/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-1.png)
 ![jsfh](/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-2.png)
 ![jsfh](/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-3.png)

@@ -6,3 +6,4 @@ layout: project
 ---
 
 {% fig "/assets/images/fine-art-15/oliver-boulton-fine-art-15-front.png" "alt" "left" %}
+{% fig "/assets/images/fine-art-15/oliver-boulton-fine-art-15-front.png" "alt" "left" %}
