@@ -5,4 +5,4 @@ description: "Catalogue\nPublisher: Camberwell Press, 2015\nDesign: Oliver Boult
 layout: project
 ---
 
-![jsfh](/assets/images/fine-art-15/oliver-boulton-fine-art-15-front.png)
+{% fig "/assets/images/fine-art-15/oliver-boulton-fine-art-15-front.png" "alt" "left" %}

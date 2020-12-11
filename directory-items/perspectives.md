@@ -5,12 +5,12 @@ description: "Artist Book\nPublisher: Camberwell Press, 2017\nDesign: Oliver Bou
 Edition of 150, softback, 45pp. + PVC dust jacket + insert\nIndigo, French fold, singer sewn, 249 × 320mm\nISBN: 978-1-908971-53-1"
 layout: project
 ---
-![jsfh](/assets/images/perspectives/oliver-boulton-perspectives-front.png)
+{% fig "/assets/images/perspectives/oliver-boulton-perspectives-front.png" "alt" "left" %}
 ![jsfh](/assets/images/perspectives/oliver-boulton-perspectives-1.png)
 ![jsfh](/assets/images/perspectives/oliver-boulton-perspectives-2.png)
 ![jsfh](/assets/images/perspectives/oliver-boulton-perspectives-3.png)
 ![jsfh](/assets/images/perspectives/oliver-boulton-perspectives-4.png)
-![jsfh](/assets/images/perspectives/oliver-boulton-perspectives-back.png)
+{% fig "/assets/images/perspectives/oliver-boulton-perspectives-front.png" "alt" "left" %}
 
 [...] Korobkiewicz photographs objects that enter our ordinary field of vision – street corners, fences, staircases, and walls –and assembles them into considered studies on colour and composition. Forms we process passively acquire new meaning and are re-imagined into deft arrangements through a range of lighting and cropping techniques.
 

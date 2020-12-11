@@ -5,7 +5,7 @@ description: "Artist Book\nSelf Published, 2015\nDesign: Oliver Boulton\nEdition
 layout: project
 ---
 
-![jsfh](/assets/images/malleable-forms/oliver-boulton-malleable-forms-front.png)
+{% fig "/assets/images/malleable-forms/oliver-boulton-malleable-forms-front.png" "alt" "left" %}
 ![jsfh](/assets/images/malleable-forms/oliver-boulton-malleable-forms-1.png)
 ![jsfh](/assets/images/malleable-forms/oliver-boulton-malleable-forms-2.png)
 ![jsfh](/assets/images/malleable-forms/oliver-boulton-malleable-forms-3.png)

@@ -9,8 +9,8 @@ layout: project
 
 {% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-2.png" "alt" "" %}
 
-{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-3.png" "alt" "right" %}
-
-{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-4.png" "alt" "left" %}
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-3.png" "alt" "left" %}
 
 {% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-5.png" "alt" "big" %}
+
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-4.png" "alt" "big" %}

@@ -5,4 +5,4 @@ description: "Print\nSelf Published, 2015\nDesign: Oliver Boulton\nEdition of 26
 layout: project
 ---
 
-![jsfh](/assets/images/malleable-forms-print/oliver-boulton-malleable-forms-print-1.png)
+{% fig "/assets/images/malleable-forms-print/oliver-boulton-malleable-forms-print-1.png" "alt" "big" %}

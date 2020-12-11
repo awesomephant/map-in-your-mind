@@ -5,8 +5,7 @@ description: "Artist Bookt\nPublisher: Werkplaats Typografie, 2017\nEditing & De
 layout: project
 ---
 
-
-![jsfh](/assets/images/eigengrau/oliver-boulton-eigengrau-front.png)
+{% fig "/assets/images/eigengrau/oliver-boulton-eigengrau-front.png" "alt" "left" %}
 ![jsfh](/assets/images/eigengrau/oliver-boulton-eigengrau-2.png)
 ![jsfh](/assets/images/eigengrau/oliver-boulton-eigengrau-3.png)
 ![jsfh](/assets/images/eigengrau/oliver-boulton-eigengrau-4.png)

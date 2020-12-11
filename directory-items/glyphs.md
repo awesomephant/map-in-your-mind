@@ -5,5 +5,5 @@ description: "Sculpture\nMaps to the Stars, Hoffmitz Milken Center for Typograph
 layout: project
 ---
 
-![jsfh](/assets/images/glyphs/oliver-boulton-glyphs-1.png)
-![jsfh](/assets/images/glyphs/oliver-boulton-glyphs-2.png)
+{% fig "/assets/images/glyphs/oliver-boulton-glyphs-1.png" "alt" "big" %}
+{% fig "/assets/images/glyphs/oliver-boulton-glyphs-2.png" "alt" "big" %}

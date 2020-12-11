@@ -5,4 +5,4 @@ description: "Poster, 2019\nDesign: Oliver Boulton, Adriaan Van Leuven\nDigital,
 layout: project
 ---
 
-![jsfh](/assets/images/octopus-of-offshoots-program/oliver-boulton-octopus-of-offshoots-program.png)
+{% fig "/assets/images/octopus-of-offshoots-program/oliver-boulton-octopus-of-offshoots-program.png" "alt" "big" %}

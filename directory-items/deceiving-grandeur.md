@@ -5,7 +5,7 @@ description: "Exhibition Leaflet\nPublisher: Camberwell Space Projects, 2015\nDe
 layout: project
 ---
 
-![jsfh](/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-1.png)
+{% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-1.png" "alt" "left" %}
 ![jsfh](/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-2.png)
-![jsfh](/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-3.png)
-![jsfh](/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-4.png)
+{% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-3.png" "alt" "left" %}
+{% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-4.png" "alt" "" %}
