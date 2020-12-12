@@ -1,9 +1,9 @@
 {
     "items": [
         {
-            "title": "The Face",
-            "subtitle": "Vol. 4, Issue 5 Winter 2020",
-            "copy": "Magazine\nPublisher: Wasted Talent Ltd, 2020\nDesign: Arun Gogna, Oliver Boulton\n\n[Purchase Here](https://theface.com/buy-magazine)\n\nStarring: Jorja Smith, Beabadoobee, Dominic Calvert-Lewin, Gabriel Krauze, Munya Chawawa, Ify Adenuga and Stormzy.\n\nSoftback, 300pp.\nOffset CMYK, spot UV, perfect bound, hot melt, 230 × 300mm\nISBN: 978-1-908971-43-2",
+            "title": "Off the Sixth Ring of North Beijing I Arrive in Guangdong",
+            "subtitle": "Shi Bo-Hao",
+            "copy": "Artist Edition\nPublisher: University of the Arts London, 2021\nDesign: Oliver Boulton, Samuel Jones\nEditors: Duncan Wooldridge, Sigune Hamann\n\nEdition of 300\nISBN: xxxx\n\nBox\nOffset PMS ×1, embossed, 118 × 118 × 27mm\n\nBook\nSoftback 36pp.\nOffset black, perfect bound, cold melt, 110 × 110mm\n\nMoon Sleeping in the Rivulet\nFold-out Print\nOffset black, 110 × 110 — 440 × 440mm\n\nFollowing a Moving Tree\nFold-out Print\nOffset black, 110 × 110 — 110 × 880mm\n\nInsert\nOffset PMS ×1, embossed, 110 × 110",
             "images": [
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-front.png",
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-1.png",
@@ -17,9 +17,9 @@
             ]
         },
         {
-            "title": "Off the Sixth Ring of North Beijing I Arrive in Guangdong",
-            "subtitle": "Shi Bo-Hao",
-            "copy": "Artist Edition\nPublisher: University of the Arts London, 2021\nDesign: Oliver Boulton, Samuel Jones\nEditors: Duncan Wooldridge, Sigune Hamann\n\nEdition of 300\nISBN: xxxx\n\nBox\nOffset PMS ×1, embossed, 118 × 118 × 27mm\n\nBook\nSoftback 36pp.\nOffset black, perfect bound, cold melt, 110 × 110mm\n\nMoon Sleeping in the Rivulet\nFold-out Print\nOffset black, 110 × 110 — 440 × 440mm\n\nFollowing a Moving Tree\nFold-out Print\nOffset black, 110 × 110 — 110 × 880mm\n\nInsert\nOffset PMS ×1, embossed, 110 × 110",
+            "title": "The Face",
+            "subtitle": "Vol. 4, Issue 5 Winter 2020",
+            "copy": "Magazine\nPublisher: Wasted Talent Ltd, 2020\nDesign: Arun Gogna, Oliver Boulton\n\n[Purchase Here](https://theface.com/buy-magazine)\n\nStarring: Jorja Smith, Beabadoobee, Dominic Calvert-Lewin, Gabriel Krauze, Munya Chawawa, Ify Adenuga and Stormzy.\n\nSoftback, 300pp.\nOffset CMYK, spot UV, perfect bound, hot melt, 230 × 300mm\nISBN: 978-1-908971-43-2",
             "images": [
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-front.png",
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-1.png",
@@ -52,6 +52,15 @@
                 "/assets/images/octopus-of-offshoots/preview/oliver-boulton-octopus-of-offshoots-12.png",
                 "/assets/images/octopus-of-offshoots/preview/oliver-boulton-octopus-of-offshoots-13.png",
                 "/assets/images/octopus-of-offshoots/preview/oliver-boulton-octopus-of-offshoots-back.png"
+            ]
+        },
+        {
+            "title": "Glyph(s)",
+            "subtitle": "Oliver Boulton",
+            "copy": "Sculpture\nExhibition: WT in LA, Maps to the Stars\nHoffmitz Milken Center for Typography, Los Angeles, 2017\n\nAcrylic on Steel, Wood and Concrete, Variable Dimensions\nPhotographs by Joshua White",
+            "images": [
+                "/assets/images/glyphs/preview/oliver-boulton-glyphs-1.png",
+                "/assets/images/glyphs/preview/oliver-boulton-glyphs-2.png"
             ]
         },
         {
@@ -94,15 +103,6 @@
             ]
         },
         {
-            "title": "Glyph(s)",
-            "subtitle": "Oliver Boulton",
-            "copy": "Sculpture\nExhibition: WT in LA, Maps to the Stars\nHoffmitz Milken Center for Typography, Los Angeles, 2017\n\nAcrylic on Steel, Wood and Concrete, Variable Dimensions\nPhotographs by Joshua White",
-            "images": [
-                "/assets/images/glyphs/preview/oliver-boulton-glyphs-1.png",
-                "/assets/images/glyphs/preview/oliver-boulton-glyphs-2.png"
-            ]
-        },
-        {
             "title": "Eigengrau",
             "subtitle": "Jonito Aerts Arguelles",
             "copy": "Artist Book\nPublisher: Werkplaats Typografie, 2017\nEditor & Designer: Oliver Boulton\n\n[Purchase Here](https://www.werkplaatstypografie.org/shop/#/products/eigengrau?_k=v6du89)\n\nEdition of 400, softback, 273pp.\nOffset black ×2, PMS ×1, foil block ×1\nSwiss bound, 215 × 270mm",
@@ -119,43 +119,6 @@
             ]
         },
         {
-            "title": "Top/Top",
-            "subtitle": "Liam Magee",
-            "copy": "Artist Book\nPublisher: Camberwell Press, 2015\nDesign: Oliver Boulton\nEditors: Duncan Wooldridge, James Edgar, Oliver Boulton, Sigune Hamann\n\nEdition of 150, softback, 36pp. + Envelope + insert\nOffset black, PMS ×1, saddle stitch,  215&thinsp;×&thinsp;270mm / 270 × 215mm\nISBN: 978-1-908971-41-8",
-            "images": [
-                "/assets/images/top-top/preview/oliver-boulton-top-top-front.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-1.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-2.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-3.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-4.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-5.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-6.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-7.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-8.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-9.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-10.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-11.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-12.png",
-                "/assets/images/top-top/preview/oliver-boulton-top-top-back.png"
-            ]
-        },
-        {
-            "title": "Pentagon Petal",
-            "subtitle": "Fran Cottell, Marianne Mueller",
-            "copy": "Website, Booklet, Flyer\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boulton, Samuel Jones\n\n[pentagon-petal.org](http://www.pentagon-petal.org/)\n\nBooklet\nEdition of 1000, 16pp.\nOffset black, loop stitch, 165 × 225mm\nISBN: 978-1-90897-51-7\n\nFlyer\nEdition of 250, 2pp.\nRisograph, 148 × 210mm",
-            "images": [
-                "/assets/images/pentagon-petal/preview/oliver-boulton-pentagon-petal-front.png",
-                "/assets/images/pentagon-petal/preview/oliver-boulton-pentagon-petal-1.png",
-                "/assets/images/pentagon-petal/preview/oliver-boulton-pentagon-petal-2.png",
-                "/assets/images/pentagon-petal/preview/oliver-boulton-pentagon-petal-3.png",
-                "/assets/images/pentagon-petal/preview/oliver-boulton-pentagon-petal-4.png",
-                "/assets/images/pentagon-petal/preview/oliver-boulton-pentagon-petal-5.png",
-                "/assets/images/pentagon-petal/preview/oliver-boulton-pentagon-petal-back.png",
-                "/assets/images/pentagon-petal/preview/oliver-boulton-pentagon-petal-flyer-1.png",
-                "/assets/images/pentagon-petal/preview/oliver-boulton-pentagon-petal-flyer-2.png"
-            ]
-        },
-        {
             "title": "Guttural Flex [echo]",
             "subtitle": "Oliver Boulton",
             "copy": "Sculpture\nExhibition: As Nostalgia Meets Time-Pressure\nMediamatic, Netherlands, 2018\n\nAcrylic on Steel, Variable Dimensions\nPhotographs by Franziska Schulz",
@@ -165,19 +128,6 @@
                 "/assets/images/guttural-flex-echo/preview/oliver-boulton-guttural-flex-echo-3.png",
                 "/assets/images/guttural-flex-echo/preview/oliver-boulton-guttural-flex-echo-4.png",
                 "/assets/images/guttural-flex-echo/preview/oliver-boulton-guttural-flex-echo-5.png"
-            ]
-        },
-        {
-            "title": "Footnotes",
-            "subtitle": "Oliver Boulton",
-            "copy": "Essay, Contribution\nPublisher: Revue Diorama, 2020\nDesign: Oliver Boulton\n\n[Purchase Here](https://shop.yvon-lambert.com/fr/products/revue-diorama-no-2-geometric-city)\n\nRevue Diorama, No.2, Geometric City\nEditors & Designers: Marie-mam Sai, Guillaume Sbalchiero\nOffset CMYK, stapled, 260 × 200mm\nISSN: 2679-8980",
-            "images": [
-                "/assets/images/map-in-your-mind-pentagon-petal-front.png",
-                "/assets/images/test-1.jpg",
-                "/assets/images/test-2.png",
-                "/assets/images/test-2.png",
-                "/assets/images/test-2.png",
-                "/assets/images/test-4.gif"
             ]
         },
         {
