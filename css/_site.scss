@@ -22,7 +22,10 @@
     }
   }
   .current-directory-item {
-    display: inline-block;
+    display: none;
+    &.active {
+      display: inline-block;
+    }
     margin-left: -.2em;
     .spinner {
       margin-left: .5em;

@@ -81,7 +81,7 @@ function initDirectory() {
         activeItem = item;
         item.classList.add("active");
         currentDirectoryItem.innerHTML = item.getAttribute("data-title");
-
+        currentDirectoryItem.classList.add("active")
         let images = container.querySelectorAll("img");
         if (images.length > 0) {
           let loaded = 0;
