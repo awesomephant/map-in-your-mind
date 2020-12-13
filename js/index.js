@@ -25,7 +25,9 @@ window.addEventListener("DOMContentLoaded", () => {
   }
   initSliders();
   initHovers();
-  initDirectory();
   initHome();
   initCursor();
+  if (document.body.classList.contains("directory")){
+    initDirectory();
+  }
 });

@@ -17,7 +17,8 @@ class: directory
             <h2>2015–2020</h2>
         </li>
         {% for item in collections.directory_item%}
-        <li class="timeline--item directory--item" data-slug="{{item.fileSlug}}">
+        <li class="timeline--item directory--item" data-title="{{item.data.title}}"
+            data-slug="{{item.fileSlug | replace: ({" ": " -"})}}">
             <h3>{{item.data.title}}</h3>
             <h4>{{item.data.subtitle}}</h4>
             <div class='description'>

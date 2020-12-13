@@ -91,6 +91,7 @@
   grid-column: 1 / 7;
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 1.5vw;
+  grid-auto-rows: min-content;
   height: calc(100vh - 5em);
   padding-left: 2.5em;
   padding-bottom: 2.5em;

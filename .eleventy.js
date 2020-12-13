@@ -13,15 +13,12 @@ module.exports = function (eleventyConfig) {
     return md.render(value);
   });
 
-  eleventyConfig.addShortcode(
-    "fig",
-    function (url, alt, className) {
-       return `<figure class='post-figure ${className}'>
+  eleventyConfig.addShortcode("fig", function (url, alt, className) {
+    return `<figure class='post-figure ${className}'>
         <img alt="${alt}" loading="lazy" src='${url}'/>
         </figure>
         `;
-    }
-  );
+  });
   eleventyConfig.addPassthroughCopy("./admin");
   eleventyConfig.addPassthroughCopy({ "./admin/config.yml": "config.yml" });
   eleventyConfig.addPassthroughCopy("./dist");
@@ -29,7 +26,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("*.png");
   eleventyConfig.addPassthroughCopy("/*.xml");
   eleventyConfig.addPassthroughCopy("favicon.ico");
-  eleventyConfig.addWatchTarget("/dist/*.js");
+
+  eleventyConfig.addWatchTarget("./dist/main.js");
   eleventyConfig.addWatchTarget("./css/**.scss");
   eleventyConfig.addPlugin(pluginRss);
 };

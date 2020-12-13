@@ -17,7 +17,15 @@ class: home
             <p class='slider-count'>1 / {{item.images | size}}</p>
         </div>
         <header class='preview-item--header everson-copy'>
-            <h2 class='preview-item--title'>{{item.title}}</h2>
+            <h2 class='preview-item--title'>
+                {% if item.directorySlug %}
+                <a href="/directory/#{{item.directorySlug}}">
+                    {{item.title}}
+                </a>
+                {% else %}
+                {{item.title}}
+                {% endif %}
+            </h2>
             <h3 class='preview-item--subtitle'>{{item.subtitle}}</h3>
             <div class="preview-item--copy">
                 {% if item.copy %}
