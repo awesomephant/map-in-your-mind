@@ -5,28 +5,38 @@ let spinner = {
 };
 
 function initDirectoryFilters() {
+  const items = document.querySelectorAll(".directory--item");
+  const header = document.querySelector(".timeline .subtitle h2");
+  const originalTitle = header.innerText;
   const filters = document.querySelectorAll(".directory--filters button");
-  let activeFilter = null;
+  let currentFilter = [];
 
   filters.forEach((filter) => {
     filter.addEventListener("click", (e) => {
-      if (activeFilter) {
-        activeFilter.classList.remove("active");
-      }
-      filter.classList.add("active");
-      activeFilter = filter;
-
+      filter.classList.toggle("active");
       let letter = filter.getAttribute("data-letter").toLowerCase();
+
+      if (currentFilter.includes(letter)) {
+        let index = currentFilter.indexOf(letter);
+        currentFilter.splice(index, 1);
+      } else {
+        currentFilter.push(letter);
+      }
+      header.innerText = currentFilter.join(",").toUpperCase();
+      if (currentFilter.length === 0) {
+        header.innerText = originalTitle;
+      }
+
       items.forEach((item) => {
-        if (letter === "all") {
+        if (currentFilter.length > 0) {
           item.classList.remove("hidden");
-        } else {
-          item.classList.remove("hidden");
-          if (item.innerText.toLowerCase()[0] === letter) {
+          if (currentFilter.includes(item.innerText.toLowerCase()[0])) {
             item.classList.remove("hidden");
           } else {
             item.classList.add("hidden");
           }
+        } else {
+          item.classList.remove("hidden");
         }
       });
     });
@@ -81,7 +91,7 @@ function initDirectory() {
         activeItem = item;
         item.classList.add("active");
         currentDirectoryItem.innerHTML = item.getAttribute("data-title");
-        currentDirectoryItem.classList.add("active")
+        currentDirectoryItem.classList.add("active");
         let images = container.querySelectorAll("img");
         if (images.length > 0) {
           let loaded = 0;
@@ -124,7 +134,7 @@ function initDirectory() {
       fetchProjectBySlug(slug);
     });
   });
-
+  initDirectoryFilters();
   // This fires on load
   if (window.location.hash) {
     const slug = window.location.hash.replace("#", "");
