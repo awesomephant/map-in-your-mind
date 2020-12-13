@@ -13,6 +13,16 @@ function initHome(el) {
       shouldAppend = true;
     }, 200);
   }
+  function addToTop() {
+    let homeItems = document.querySelectorAll(".preview-item");
+    let first = homeItems[currentIndex].cloneNode(true);
+    container.insertAdjacentElement("beforeend", first);
+    shouldAppend = false;
+    currentIndex += 1;
+    window.setTimeout(function () {
+      shouldAppend = true;
+    }, 200);
+  }
 
   window.addEventListener("scroll", (e) => {
     let box = document.documentElement.getBoundingClientRect();
@@ -20,7 +30,7 @@ function initHome(el) {
     let relativeTop = box.top;
     if (relativeTop > 500) {
       if (shouldAppend) {
-        addToEnd();
+        addToTop();
       }
     }
     if (relativeBottom < document.documentElement.clientHeight + 500) {
