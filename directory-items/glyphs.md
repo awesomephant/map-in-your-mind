@@ -8,5 +8,12 @@ layout: project
 {% fig "/assets/images/glyphs/oliver-boulton-glyphs-1.png" "alt" "big" %}
 {% fig "/assets/images/glyphs/oliver-boulton-glyphs-2.png" "alt" "big" %}
 
-Glyph(s) is a series of site-specific sculptural typographies, consisting of both made and found street furnitures. A carefully positioned column support divides the visitors path into one of two directions; traversing right the visitor encounters an industrially produced steel bike-rack, steering them away from the walls edge. Along the far wall, a heavy-duty steel fence encourages the visitor to step forward between works, then meeting in the centre a concrete road block stops you dead. 
-	The project’s conception began with a series of field recordings, gathering together a typology of ‘barriers’ deployed in the locally built environment. Drawing from the circulation patterns of the street; the glyphs consider their likeness to syntax systems. Whilst bridging the inside-outside space, the street furnitures reveal themselves as embodied punctuative marks; be it a comma or connector between spaces, or more forcibly an instruction for physical delay; breaking, pausing, stopping and choreographing movement. 
+
+
+*Glyph(s)* is a series of site-specific sculptural typographies, consisting of both made and found street furnitures. A carefully positioned column support divides your path in one of two directions; traversing one way you encounter an industrially produced steel bike-rack, which steers you away from the walls edge into the space (above right). Along the far wall, a heavy-duty steel fence encourages you to step forward between works. Towards the centre, a concrete road block stops you dead. 
+
+The projects conception began with a series of field recordings gathering together a topology of ‘stops’ deployed in the locally built environment. Drawing from the circulation patterns of the street, the glyphs consider their likeness to syntax systems. Whilst bridging the inside-outside space, the familiar street furnitures reveal themselves as embodied punctuative marks; be it a comma or connector between spaces, or more forcibly an instruction for physical delay breaking. pausing. stopping. choreographing the flow through rooms.
+
+Last updated:
+Day 14-12-20
+at 20:21:37 hr.
