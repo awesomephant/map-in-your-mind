@@ -5,11 +5,17 @@
   grid-column: 1 / 13;
   display: flex;
   flex-flow: column-reverse;
+  list-style: none;
+  margin-bottom: 2rem;
   @include bp(m) {
     display: contents;
   }
-  list-style: none;
-  margin-bottom: 2rem;
+  &:first-of-type {
+    .slider,
+    .preview-item--header {
+      padding-top: 4rem;
+    }
+  }
   .slider {
     @include bp(m) {
       grid-column: 1 / 9;

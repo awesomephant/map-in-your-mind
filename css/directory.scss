@@ -7,7 +7,7 @@
     background: linear-gradient(
       to bottom,
       $black 0%,
-      $black 45%,
+      $black 70%,
       transparent 100%
     );
   }
@@ -20,9 +20,11 @@
   display: none;
   top: 2rem;
   height: calc(100vh - 5rem);
+  position: relative;
+  z-index: 10000;
   @include bp(l) {
-    top: 2.5rem;
-    height: calc(100vh - 3rem);
+    top: 2rem;
+    height: calc(100vh - 2rem);
   }
   @media (min-height: 40rem) {
     display: flex;
@@ -51,7 +53,7 @@
   z-index: 5000;
   color: white;
   ul {
-    margin-bottom: 3em;
+    padding-bottom: 1rem;
     &:last-of-type {
       margin-bottom: 0;
     }
@@ -59,21 +61,33 @@
   @include bp(m) {
     grid-column: 7 / 13;
     grid-row: span 2;
-    height: calc(100vh - 2em);
-    top: -2.5em;
+    height: 100vh;
     position: relative;
     overflow-y: scroll;
-    margin-bottom: -4rem;
   }
   @include bp(l) {
     grid-column: 9 / 13;
+  }
+  &:after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 2rem;
+    width: 35%;
+    background: linear-gradient(
+      to top,
+      $black 0%,
+      transparent 100%
+    );
   }
 
   .subtitle {
     list-style: none;
     font-size: var(--ms-1);
-    padding-bottom: 1em;
-    background: linear-gradient(to bottom, $black 30%, transparent 100%);
+    padding-bottom: 1.4em;
+    padding-top: 1em;
+    background: linear-gradient(to bottom, $black 70%, transparent 100%);
     @include bp(m) {
       position: sticky;
       top: 0rem;
@@ -89,16 +103,19 @@
   }
 }
 .directory--entry {
-  display: grid;
   grid-column: 1 / 7;
+  overflow-y: scroll;
+  height: 100vh;
+  @extend %hide-scrollbar;
+}
+.directory--entry--inner {
+  display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 1.5vw;
   grid-auto-rows: min-content;
-  height: calc(100vh - 5em);
-  padding-left: 2.5em;
-  padding-bottom: 2.5em;
-  overflow-y: scroll;
-  @extend %hide-scrollbar;
+  padding-top: 3.5rem;
+  padding-left: 2.5rem;
+  padding-bottom: 1.3rem;
   grid-row: 1;
   color: white;
   p {
@@ -110,9 +127,10 @@
     margin-bottom: var(--ms-0);
     img {
       margin-bottom: 0;
-      width: 100%
+      width: 100%;
     }
-    &.left, &.right {
+    &.left,
+    &.right {
       img {
         width: 50%;
       }
@@ -134,7 +152,7 @@
 
 .directory--item {
   list-style: none;
-  font-size: var(--ms-0);;
+  font-size: var(--ms-0);
   cursor: pointer;
   &:hover,
   &.active {

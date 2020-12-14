@@ -74,7 +74,7 @@ function cycleSpinner() {}
 
 function initDirectory() {
   const items = document.querySelectorAll(".directory--item");
-  const container = document.querySelector(".directory--entry");
+  const container = document.querySelector(".directory--entry--inner");
   const currentDirectoryItem = document.querySelector(
     ".current-directory-item"
   );
