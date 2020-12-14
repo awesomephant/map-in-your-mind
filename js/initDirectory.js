@@ -98,6 +98,7 @@ function initDirectory() {
           let spinnerEl = document.createElement("span");
           spinnerEl.classList.add("spinner");
           currentDirectoryItem.insertAdjacentElement("beforeend", spinnerEl);
+          window.clearInterval(window.spinnerLoop);
           window.spinnerLoop = window.setInterval(function () {
             spinnerEl.innerText = spinner.frames[spinner.currentFrame];
             if (spinner.currentFrame < spinner.frames.length - 1) {

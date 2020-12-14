@@ -19,8 +19,8 @@
   flex-flow: column;
   display: none;
   top: 2rem;
+  left: 2rem;
   height: calc(100vh - 5rem);
-  position: relative;
   z-index: 10000;
   @include bp(l) {
     top: 2rem;
@@ -75,11 +75,7 @@
     right: 0;
     height: 2rem;
     width: 35%;
-    background: linear-gradient(
-      to top,
-      $black 0%,
-      transparent 100%
-    );
+    background: linear-gradient(to top, $black 0%, transparent 100%);
   }
 
   .subtitle {
@@ -106,6 +102,7 @@
   grid-column: 1 / 7;
   overflow-y: scroll;
   height: 100vh;
+  grid-row: 1;
   @extend %hide-scrollbar;
 }
 .directory--entry--inner {
@@ -115,8 +112,7 @@
   grid-auto-rows: min-content;
   padding-top: 3.5rem;
   padding-left: 2.5rem;
-  padding-bottom: 1.3rem;
-  grid-row: 1;
+  padding-bottom: 1.5rem;
   color: white;
   p {
     grid-column: 1 / 6;
@@ -125,6 +121,9 @@
     grid-column: 1 / 6;
     display: flex;
     margin-bottom: var(--ms-0);
+    &:last-child {
+      margin-bottom: 0;
+    }
     img {
       margin-bottom: 0;
       width: 100%;
@@ -145,6 +144,9 @@
 
   img {
     margin-bottom: var(--ms-0);
+    &:last-child {
+      margin-bottom: 0;
+    }
     grid-column: 1 / 6;
     width: 100%;
   }
