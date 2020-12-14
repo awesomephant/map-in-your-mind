@@ -10,7 +10,6 @@ layout: project
 ![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-3.png)
 ![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-4.png)
 ![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-5.png)
-![jsfh](/assets/images/dear-reader/oliver-boulton-dear-reader-6.png)
 {% fig "/assets/images/dear-reader/oliver-boulton-dear-reader-back.png" "alt" "left" %}
 
 Dear Reader,<br>
