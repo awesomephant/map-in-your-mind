@@ -1,7 +1,7 @@
 ---
 title: Dear Reader
 subtitle: Oliver Boulton, Adriaan van Leuven
-description: "Booklet\nPublisher: Werkplaats Typografie, 2019\nDesign: Adriaan Van Leuven, Oliver Boulton\nEdition of 50, 36pp\nDigital, stapled, 120 × 235mm"
+description: "Booklet\nPublisher: Werkplaats Typografie, 2019\nDesign: Adriaan Van Leuven, Oliver Boulton\nEdition of 50, 36pp\nDigital, saddle stitch, 120 × 235mm"
 layout: project
 ---
 {% fig "/assets/images/dear-reader/oliver-boulton-dear-reader-front.png" "alt" "left" %}

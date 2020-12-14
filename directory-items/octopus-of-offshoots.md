@@ -1,7 +1,7 @@
 ---
 title: Octopus of Offshoots
 subtitle: Werkplaats Typografie Reader
-description: "Book\nPublisher: Werkplaats Typografie and ArtEZ Press, 2019\nDesign: Oliver Boulton, Adriaan Van Leuven\nEditors: Oliver Boulton, Adriaan van Leuven, Maxine Kopsa\nEdition of 400, softback, 238pp.\nOffset, glued, 120 × 235mm\nISBN: 978-9-49100-30-73"
+description: "Book\nPublisher: Werkplaats Typografie and ArtEZ Press, 2019\nDesign: Oliver Boulton, Adriaan Van Leuven\nEditors: Oliver Boulton, Adriaan van Leuven, Maxine Kopsa\nEdition of 400, softback, 240pp.\nOffset CMYK, perfect bound, cold melt, 230 × 300mm\nISBN: 978-9-49100-30-73"
 layout: project
 ---
 {% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-front.png" "alt" "left" %}
@@ -16,8 +16,11 @@ layout: project
 ![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-9.png)
 ![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-10.png)
 ![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-11.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-12.png)
 ![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-13.png)
+![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-14.png)
+![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-15.png)
+![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-16.png)
+![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-17.png)
 {% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-back.png" "alt" "left" %}
 
 Speelplaats is a parallel program held within Werkplaats Typografie, defined as ‘a kind of school within a school’ run by and for the participants, where everyone invited is asked to contribute according to an annual topic. Considered as a testing ground for introducing and exchanging ideas with uncertain outcomes, sporadic open-ended sessions are proposed, organised and realised by individuals and ad-hoc groups.

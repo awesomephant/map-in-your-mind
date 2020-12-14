@@ -1,7 +1,7 @@
 ---
 title: Eigengrau
 subtitle: Jonito Aerts Arguelles
-description: "Artist Bookt\nPublisher: Werkplaats Typografie, 2017\nEditing & Design: Oliver Boulton\nEdition of 400, softback, 273pp.\nOffset, sewn and glued, 215 × 270mm"
+description: "Artist Bookt\nPublisher: Werkplaats Typografie, 2017\nEditing & Design: Oliver Boulton\nEdition of 400, softback, 273pp.\nOffset black ×2, PMS ×1, foil block ×1\nSwiss bound, 215 × 270mm"
 layout: project
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Walking Through Fiction
 subtitle: Camberwell Space Projects
-description: "Exhibition Leaflet\nPublisher: Camberwell Press, 2015\nDesign: Oliver Boulton\nEdition of 400, 2pp.\nOffset, folded, 420 × 594mm"
+description: "Exhibition Leaflet\nPublisher: Camberwell Press, 2015\nDesign: Oliver Boulton\nEdition of 400, 2pp.\nOffset PMS ×2, folded, 420 × 594mm"
 layout: project
 ---
 
