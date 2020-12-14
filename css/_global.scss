@@ -33,16 +33,14 @@
 }
 
 body {
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   column-gap: 1.5%;
-  row-gap: 2rem;
   min-height: 100vh;
   font-family: $everson;
-  padding-top: 5rem;
   @include bp(m) {
-    padding-top: 3.5rem;
     padding-bottom: 1rem;
   }
 }
