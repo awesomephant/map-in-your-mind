@@ -1,7 +1,7 @@
 ---
-title: Octopus of Offshoots Program
-subtitle: Werkplaats Typografie, Kunstverein Amsterdam
-description: "Poster, 2019\nDesign: Oliver Boulton, Adriaan Van Leuven\nDigital, 297 x 420mm"
+title: Octopus of Offshoots Program, Kunstverein Amsterdam
+subtitle: Oliver Boulton, Adriaan van Leuven
+description: "Poster, 2019\nDesign: Oliver Boulton, Adriaan van Leuven\nDigital, 297 x 420mm"
 layout: project
 ---
 
