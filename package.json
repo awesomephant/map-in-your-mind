@@ -8,7 +8,7 @@
         "build:webpack": "webpack --mode production",
         "build:eleventy": "eleventy",
         "build:sass": "sass ./css/style.scss ./_site/style.css",
-        "build:images": "gulp images",
+        "builds:images": "gulp images",
         "build": "run-s build:*",
         "watch:sass": "sass ./css/style.scss ./_site/style.css --watch",
         "watch:webpack": "webpack --watch --mode development",
