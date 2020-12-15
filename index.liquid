@@ -6,11 +6,11 @@ class: home
 <ul class="preview-items">
     {% for item in preview.items %}
     <li class="preview-item">
-        <div class="slider" data-cursor="left-right">
+        <div class="slider" data-current="{{item.currentImage}}" data-cursor="left-right">
             <div class="slider--slides">
                 {% for image in item.images %}
                 <div class="slide">
-                    <img src="{{image}}" alt="">
+                    <img src="{{image | replace: ".png", ".webp"}}" alt="">
                 </div>
                 {% endfor %}
             </div>
