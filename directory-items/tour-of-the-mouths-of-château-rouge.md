@@ -1,7 +1,7 @@
 ---
 title: A Tour of the Mouths of Château Rouge
 subtitle: Oliver Boulton
-description: "Essay"
+description: "Essay\nDigital download, 6pp.\nDownloadable PDF"
 layout: project
 ---
 

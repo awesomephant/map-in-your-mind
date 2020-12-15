@@ -5,7 +5,7 @@
             "directorySlug": "eigengrau",
             "subtitle": "Jonito Aerts Arguelles",
             "copy": "Artist Book\nPublisher: Werkplaats Typografie, 2017\nEditor & Designer: Oliver Boulton\n\n[Purchase Here](https://www.werkplaatstypografie.org/shop/#/products/eigengrau?_k=v6du89)\n\nEdition of 400, softback, 273pp.\nOffset black ×2, PMS ×1, foil block ×1\nSwiss bound, 215 × 270mm",
-            "currentImage": 5,
+            "currentImage": 1,
             "images": [
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-front.png",
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-1.png",
@@ -59,6 +59,7 @@
             "directorySlug": "glyphs",
             "subtitle": "Oliver Boulton",
             "copy": "Sculpture\nExhibition: WT in LA, Maps to the Stars\nHoffmitz Milken Center for Typography, Los Angeles, 2017\n\nAcrylic on Steel, Wood and Concrete, Variable Dimensions\nPhotographs by Joshua White",
+            "currentImage": 1,
             "images": [
                 "/assets/images/glyphs/oliver-boulton-glyphs-1.png",
                 "/assets/images/glyphs/oliver-boulton-glyphs-2.png"

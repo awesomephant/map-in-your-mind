@@ -21,7 +21,7 @@ function initSliders() {
 
 function setFavicon() {
   // <link rel="shortcut icon" href='{{"" | url }}'>
-  const icons = ["favicon-1.ico", "favicon-2.ico", "favicon-3.ico"];
+  const icons = ["favicon-1.ico", "favicon-2.ico", "favicon-3.ico", "favicon-4.png", "favicon-5.png", "favicon-6.png", "favicon-7.png", "favicon-8.png", "favicon-9.png", "favicon-10.png", "favicon-11.png", "favicon-12.png", "favicon-13.png", "favicon-14.png"];
   let linkEl = document.createElement("link");
   linkEl.setAttribute("rel", "shortcut icon");
   linkEl.setAttribute(
