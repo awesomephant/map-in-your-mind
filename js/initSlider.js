@@ -31,8 +31,13 @@ function initSlider(slider) {
     let xScaled = (e.touches[0].clientX - sliderRect.x) / sliderRect.width;
     xScaledToSlide(xScaled);
   });
-
-  setSlide(0);
+  if (slider.getAttribute("data-current")){
+    slider.currentSlide = slider.getAttribute("data-current")
+    setSlide(slider.currentSlide);
+    statusLine.innerText = `${slider.currentSlide * 1 + 1} / ${slides.length}`;
+  } else {
+    setSlide(0);
+  }
 }
 
 export default initSlider;
