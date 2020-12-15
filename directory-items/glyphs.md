@@ -14,6 +14,10 @@ layout: project
 
 The projects conception began with a series of field recordings gathering together a topology of ‘stops’ deployed in the locally built environment. Drawing from the circulation patterns of the street, the glyphs consider their likeness to syntax systems. Whilst bridging the inside-outside space, the familiar street furnitures reveal themselves as embodied punctuative marks; be it a comma or connector between spaces, or more forcibly an instruction for physical delay breaking. pausing. stopping. choreographing the flow through rooms.
 
+{% fig "/assets/images/glyphs/oliver-boulton-glyphs-3.png" "alt" "" %}
+{% fig "/assets/images/glyphs/oliver-boulton-glyphs-4.png" "alt" "" %}
+{% fig "/assets/images/glyphs/oliver-boulton-glyphs-5.png" "alt" "" %}
+
 Last updated:
 Day 14-12-20
 at 20:21:37 hr.
