@@ -3,6 +3,7 @@ title: Yllin
 subtitle: Identity
 description: "Logotype, 2015\nDesign: Oliver Boulton"
 layout: project
+thumbnail: "/assets/images/thumbnails/oliver-boulton-yllin-2.png"
 ---
 
 {% fig "/assets/images/yllin/oliver-boulton-yllin-1.png" "alt" "left" %}

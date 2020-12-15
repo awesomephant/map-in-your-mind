@@ -58,11 +58,10 @@ a {
   text-rendering: optimizeLegibility;
   hyphens: auto;
   font-family: $helvetica;
-  letter-spacing: 0.01em;
-  word-spacing: 0.01em;
+  letter-spacing: 0.0em;
+  word-spacing: 0.0em;
   line-height: 1.22;
   font-size: calc(var(--ms-0) * 1.1);
-  font-feature-settings: "ss06" 1;
   p + p {
     padding-top: 0.75em;
   }

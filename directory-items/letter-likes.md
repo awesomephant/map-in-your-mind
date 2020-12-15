@@ -3,6 +3,7 @@ title: Letter-Like
 subtitle: Oliver Boulton
 description: "Photography\n2018-Ongoing"
 layout: project
+thumbnail: "/assets/images/thumbnails/oliver-boulton-letter-like-1.png"
 ---
 
 

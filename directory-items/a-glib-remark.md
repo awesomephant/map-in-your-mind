@@ -3,7 +3,7 @@ title: A Glib Remark, A Fragment or Unfinished Phrase
 subtitle: Oliver Boulton
 description: "Sculpture\nSteel, 100 × 20mm, 2018"
 layout: project
-thumbnail: "/assets/images/thumbnails/oliver-boulton-An-Englishman-Abroad-2.png"
+thumbnail: "/assets/images/thumbnails/oliver-boulton-meter-limb-1.png"
 --- 
 
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-1.png" "alt" "big" %}

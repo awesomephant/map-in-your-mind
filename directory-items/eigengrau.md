@@ -3,6 +3,7 @@ title: Eigengrau
 subtitle: Jonito Aerts Arguelles
 description: "Artist Bookt\nPublisher: Werkplaats Typografie, 2017\nEditing & Design: Oliver Boulton\nEdition of 400, softback, 273pp.\nOffset black ×2, PMS ×1, foil block ×1\nSwiss bound, 215 × 270mm"
 layout: project
+thumbnail: "/assets/images/thumbnails/oliver-boulton-eigengrau-front.png"
 ---
 
 {% fig "/assets/images/eigengrau/oliver-boulton-eigengrau-front.png" "alt" "left" %}
@@ -21,4 +22,4 @@ layout: project
 ![jsfh](/assets/images/eigengrau/oliver-boulton-eigengrau-14.png)
 ![jsfh](/assets/images/eigengrau/oliver-boulton-eigengrau-15.png)
 
-[...] The phenomenon of the positive afterimage is created when a person, standing in a dark space, experiences a sudden and short flash of light. This results in a ‘positive’ afterimage of whatever the person was looking at during the time the flash went off. This image is ephemeral in the sense that it dissipates within seconds of being created but at the same it creates a memory, we can relive that image only in our minds. Studying this afterimage becomes an exercise in studying its effects, its lingering traces on the people that experienced them. — Introduction excerpt
+EIGENGRAU. ‘Own Grey’; also called ‘eigenlicht’ (‘own light’), dark light, or brain grey, is the uniform dark grey background that many people report seeing in the absence of light. The term ‘eigenlicht’ dates back to the nineteenth century, but has rarely been used in recent scientific publications. Nowadays, the phenomenon is more commonly referred to as ‘visual noise’ or ‘background adaptation’. ‘Eigengrau’ is perceived as lighter than back under normal lighting conditions, because contrast is more important to the visual system than absolute brightness for example, the night sky looks darker than ‘eigengrau’ because of the contrast provided by the stars.—introduction excerpt 

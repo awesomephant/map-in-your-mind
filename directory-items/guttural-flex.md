@@ -3,6 +3,7 @@ title: Guttural Flex
 subtitle: Oliver Boulton
 description: "Installation\nThe BOX, Werkplaats Typografie, Arnhem, (NL)\nAcrylic on Steel, Variable Dimensions, 2018"
 layout: project
+thumbnail: "/assets/images/thumbnails/oliver-boulton-guttural-flex-5.png"
 ---
 {% fig "/assets/images/guttural-flex/oliver-boulton-guttural-flex-1.png" "alt" "big" %}
 {% fig "/assets/images/guttural-flex/oliver-boulton-guttural-flex-8.png" "alt" "" %}
