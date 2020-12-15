@@ -1,7 +1,7 @@
 ---
 title: Guttural Flex [echo]
 subtitle: Oliver Boulton
-description: "Sculpture\nAs Nostalgia Meets Time-Pressure, Mediamatic, Amsterdam, (NL)\nAcrylic on Steel, Variable Dimensions, 2018\nPhotographs by Franziska Schulz"
+description: "Sculpture\nAs Nostalgia Meets Time-Pressure\nMediamatic, Amsterdam, (NL)\nAcrylic on Steel, Variable Dimensions, 2018\nPhotography: Franziska Schulz"
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-guttural-flex-echo-1.png"
 ---
