@@ -14,8 +14,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode("fig", function (url, alt, className) {
+    urls = [
+      `${url.replace(/\.(jpg|jpeg|png)/gi, ".webp")}`,
+    ];
     return `<figure class='post-figure ${className}'>
-        <img alt="${alt}" loading="lazy" src='${url}'/>
+        <img src="${url}" loading="lazy" srcset="${urls[0]} 2000w" alt="${alt}">
         </figure>
         `;
   });

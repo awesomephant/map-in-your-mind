@@ -1,12 +1,8 @@
 const gulp = require("gulp");
 const srcset = require("gulp-srcset").default;
 const using = require("gulp-using");
-const mozjpeg = require("imagemin-mozjpeg");
-const optipng = require("imagemin-optipng");
-const pngquant = require("imagemin-pngquant");
-
+const imageminWebp = require("imagemin-webp");
 const imageDest = "_site/assets/images/";
-const sizes = [2000];
 
 gulp.task("images", () =>
   gulp
@@ -15,13 +11,19 @@ gulp.task("images", () =>
       srcset([
         {
           processing: {
-            jpg: {
-              quality: 90,
+            webp: {
+              quality: 70,
             },
           },
-          optimization: {},
-          width: sizes,
-          skipOptimization: false,
+          optimization: {
+            webp: imageminWebp({
+              quality: 75,
+            }),
+          },
+          format: ["png", "webp"],
+          postfix: "",
+          scalingUp: true,
+          skipOptimization: true,
         },
       ])
     )

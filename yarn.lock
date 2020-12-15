@@ -3078,6 +3078,11 @@ file-type@5.2.0, file-type@^5.2.0:
   resolved "https://registry.yarnpkg.com/file-type/-/file-type-5.2.0.tgz#2ddbea7c73ffe36368dfae49dc338c058c2b8ad6"
   integrity sha1-LdvqfHP/42No365J3DOMBYwritY=
 
+file-type@^10.5.0:
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/file-type/-/file-type-10.11.0.tgz#2961d09e4675b9fb9a3ee6b69e9cd23f43fd1890"
+  integrity sha512-uzk64HRpUZyTGZtVuvrjP0FYxzQrBf4rojot6J65YMEbwBLB0CWm0CLojVpwpmFmxcE/lkvYICgfcGozbBq6rw==
+
 file-type@^12.0.0:
   version "12.4.2"
   resolved "https://registry.yarnpkg.com/file-type/-/file-type-12.4.2.tgz#a344ea5664a1d01447ee7fb1b635f72feb6169d9"
@@ -4171,6 +4176,15 @@ imagemin-webp@^5.0.0:
     exec-buffer "^3.0.0"
     is-cwebp-readable "^2.0.1"
 
+imagemin-webp@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/imagemin-webp/-/imagemin-webp-6.0.0.tgz#bb2d77bab818fd6133df9675326497b877e7be4d"
+  integrity sha512-DmVCkI8H1csyqAExsk93LzC88gj2uKXaLLW5Ly+WYsvNx7xv5cJAlozXWIx9Z0kEQr9w98gphi5aP2b++iDH8g==
+  dependencies:
+    cwebp-bin "^5.0.0"
+    exec-buffer "^3.0.0"
+    is-cwebp-readable "^3.0.0"
+
 imagemin-zopfli@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/imagemin-zopfli/-/imagemin-zopfli-6.0.0.tgz#2070a966da7288b347da37786b3afee60df62ee1"
@@ -4370,6 +4384,13 @@ is-cwebp-readable@^2.0.1:
   integrity sha1-r7k7DAq9CiUQEBauM66ort+SbSY=
   dependencies:
     file-type "^4.3.0"
+
+is-cwebp-readable@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/is-cwebp-readable/-/is-cwebp-readable-3.0.0.tgz#0554aaa400977a2fc4de366d8c0244f13cde58cb"
+  integrity sha512-bpELc7/Q1/U5MWHn4NdHI44R3jxk0h9ew9ljzabiRl70/UIjL/ZAqRMb52F5+eke/VC8yTiv4Ewryo1fPWidvA==
+  dependencies:
+    file-type "^10.5.0"
 
 is-data-descriptor@^0.1.4:
   version "0.1.4"
