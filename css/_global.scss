@@ -77,6 +77,12 @@ a {
     text-decoration: underline;
   }
 }
+
+.thin {
+  display: inline-block;
+  width: .2em;
+}
+
 .everson-copy {
   font-size: var(--ms-0);
   line-height: 1.22;

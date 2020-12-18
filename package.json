@@ -4,6 +4,7 @@
     "authors": "Max Kohler",
     "version": "1.0.0",
     "main": "pathToMain",
+    "license": "CC-BY-NC-SA-1.0",
     "scripts": {
         "build:webpack": "webpack --mode production",
         "build:eleventy": "eleventy",
