@@ -111,7 +111,7 @@
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 1.5vw;
   grid-auto-rows: min-content;
-  padding-top: 3.5rem;
+  padding-top: 3.7rem;
   padding-left: 2.5rem;
   padding-bottom: 1.5rem;
   color: white;
@@ -127,7 +127,9 @@
     }
     img {
       margin-bottom: 0;
-      width: 100%;
+      width: auto;
+      max-width: 100%;
+      max-height: 85vh;
     }
     &.left,
     &.right {
