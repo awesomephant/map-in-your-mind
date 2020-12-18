@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "search": "( × )",
+            "search": "( × )|( x )",
             "replace": "<i class='thin'></i>×<i class='thin'></i>"
         },
         {
