@@ -3,7 +3,7 @@
   align-self: flex-start;
   padding-top: 4rem;
   @include bp(m) {
-    padding-top: 3rem;
+    padding-top: calc(var(--ms-0) * 3);
     grid-column: 1 / 7;
   }
   @include bp(l) {
@@ -27,7 +27,7 @@
   @extend %hide-scrollbar;
   z-index: 5000;
   ul {
-    padding-bottom: 2em;
+    padding-bottom: 1.85em;
     &:last-of-type {
       padding-bottom: 1.5em;
     }

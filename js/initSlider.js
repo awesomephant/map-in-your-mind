@@ -16,8 +16,8 @@ function initSlider(slider) {
     let slide = Math.floor(xScaled / (1 / slides.length));
     if (slide !== s.currentSlide && slide > -1 && slide < slides.length) {
       setSlide(slide);
-	  s.currentSlide = slide;
-	  statusLine.innerText = `${s.currentSlide + 1} / ${slides.length}`;
+      s.currentSlide = slide;
+      statusLine.innerText = `${s.currentSlide + 1} / ${slides.length}`;
     }
   }
 
@@ -31,8 +31,9 @@ function initSlider(slider) {
     let xScaled = (e.touches[0].clientX - sliderRect.x) / sliderRect.width;
     xScaledToSlide(xScaled);
   });
-  if (slider.getAttribute("data-current")){
-    slider.currentSlide = slider.getAttribute("data-current")
+  if (slider.getAttribute("data-current")) {
+    let startSlides = JSON.parse(slider.getAttribute("data-current"));
+    slider.currentSlide = startSlides[0];
     setSlide(slider.currentSlide);
     statusLine.innerText = `${slider.currentSlide * 1 + 1} / ${slides.length}`;
   } else {

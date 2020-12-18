@@ -5,7 +5,7 @@
             "directorySlug": "eigengrau",
             "subtitle": "Jonito Aerts Arguelles",
             "copy": "Artist Book\nPublisher: Werkplaats Typografie, 2017\nEditor & Designer: Oliver Boulton\n\n[Purchase Here](https://www.werkplaatstypografie.org/shop/#/products/eigengrau?_k=v6du89)\n\nEdition of 400, softback, 273pp.\nOffset black ×2, PMS ×1, foil block ×1\nSwiss bound, 215 × 270mm",
-            "currentImage": 1,
+            "currentImage": [1, 3, 5],
             "images": [
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-front.png",
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-1.png",
@@ -23,7 +23,7 @@
             "directorySlug": "face-vol-4-issue5-winter-2020",
             "subtitle": "Vol. 4, Issue 5 Winter 2020",
             "copy": "Magazine\nPublisher: Wasted Talent Ltd, 2020\nDesign: Arun Gogna, Oliver Boulton\n\n[Purchase Here](https://theface.com/buy-magazine)\n\nStarring: Jorja Smith, Beabadoobee, Dominic Calvert-Lewin, Gabriel Krauze, Munya Chawawa, Ify Adenuga and Stormzy.\n\nSoftback, 288pp.\nOffset CMYK, spot UV, perfect bound, hot melt, 230 × 300mm\nISSN: 0263 1210",
-            "currentImage": 2,
+            "currentImage": [2],
             "images": [
                 "/assets/images/the-face/preview/oliver-boulton-the-face-front.png",
                 "/assets/images/the-face/preview/oliver-boulton-the-face-1.png",
@@ -52,7 +52,7 @@
             "directorySlug": "off-the-sixth-ring-of-north-beijing-i-arrive-in-guangdong",
             "subtitle": "Shi Bo-Hao",
             "copy": "Artist Edition\nPublisher: University of the Arts London, 2021\nDesign: Oliver Boulton, Samuel Jones\nEditors: Duncan Wooldridge, Sigune Hamann\n\nEdition of 300\nISBN: xxxx\n\nBox\nOffset PMS ×1, embossed, 118 × 118 × 27mm\n\nBook\nSoftback 36pp.\nOffset black, perfect bound, cold melt, 110 × 110mm\n\nMoon Sleeping in the Rivulet\nFold-out Print\nOffset black, 110 × 110 — 440 × 440mm\n\nFollowing a Moving Tree\nFold-out Print\nOffset black, 110 × 110 — 110 × 880mm\n\nInsert\nOffset PMS ×1, embossed, 110 × 110",
-            "currentImage": 5,
+            "currentImage": [5],
             "images": [
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-front.png",
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-1.png",
@@ -70,7 +70,7 @@
             "directorySlug": "glyphs",
             "subtitle": "Oliver Boulton",
             "copy": "Sculpture\nExhibition: WT in LA, Maps to the Stars\nHoffmitz Milken Center for Typography, Los Angeles, 2017\n\nAcrylic on Steel, Wood and Concrete, Variable Dimensions\nPhotographs by Joshua White",
-            "currentImage": 1,
+            "currentImage": [1],
             "images": [
                 "/assets/images/glyphs/oliver-boulton-glyphs-1.png",
                 "/assets/images/glyphs/oliver-boulton-glyphs-2.png"
@@ -79,7 +79,7 @@
         {
             "title": "Octopus of Offshoots",
             "subtitle": "Werkplaats Typografie",
-            "currentImage": 1,
+            "currentImage": [1],
             "directorySlug": "octopus-of-offshoots",
             "copy": "Book\nPublisher: Werkplaats Typografie & ArtEZ Press, 2019\nDesign: Oliver Boulton, Adriaan van Leuven\nEditors: Oliver Boulton, Adriaan van Leuven, Maxine Kopsa\n\n[Purchase Here](https://www.werkplaatstypografie.org/shop/#/products/octopus-of-offshoots?_k=1ewis5)\n\nContributions and selected work: Kathy Acker, Eleanor Antin, Maria Barnas, Roland Barthes, Oliver Boulton, Ulises Carrión, Theresa Hak Kyung Cha, Philip Gooden, Elizabeth Grosz, Rob Horning, Mustapha Khayati, Conrad Knickerbocker, Simona Koutná, Mariana Lobão, Harry Mathews, Luca Napoli, Moriz Oberberger, John Oswald, Mark Owens, Francis Ponge, Austin Redman, Yeliz Secerli, Robert Smithson, Gertrude Stein, Brad Troemel, Susan van Veen, Boris Siemaszko & Melina Wilson and The Wombles.\n\nEdition of 400, softback, 240pp.\nOffset CMYK, perfect bound, cold melt, 230 × 300mm\nISBN: 978-1-908971-43-2",
             "images": [
@@ -103,7 +103,7 @@
         {
             "title": "Perspectives",
             "subtitle": "Paulina Korobkiewicz",
-            "currentImage": 1,
+            "currentImage": [1],
             "directorySlug": "perspectives",
             "copy": "Artist Book\nPublisher: Camberwell Press, 2017\nDesign: Oliver Boulton, Samuel Jones\nEditors:  Oliver Boulton, James Edgar, Sigune Hamann, Sam Jones, Duncan Wooldridge\n\nEdition of 150, softback, 45pp. + PVC dust jacket + insert\nIndigo, French fold, singer sewn, 249 × 320mm\nISBN: 978-1-908971-53-1",
             "images": [
@@ -118,7 +118,7 @@
         {
             "title": "Guttural Flex [echo]",
             "subtitle": "Oliver Boulton",
-            "currentImage": 3,
+            "currentImage": [3],
             "directorySlug": "guttural-flex-echo",
             "copy": "Sculpture\nExhibition: As Nostalgia Meets Time-Pressure\nMediamatic, Netherlands, 2018\n\nAcrylic on Steel, Variable Dimensions\nPhotographs by Franziska Schulz",
             "images": [
@@ -131,7 +131,7 @@
         {
             "title": "Fine Art 16'",
             "subtitle": "Camberwell College of Art, University of the Arts London (UAL)",
-            "currentImage": 9,
+            "currentImage": [9],
             "directorySlug": "fine-art-2016",
             "copy": "Catalogue\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boulton, Samuel Jones\nEditors:  Oliver Boulton, Kirsten Houser, Sam Jones\n\nContributions and selected work: Alice Theobald, Annette Robinson, Daniel Sturgis, Duncan Wooldridge, Neil Rumming, Paulina Korobkiewicz, Ruth Pilston, Griselda Pollock and the students of Drawing, Painting, Photography and Sculpture at Camberwell College of Arts.\n\nMonoprints by Will Asheton, Jack Ashley, Harry Badrick, Bình Hà, Vanessa Bizarri, Billy Crosby, Callum Farrell, Joy Finzi, Christina Goodall, Thomas Greig, Rebecca Guez, Melloney Harvey, Catherine Hulme, Becca James, Alice Muir, Ben Mullins, Oliver Newman, Tom Penney, Ruth Pilston, Josie Ralfs, Paulo Sousa, Halszka Staniewicz, Cat Thompson, Bethan Wilkins, Josh Wright and Rosie Wyllie.\n\nEdition of 1400, softback, 186pp.\nMonoprint, offset CMYK, PMS ×1, foil block ×1\nperfect bound, hot melt, 190 × 265mm\nISBN: 978-1-908971-47-0",
             "images": [
@@ -159,7 +159,7 @@
         {
             "title": "Walking on Splinters",
             "subtitle": "Oliver Boulton, WT Papier",
-            "currentImage": 6,
+            "currentImage": [6],
             "directorySlug": "walking-on-splinters",
             "copy": "Book\nPublisher: Werkplaats Typografie & WT Papier, 2016\nDesigner: Oliver Boulton\nEditors: Oliver Boulton, Sabo Day, Eloise Harris, Robert Milne\n\nContributions and selected work: Bas Jan Ader, David Bachelor, Josef Bauer, Christian Bök, Sophie Calle, Italo Calvino, Wim Crouwel, René Denizot, James Flint, Vilém Flusser, Paul Gangloff, Myles na gCopaleen (Brian O'Nolan), Dom Sylvester Houédard, Rosalind E. Krauss, François Le Lionnais, Dada Manifesto, Georges Perec, Francis Picabia, Matt Siber, Nicola Simpson, David Thorpe, Sol Le Witt and Thomas Zaunschirm\n\nEdition of 10, softback, 252pp.\nLaser, perfect bound, cold melt, 148 × 210mm",
             "images": [
