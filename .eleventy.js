@@ -24,7 +24,7 @@ module.exports = function (eleventyConfig) {
         `;
   });
   eleventyConfig.addTransform(
-    "resolveFootnotes",
+    "applyTextReplacements",
     function (content, outputPath) {
       if (outputPath.endsWith(".html")) {
         replacements.data.forEach(r => {

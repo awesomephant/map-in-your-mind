@@ -9,7 +9,7 @@
             "replace": " "
         },
         {
-            "search": "(--)",
+            "search": "( -- )",
             "replace": "—"
         }
     ]
