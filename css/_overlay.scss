@@ -1,12 +1,9 @@
 .overlay-image-container {
-  width:  12vw;
-  height: 12vw;
   position: fixed;
   mix-blend-mode: multiply;
   z-index: 20000;
+  transform: scale(.4)
 }
 .overlay-image {
-  max-width: 100%;
-  max-height: 100%;
-  filter: grayscale(1) brightness(0);
+  filter: brightness(0);
 }
