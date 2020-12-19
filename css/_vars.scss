@@ -32,31 +32,10 @@
 
 @font-face {
   font-family: "everson";
-  src: url("./assets/fonts/everson.ttf") format("truetype");
+  src: url("./assets/fonts/everson-subset.woff") format("woff");
   font-display: swap;
   font-weight: 500;
   font-style: normal;
-}
-@font-face {
-  font-family: "everson";
-  src: url("./assets/fonts/everson-oblique.ttf") format("truetype");
-  font-display: swap;
-  font-weight: 500;
-  font-style: italic;
-}
-@font-face {
-  font-family: "everson";
-  src: url("./assets/fonts/everson-bold.ttf") format("truetype");
-  font-display: swap;
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: "everson";
-  src: url("./assets/fonts/everson-bold-oblique.ttf") format("truetype");
-  font-display: swap;
-  font-weight: 700;
-  font-style: italic;
 }
 
 @font-face {
