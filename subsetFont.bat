@@ -1,1 +1,1 @@
-pyftsubset "./assets/fonts/everson.ttf" --unicodes="U+0020,U+0000-007F,U+0080-2C7F" --layout-features="" --flavor="woff" --output-file="./assets/fonts/everson-subset.woff"
+pyftsubset "./assets/fonts/everson.ttf" --unicodes="U+0020,U+0000-007F,U+0080-2C7F" --layout-features="" --flavor="woff2" --output-file="./assets/fonts/everson-subset.woff"

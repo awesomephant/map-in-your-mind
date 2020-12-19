@@ -4,7 +4,7 @@ function initOverlay() {
   const count = 12;
   for (let i = 1; i < count; i++){
     //let filename = `/assets/glyph-overlays/glyph-overlay-${gri(1, 18)}.png`;
-    let filename = `/assets/glyph-overlays/glyph-overlay-${i}.png`;
+    let filename = `/assets/images/glyph-overlays/glyph-overlay-${i}.webp`;
     const angles = [-180, -90, -45, 0, 45, 90, 180] 
 
     let container = document.createElement("div")
