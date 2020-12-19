@@ -2,7 +2,8 @@
   position: fixed;
   mix-blend-mode: multiply;
   z-index: 20000;
-  transform: scale(.4)
+  pointer-events: none;
+  transform: scale(.2)
 }
 .overlay-image {
   filter: brightness(0);
