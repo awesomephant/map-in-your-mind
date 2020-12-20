@@ -23,6 +23,18 @@
   }
 }
 
+@mixin baselineGrid($n, $lineWidth, $c) {
+	background-image: linear-gradient(
+		to bottom,
+		transparent 0px,
+		transparent #{$n},
+		$c calc(#{$n})
+	);
+	background-size: 100vw calc(#{$n} * 2);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+
 %hide-scrollbar {
   scrollbar-width: none; /* Firefox implementation */
   &::-webkit-scrollbar {
@@ -71,6 +83,7 @@ $navy: #03387e;
 $blue: #91d3fa;
 $brown: #845013;
 $black: #171000;
+$baseline: calc(var(--ms-0) * 1.18);
 
 :root {
   @media (min-resolution: 125dpi) {

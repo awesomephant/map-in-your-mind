@@ -20,11 +20,11 @@
   display: none;
   top: 2rem;
   left: 2rem;
-  height: calc(100vh - 5rem);
+  height: calc(100vh - 4em);
   z-index: 10000;
   @include bp(l) {
     top: 2rem;
-    height: calc(100vh - 2rem);
+    height: calc(100vh - 1.8em);
   }
   @media (min-height: 40rem) {
     display: flex;
