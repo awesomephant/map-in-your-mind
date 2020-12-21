@@ -47,15 +47,11 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-    opacity: 0;
+    opacity: 1;
     mix-blend-mode: multiply;
     pointer-events: none;
-    $s: calc(var(--ms-0));
-    $c: lightblue;
-    background: linear-gradient(to bottom, transparent $s, $c $s, $c calc(#{$s} + 1px), transparent calc(#{$s} + 1px));
     z-index: 10000;
-    background-repeat: repeat-y;
-    background-size: 100% calc(#{$s} + 1px);
+    @include baselineGrid(calc(var(--ms-0) * 1.18), 1px, white);
   }
   @include bp(m) {
     padding-bottom: 1rem;
@@ -76,14 +72,14 @@ a {
   font-family: $helvetica;
   letter-spacing: 0.0em;
   word-spacing: 0.0em;
-  line-height: 1.25;
-  font-size: calc(var(--ms-2) * 1);
+  line-height: 1.352;
+  font-size: var(--ms-2);
   p + p {
-    padding-top: 0.4em;
+    padding-top: 0.6em;
     //text-indent: 3em;
   }
   h3 {
-    padding-top: 1.3em;
+    padding-top: 1.25em;
   }
   p {
     font-weight: 300;

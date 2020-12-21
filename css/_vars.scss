@@ -23,6 +23,18 @@
   }
 }
 
+@mixin baselineGrid($n, $lineWidth, $c) {
+	background-image: linear-gradient(
+		to bottom,
+		transparent 0px,
+		transparent #{$n},
+		$c calc(#{$n})
+	);
+	background-size: 100vw calc(#{$n} * 2);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+
 %hide-scrollbar {
   scrollbar-width: none; /* Firefox implementation */
   &::-webkit-scrollbar {
@@ -70,7 +82,12 @@ $navy: #03387e;
 //$blue: #00ffeb;
 $blue: #000000;
 $brown: #845013;
+<<<<<<< HEAD
 $black: #A8A8B3;
+=======
+$black: #171000;
+$baseline: calc(var(--ms-0) * 1.18);
+>>>>>>> c49a389c289ccc45149d531d445da9d0fdf10b7b
 
 :root {
   @media (min-resolution: 125dpi) {
