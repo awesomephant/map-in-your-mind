@@ -51,7 +51,6 @@ body {
     mix-blend-mode: multiply;
     pointer-events: none;
     z-index: 10000;
-    @include baselineGrid(calc(var(--ms-0) * 1.18), 1px, white);
   }
   @include bp(m) {
     padding-bottom: 1rem;
