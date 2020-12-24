@@ -1,10 +1,10 @@
 .overlay-image-container {
   position: fixed;
-  mix-blend-mode: multiply;
+  mix-blend-mode: unset;
   z-index: 20000;
   pointer-events: none;
-  transform: scale(.4)
+  transform: scale(.1)
 }
 .overlay-image {
-  filter: brightness(0);
+  filter: brightness(1);
 }
