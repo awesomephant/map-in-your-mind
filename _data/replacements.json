@@ -5,10 +5,6 @@
             "replace": "<i class='thin'></i>×<i class='thin'></i>"
         },
         {
-            "search": "( + )",
-            "replace": "<i class='thin'></i>+<i class='thin'></i>"
-        },
-        {
             "search": "(  )",
             "replace": " "
         },
