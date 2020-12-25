@@ -5,7 +5,7 @@
             "directorySlug": "eigengrau",
             "subtitle": "Jonito Aerts Arguelles",
             "copy": "Artist Book\nPublisher: Werkplaats Typografie, 2017\nEditor & Designer: Oliver Boulton\n\n[Purchase Here](https://www.werkplaatstypografie.org/shop/#/products/eigengrau?_k=v6du89)\n\nEdition of 400, softback, 273pp.\nOffset black ×2, PMS ×1, foil block ×1\nSwiss bound, 215 × 270mm",
-            "currentImage": [1, 3, 5],
+            "currentImage": [1],
             "images": [
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-front.png",
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-1.png",
@@ -52,7 +52,7 @@
             "directorySlug": "off-the-sixth-ring-of-north-beijing-i-arrive-in-guangdong",
             "subtitle": "Shi Bo-Hao",
             "copy": "Artist Edition\nPublisher: University of the Arts London, 2021\nDesign: Oliver Boulton, Samuel Jones\nEditors: Duncan Wooldridge, Sigune Hamann\n\nEdition of 300\nISBN: xxxx\n\nBox\nOffset PMS ×1, embossed, 118 × 118 × 27mm\n\nBook\nSoftback 36pp.\nOffset black, perfect bound, cold melt, 110 × 110mm\n\nMoon Sleeping in the Rivulet\nFold-out Print\nOffset black, 110 × 110 — 440 × 440mm\n\nFollowing a Moving Tree\nFold-out Print\nOffset black, 110 × 110 — 110 × 880mm\n\nInsert\nOffset PMS ×1, embossed, 110 × 110",
-            "currentImage": [5],
+            "currentImage": [1],
             "images": [
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-front.png",
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-1.png",
@@ -131,7 +131,7 @@
         {
             "title": "Fine Art 16'",
             "subtitle": "Camberwell College of Art, University of the Arts London (UAL)",
-            "currentImage": [1, 9],
+            "currentImage": [9, 15],
             "directorySlug": "fine-art-2016",
             "copy": "Catalogue\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boulton, Samuel Jones\nEditors:  Oliver Boulton, Kirsten Houser, Sam Jones\n\nContributions and selected work: Alice Theobald, Annette Robinson, Daniel Sturgis, Duncan Wooldridge, Neil Rumming, Paulina Korobkiewicz, Ruth Pilston, Griselda Pollock and the students of Drawing, Painting, Photography and Sculpture at Camberwell College of Arts.\n\nMonoprints by Will Asheton, Jack Ashley, Harry Badrick, Bình Hà, Vanessa Bizarri, Billy Crosby, Callum Farrell, Joy Finzi, Christina Goodall, Thomas Greig, Rebecca Guez, Melloney Harvey, Catherine Hulme, Becca James, Alice Muir, Ben Mullins, Oliver Newman, Tom Penney, Ruth Pilston, Josie Ralfs, Paulo Sousa, Halszka Staniewicz, Cat Thompson, Bethan Wilkins, Josh Wright and Rosie Wyllie.\n\nEdition of 1400, softback, 186pp.\nMonoprint, offset CMYK, PMS ×1, foil block ×1\nperfect bound, hot melt, 190 × 265mm\nISBN: 978-1-908971-47-0",
             "images": [
