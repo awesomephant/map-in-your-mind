@@ -5,7 +5,7 @@ description: "Poster template, Workshop program\nDesign: Oliver Boulton, Adriaan
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-speelplaats-5.png"
 ---
-{% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-1.png" "alt" "" %}
+{% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-1.jpg" "alt" "" %}
 {% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-3.png" "alt" "" %}
 {% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-4.png" "alt" "" %}
 {% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-5.png" "alt" "" %}

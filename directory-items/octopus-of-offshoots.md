@@ -6,22 +6,21 @@ layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-octopus-of-offshoots-front.png"
 ---
 {% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-front.png" "alt" "left" %}
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-1.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-2.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-3.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-4.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-5.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-6.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-7.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-8.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-9.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-10.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-11.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-13.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-14.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-15.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-16.png)
-![jsfh](/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-17.png)
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-1.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-2.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-3.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-4.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-5.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-6.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-7.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-8.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-9.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-10.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-11.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-13.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-14.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-16.png" "alt" "" %}
+{% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-17.png" "alt" "" %}
 {% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-back.png" "alt" "left" %}
 
 Speelplaats is a parallel program held within Werkplaats Typografie, defined as ‘a kind of school within a school’ run by and for the participants, where everyone invited is asked to contribute according to an annual topic. Considered as a testing ground for introducing and exchanging ideas with uncertain outcomes, sporadic open-ended sessions are proposed, organised and realised by individuals and ad-hoc groups.

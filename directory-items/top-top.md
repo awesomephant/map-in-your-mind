@@ -8,17 +8,16 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-top-top-front-1.png"
 
 {% fig "/assets/images/top-top/oliver-boulton-top-top-front-1.png" "alt" "left" %}
 {% fig "/assets/images/top-top/oliver-boulton-top-top-0.png" "alt" "left" %}
-![jsfh](/assets/images/top-top/oliver-boulton-top-top-1.png)
-![jsfh](/assets/images/top-top/oliver-boulton-top-top-2.png)
-![jsfh](/assets/images/top-top/oliver-boulton-top-top-3.png)
-![jsfh](/assets/images/top-top/oliver-boulton-top-top-4.png)
-![jsfh](/assets/images/top-top/oliver-boulton-top-top-5.png)
-![jsfh](/assets/images/top-top/oliver-boulton-top-top-6.png)
-![jsfh](/assets/images/top-top/oliver-boulton-top-top-7.png)
-![jsfh](/assets/images/top-top/oliver-boulton-top-top-8.png)
+{% fig "/assets/images/top-top/oliver-boulton-top-top-1.png" "alt" "" %}
+{% fig "/assets/images/top-top/oliver-boulton-top-top-2.png" "alt" "" %}
+{% fig "/assets/images/top-top/oliver-boulton-top-top-3.png" "alt" "" %}
+{% fig "/assets/images/top-top/oliver-boulton-top-top-4.png" "alt" "" %}
+{% fig "/assets/images/top-top/oliver-boulton-top-top-5.png" "alt" "" %}
+{% fig "/assets/images/top-top/oliver-boulton-top-top-6.png" "alt" "" %}
+{% fig "/assets/images/top-top/oliver-boulton-top-top-7.png" "alt" "" %}
+{% fig "/assets/images/top-top/oliver-boulton-top-top-8.png" "alt" "" %}
 {% fig "/assets/images/top-top/oliver-boulton-top-top-9.png" "alt" "left" %}
 {% fig "/assets/images/top-top/oliver-boulton-top-top-back.png" "alt" "left" %}
-
 
 [...] The book comes in a utilitarian brown card sleeve, and a similar pared-down approach continues inside in the book. The reader opens the sleeve by pulling at a tab, which runs in perforated lines across both ends of the sleeve, similar to the opening of a cereal packet. This is the first decision the reader takes in encountering the book – which end is the top? The book has two spines, so it can be flipped over and the reader can start again – a book that promises only beginnings, and no ends. The two parts are similar but not the same, demanding closer inspection, disorienting the reader’s first impressions. There are no words, only black and white images of objects alone or with anonymous hands using them. The images, of mundane items such as wristwatches, pencils and doorbells, play with their use and usefulness, subverting their typical functionality.
 

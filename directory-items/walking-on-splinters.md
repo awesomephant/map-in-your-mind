@@ -7,19 +7,17 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-walking-on-splinters-A5-fro
 ---
 
 {% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-front.png" "alt" "left" %}
-
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-0.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-1.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-2.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-3.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-4.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-5.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-6.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-7.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-8.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-9.png)
-![jsfh](/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-10.png)
-
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-0.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-1.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-2.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-3.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-4.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-5.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-6.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-7.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-8.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-9.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-10.png" "alt" "" %}
 {% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-back.png" "alt" "left" %}
 
 Walking on Splinters was first published in 2004 by Werkplaats Typografie, edited and designed by Marieke Cobbenhagen, Joana Katte, Louis Luthi, Janna Meeus, Radim Peško, Willi Schmid and Maxine Kopsa. This edition was the first incarnation of the now annual Werkplaats Typografie Reader, incorporating an assortment of collectively relevant content, selected and curated by the participants of Werkplaats Typografie.
@@ -28,11 +26,11 @@ On the occasion of the launch of WT Papier at MOMA PS1, the book was re-worked w
 
 {% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-front.png" "alt" "left" %}
 
-![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-1.png)
-![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-2.png)
-![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-3.png)
-![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-4.png)
-![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-5.png)
-![jsfh](/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-6.png)
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-1.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-2.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-3.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-4.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-5.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-6.png" "alt" "" %}
 
 {% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-back.png" "alt" "left" %}

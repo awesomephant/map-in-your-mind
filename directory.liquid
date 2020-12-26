@@ -25,7 +25,7 @@ title: Directory
             <h4>{{item.data.subtitle}}</h4>
             
             {% if item.data.thumbnail %}
-            <img class="timeline--item--thumbnail" src="{{item.data.thumbnail | replace: ".png", ".webp" }}" alt="{{item.data.title}} Thumbnail"/>
+            <img class="timeline--item--thumbnail" src="{% img item.data.thumbnail 400%}" alt="{{item.data.title}} Thumbnail"/>
             {% endif %}            
             <div class='description'>
                 {{item.data.description | renderMarkdown}}

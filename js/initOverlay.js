@@ -15,10 +15,10 @@ function initOverlay() {
     
     let img = document.createElement("img")
     img.classList.add("overlay-image")
-    img.setAttribute("src", filename)
-    container.appendChild(img)
+    //img.setAttribute("src", filename)
+    //container.appendChild(img)
 
-    document.body.appendChild(container)
+//    document.body.appendChild(container)
   }
 }
 

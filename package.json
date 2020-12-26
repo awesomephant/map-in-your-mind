@@ -1,35 +1,30 @@
 {
     "name": "map-in-your-mind",
     "description": "",
-    "authors": "Max Kohler",
+    "authors": "Max Kohler,Oliver Boulton",
     "version": "1.0.0",
     "main": "pathToMain",
     "license": "CC-BY-NC-SA-1.0",
+    "private": true,
     "scripts": {
         "build:webpack": "webpack --mode production",
         "build:eleventy": "eleventy",
         "build:sass": "sass ./css/style.scss ./_site/style.css",
-        "build:images": "gulp images",
-        "build": "run-s build:*",
+        "build": "cross-env NODE_ENV=production run-s build:*",
         "watch:sass": "sass ./css/style.scss ./_site/style.css --watch",
         "watch:webpack": "webpack --watch --mode development",
-        "watch:eleventy": "npx @11ty/eleventy --serve --incremental",
-        "start": "run-p watch:*"
+        "watch:eleventy": "npx @11ty/eleventy --serve",
+        "start": "cross-env NODE_ENV=dev run-p watch:*"
     },
     "dependencies": {
-        "@11ty/eleventy": "^0.10.0",
+        "@11ty/eleventy": "*",
+        "@11ty/eleventy-img": "^0.6.0",
         "@11ty/eleventy-plugin-rss": "^1.0.7",
-        "gulp": "*",
-        "gulp-changed": "*",
-        "gulp-srcset": "^2.3.1",
-        "gulp-using": "*",
-        "imagemin-mozjpeg": "*",
-        "imagemin-optipng": "*",
-        "imagemin-pngquant": "*",
-        "imagemin-webp": "^6.0.0",
         "npm-run-all": "^4.1.5",
+        "path": "^0.12.7",
         "sass": "^1.29.0",
         "webpack": "^4.43.0",
-        "webpack-cli": "^3.3.11"
+        "webpack-cli": "^3.3.11",
+        "cross-env": "^7.0.3"
     }
 }

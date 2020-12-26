@@ -1,22 +1,18 @@
-.has-cursor * {
-  cursor: none;
-}
 .site-cursor {
   display: none;
+  font-family: $everson;
   .has-cursor & {
     display: block;
   }
   .cursor-left-right & {
-    background: url(/assets/left-right.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    content: "↔"
   }
   width: 3rem;
   height: 1.5rem;
   position: fixed;
   top: 0;
   left: 0;
+  color: black;
   will-change: transform;
   z-index: 10000;
   pointer-events: none;

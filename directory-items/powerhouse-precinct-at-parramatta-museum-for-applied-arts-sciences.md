@@ -6,5 +6,5 @@ layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-powerhouse-precinct-at-parramatta-1.png"
 ---
 {% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-front.png" "alt" "left" %}
-![jsfh](/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-1.png)
-![jsfh](/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-2.png)
+{% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-1.png" "alt" "" %}
+{% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-2.png" "alt" "" %}

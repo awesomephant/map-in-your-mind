@@ -39,7 +39,7 @@ window.addEventListener("DOMContentLoaded", () => {
   initSliders();
   initHovers();
   initHome();
-  initCursor();
+//  initCursor();
   setFavicon();
   initOverlay();
   if (document.body.classList.contains("directory")) {

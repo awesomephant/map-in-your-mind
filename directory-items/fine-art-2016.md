@@ -7,16 +7,16 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-fine-art-16-12.png"
 ---
 
 {% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-front.png" "alt" "left" %}
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-1.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-2.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-3.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-5.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-7.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-6.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-8.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-12.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-11.png)
-![jsfh](/assets/images/fine-art-16/oliver-boulton-fine-art-16-13.png)
+{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-1.png" "alt" "" %}
+{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-2.png" "alt" "" %}
+{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-3.png" "alt" "" %}
+{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-5.png" "alt" "" %}
+{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-7.png" "alt" "" %}
+{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-6.png" "alt" "" %}
+{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-8.png" "alt" "" %}
+{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-12.png" "alt" "" %}
+{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-11.png" "alt" "" %}
+{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-13.png" "alt" "" %}
 {% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-back.png" "alt" "left" %}
 
 Contributions and selected work: Alice Theobald, Annette Robinson, Daniel Sturgis, Duncan Wooldridge, Neil Rumming, Paulina Korobkiewicz, Ruth Pilston, Griselda Pollock and the students of Drawing, Painting, Photography and Sculpture at Camberwell College of Arts.

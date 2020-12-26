@@ -7,6 +7,6 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-deceiving-grandeur-4.png"
 ---
 
 {% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-1.png" "alt" "left" %}
-![jsfh](/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-2.png)
+{% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-2.png" "alt" "" %}
 {% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-3.png" "alt" "left" %}
 {% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-4.png" "alt" "" %}

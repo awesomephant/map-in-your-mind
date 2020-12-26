@@ -6,11 +6,11 @@ layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-pentagon-petal-front.png"
 ---
 {% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-front.png" "alt" "left" %}
-![jsfh](/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-1.png)
-![jsfh](/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-2.png)
-![jsfh](/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-3.png)
-![jsfh](/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-4.png)
-![jsfh](/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-5.png)
+{% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-1.png" "alt" "" %}
+{% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-2.png" "alt" "" %}
+{% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-3.png" "alt" "" %}
+{% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-4.png" "alt" "" %}
+{% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-5.png" "alt" "" %}
 {% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-back.png" "alt" "left" %}
 {% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-flyer-1.png" "alt" "left" %}
 {% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-flyer-2.png" "alt" "left" %}

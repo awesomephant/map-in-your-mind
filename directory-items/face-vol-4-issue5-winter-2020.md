@@ -23,7 +23,6 @@ thumbnail: "/assets/images/the-face/oliver-boulton-the-face-2.png"
 {% fig "/assets/images/the-face/oliver-boulton-the-face-14.png" "alt" "" %}
 {% fig "/assets/images/the-face/oliver-boulton-the-face-15.png" "alt" "" %}
 {% fig "/assets/images/the-face/oliver-boulton-the-face-16.png" "alt" "" %}
-{% fig "/assets/images/the-face/oliver-boulton-the-face-17.png" "alt" "" %}
 {% fig "/assets/images/the-face/oliver-boulton-the-face-18.png" "alt" "" %}
 {% fig "/assets/images/the-face/oliver-boulton-the-face-19.png" "alt" "" %}
 {% fig "/assets/images/the-face/oliver-boulton-the-face-20.png" "alt" "" %}
