@@ -31,7 +31,7 @@ module.exports = function (eleventyConfig) {
       },
     };
     if (process.env.NODE_ENV === "dev") {
-      config.sharpOptions = { limitInputPixels: 1 };
+//      config.sharpOptions = { limitInputPixels: 1 };
     }
     console.log(`Processing ${url}`);
     let metadata = await Image("." + url, config);
@@ -70,7 +70,7 @@ module.exports = function (eleventyConfig) {
       },
     };
     if (process.env.NODE_ENV === "dev") {
-      config.sharpOptions = { limitInputPixels: 1 };
+      //config.sharpOptions = { limitInputPixels: 1 };
     }
     console.log(`Processing ${src}`);
     let metadata = await Image("." + src, config);
