@@ -1,3 +1,5 @@
+import { gri } from "./utils";
+
 function initSlider(slider) {
   let s = slider.querySelector(".slider--slides");
   const sliderRect = s.getBoundingClientRect();
@@ -6,6 +8,7 @@ function initSlider(slider) {
   s.currentSlide = 0;
 
   function setSlide(n) {
+    console.log("Setting " + n)
     slides.forEach((slide, i) => {
       slide.classList.remove("active");
     });
@@ -33,7 +36,7 @@ function initSlider(slider) {
   });
   if (slider.getAttribute("data-current")) {
     let startSlides = JSON.parse(slider.getAttribute("data-current"));
-    slider.currentSlide = startSlides[0];
+    slider.currentSlide = startSlides[gri(0, startSlides.length - 1)];
     setSlide(slider.currentSlide);
     statusLine.innerText = `${slider.currentSlide * 1 + 1} / ${slides.length}`;
   } else {
