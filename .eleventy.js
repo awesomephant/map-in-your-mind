@@ -80,10 +80,10 @@ module.exports = function (eleventyConfig) {
       },
     };
     if (process.env.NODE_ENV === "dev") {
-      //sconsole.log(`Skipping ${src}`);
+      //console.log(`Skipping ${src}`);
       const extension = path.extname(src);
       const name = path.basename(src, extension);
-      return `/assets/images/${name}-${width}w.webp`;
+      return `/assets/images/${name}-${width}w.png`;
     } else {
       console.log(`Processing ${src}`);
       let metadata = await Image("." + src, config);

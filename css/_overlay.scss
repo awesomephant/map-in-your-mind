@@ -3,7 +3,17 @@
   mix-blend-mode: unset;
   z-index: 20000;
   pointer-events: none;
-  transform: scale(.1)
+  transform: scale(0.1);
+  opacity: 0;
+  transition: $fast;
+  .overlay-active & {
+    opacity: 1;
+  }
+  @for $i from 1 to 15 {
+    &:nth-of-type(#{$i}) {
+      transition-delay: 25ms * $i;
+    }
+  }
 }
 .overlay-image {
   filter: brightness(1);
