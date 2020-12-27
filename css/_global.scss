@@ -73,6 +73,7 @@ a {
   word-spacing: 0.0em;
   line-height: 1.352;
   font-size: var(--ms-2);
+  font-feature-settings: "ss06"; // stem-less u
   p + p {
     padding-top: 0.6em;
     //text-indent: 3em;

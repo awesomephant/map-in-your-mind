@@ -7,6 +7,12 @@ const md = new markdownIt({
   breaks: true,
 });
 
+if (process.env.NODE_ENV === "production") {
+  console.log("Creating an optimised production build (This might take a while)")
+} else {
+  console.log("Development mode, skipping time-consuming build steps.")
+}
+
 module.exports = function (eleventyConfig) {
   console.log(`${replacements.data.length} text replacements found.`);
 
@@ -21,23 +27,29 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("fig", async function (url, alt, className) {
     let config = {
       widths: [1500],
-      formats: ["jpeg"],
+      formats: ["webp", "png"],
       urlPath: "/assets/images/",
       outputDir: "./_site/assets/images/",
       filenameFormat: function (id, src, width, format, options) {
         const extension = path.extname(src);
         const name = path.basename(src, extension);
-        return `${name}-${width}w.${format}`;
+        return `${name}.${format}`;
       },
     };
     if (process.env.NODE_ENV === "dev") {
-//      config.sharpOptions = { limitInputPixels: 1 };
-    }
-    console.log(`Processing ${url}`);
-    let metadata = await Image("." + url, config);
-
-    let fallback = metadata.jpeg[0];
-    return `<picture class="post-figure ${className}">
+//      console.log(`Skipping ${url}`);
+      const extension = path.extname(url);
+      const name = path.basename(url, extension);
+      return `<picture class="post-figure ${className}">
+        <img
+          src="/assets/images/${name}.webp"
+          alt="${alt}">
+      </picture>`;
+    } else {
+      console.log(`Processing ${url}`);
+      let metadata = await Image("." + url, config);
+      let fallback = metadata.png[0];
+      return `<picture class="post-figure ${className}">
         ${Object.values(metadata)
           .map((imageFormat) => {
             return `<source type="image/${
@@ -51,13 +63,11 @@ module.exports = function (eleventyConfig) {
             src="${fallback.url}"
             alt="${alt}">
         </picture>`;
+    }
   });
 
   eleventyConfig.addShortcode("img", async function (src, width) {
-    let formats = ["jpeg"];
-    if (src.includes(".png")) {
-      formats = ["png"];
-    }
+    let formats = ["png", "webp"];
     let config = {
       widths: [width],
       formats: formats,
@@ -70,17 +80,21 @@ module.exports = function (eleventyConfig) {
       },
     };
     if (process.env.NODE_ENV === "dev") {
-      //config.sharpOptions = { limitInputPixels: 1 };
-    }
-    console.log(`Processing ${src}`);
-    let metadata = await Image("." + src, config);
-    let data;
-    if (metadata.jpeg) {
-      data = metadata.jpeg.pop();
+      //sconsole.log(`Skipping ${src}`);
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+      return `/assets/images/${name}-${width}w.webp`;
     } else {
-      data = metadata.png.pop();
+      console.log(`Processing ${src}`);
+      let metadata = await Image("." + src, config);
+      let data;
+      if (metadata.jpeg) {
+        data = metadata.jpeg.pop();
+      } else {
+        data = metadata.png.pop();
+      }
+      return data.url;
     }
-    return data.url;
   });
 
   eleventyConfig.addTransform(
