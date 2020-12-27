@@ -14,8 +14,8 @@ function addOverlayGlyph() {
   const angles = [-180, -90, -45, 0, 45, 90, 180];
   let container = document.createElement("div");
   container.classList.add("overlay-image-container");
-  container.style.left = `${gri(-0, 90)}%`;
-  container.style.top = `${gri(-0, 90)}%`;
+  container.style.left = `${gri(-10, 90)}%`;
+  container.style.top = `${gri(-10, 90)}%`;
   container.style.transform = `${angles[gri(0, angles.length)]}deg`;
 
   let img = document.createElement("img");
@@ -26,14 +26,14 @@ function addOverlayGlyph() {
 }
 
 function initOverlay() {
-  const count = 12;
+  const count = 15;
   window.idleSeconds = 0;
   for (let i = 1; i < count; i++) {
     addOverlayGlyph();
   }
   const idleCounter = window.setInterval(function () {
     window.idleSeconds++;
-    if (window.idleSeconds > 30) {
+    if (window.idleSeconds > 10) {
       addOverlayGlyph();
     }
   }, 1000);
