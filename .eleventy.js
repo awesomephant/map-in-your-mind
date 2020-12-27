@@ -55,6 +55,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("img", async function (src, width) {
     let formats = ["jpeg"];
+    if (src.includes(".png")) {
+      formats = ["png"];
+    }
     let config = {
       widths: [width],
       formats: formats,
@@ -68,9 +71,6 @@ module.exports = function (eleventyConfig) {
     };
     if (process.env.NODE_ENV === "dev") {
       config.sharpOptions = { limitInputPixels: 1 };
-    }
-    if (src.includes(".png")) {
-      formats = ["png"];
     }
     console.log(`Processing ${src}`);
     let metadata = await Image("." + src, config);
