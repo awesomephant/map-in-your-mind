@@ -8,9 +8,11 @@ const md = new markdownIt({
 });
 
 if (process.env.NODE_ENV === "production") {
-  console.log("Creating an optimised production build (This might take a while)")
+  console.log(
+    "Creating an optimised production build (This might take a while)"
+  );
 } else {
-  console.log("Development mode, skipping time-consuming build steps.")
+  console.log("Development mode, skipping time-consuming build steps.");
 }
 
 module.exports = function (eleventyConfig) {
@@ -18,6 +20,16 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("directory_item", function (collectionApi) {
     return collectionApi.getFilteredByGlob(["./directory-items/*.md"]);
+    // Sort alphabetically
+    // let sorted = items.sort((a, b) => {
+    //   if (a.data.date < b.data.date) {
+    //     return 1;
+    //   } else if (a.data.date > b.data.date) {
+    //     return -1;
+    //   }
+    //   return 0;
+    // });
+    // return sorted;
   });
 
   eleventyConfig.addFilter("renderMarkdown", function (value) {
@@ -37,7 +49,7 @@ module.exports = function (eleventyConfig) {
       },
     };
     if (process.env.NODE_ENV === "dev") {
-//      console.log(`Skipping ${url}`);
+      //      console.log(`Skipping ${url}`);
       const extension = path.extname(url);
       const name = path.basename(url, extension);
       return `<picture class="post-figure ${className}">

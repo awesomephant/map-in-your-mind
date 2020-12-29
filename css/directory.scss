@@ -7,19 +7,20 @@
     background: linear-gradient(
       to bottom,
       $black 0%,
-      $black 70%,
-      transparent 100%
+      transparent 80%
     );
   }
 }
 
 .directory--filters {
   position: fixed;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-flow: column;
   display: none;
   top: 2rem;
   left: 2rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.2rem;
   height: calc(100vh - 4em);
   z-index: 10000;
   @include bp(l) {
@@ -65,8 +66,8 @@
     overflow-y: scroll;
   }
   @include bp(l) {
-    grid-column: 8 / 13;
-    padding-left: 10vw;
+    grid-column: 7 / 13;
+    padding-left: 16.5vw;
   }
   &:after {
     content: "";
@@ -84,7 +85,11 @@
     padding-bottom: 1.4em;
     padding-top: 1em;
     z-index: 10000;
-    background: linear-gradient(to bottom, $black 70%, transparent 100%);
+    background: linear-gradient(
+      to bottom,
+      $black 0%,
+      transparent 80%
+    );
     @include bp(m) {
       position: sticky;
       top: 0rem;
@@ -113,7 +118,7 @@
   grid-auto-rows: min-content;
   padding-top: 3.7rem;
   padding-left: 2.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   color: white;
   p {
     grid-column: 1 / 6;
@@ -129,7 +134,7 @@
       margin-bottom: 0;
       width: auto;
       max-width: 100%;
-      max-height: 85vh;
+      max-height: 86.2vh;
     }
     &.left,
     &.right {
@@ -184,5 +189,10 @@
     z-index: 10000;
     pointer-events: none;
     transform: translateX(calc(-100% - 1.5vw));
+  }
+}
+.thumbnail_landscape {
+  .timeline--item--thumbnail {
+    width: 14vw;
   }
 }

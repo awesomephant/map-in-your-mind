@@ -22,12 +22,12 @@ class: home
                 {% if item.directorySlug %}
                 <a href="/directory/#{{item.directorySlug}}">
                     {{item.title}}
+                    <span class='preview-item--subtitle'>{{item.subtitle}}</span>
                 </a>
                 {% else %}
                 {{item.title}}
                 {% endif %}
             </h2>
-            <h3 class='preview-item--subtitle'>{{item.subtitle}}</h3>
             <div class="preview-item--copy">
                 {% if item.copy %}
                 {{item.copy | renderMarkdown}}

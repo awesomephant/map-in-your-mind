@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", () => {
     // UA-Sniffing to adjust for font rendering
     document.body.classList.add("is-windows");
   }
-  initHovers();
+//  initHovers();
   initHome();
 //  initCursor();
   setFavicon();

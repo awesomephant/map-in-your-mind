@@ -34,12 +34,14 @@
 }
 .preview-item--title {
   color: $brown;
+
 }
 
 .preview-item--subtitle {
   color: $black;
+  display: block;
   @include bp(m) {
-    color: $brown;
+    color: inherit;
     margin-bottom: 1em;
   }
 }
@@ -55,6 +57,9 @@
   } 
   a {
     color: $brown;
+    &:hover, &:focus {
+      color: $navy;
+    }
   }
 }
 
