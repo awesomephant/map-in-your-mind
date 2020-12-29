@@ -69,8 +69,8 @@ a {
 .helvetica-copy {
   text-rendering: optimizeLegibility;
   font-family: $helvetica;
-  letter-spacing: 0.0em;
-  word-spacing: 0.0em;
+  letter-spacing: 0em;
+  word-spacing: 0em;
   line-height: 1.352;
   font-size: var(--ms-2);
   font-feature-settings: "ss06"; // stem-less u
@@ -80,6 +80,10 @@ a {
   }
   h3 {
     padding-top: 1.25em;
+    font-weight: 300;
+    .is-windows & {
+      font-weight: 500;
+    }
   }
   p {
     font-weight: 300;
@@ -91,7 +95,8 @@ a {
   }
   a {
     text-decoration: underline;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       text-decoration: none;
       color: inherit;
     }
@@ -100,7 +105,7 @@ a {
 
 .thin {
   display: inline-block;
-  width: .2em;
+  width: 0.2em;
 }
 
 .everson-copy {
