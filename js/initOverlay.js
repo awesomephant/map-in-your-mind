@@ -1,5 +1,8 @@
 import { gri } from "./utils.js";
 
+let overlayCounter = 0;
+let overlayMax = 12;
+
 function clearOverlay() {
   const outer = document.querySelector(".site-overlays");
   document.body.classList.remove("overlay-active");
@@ -16,7 +19,9 @@ function addOverlayGlyph() {
   container.classList.add("overlay-image-container");
   container.style.left = `${gri(-10, 90)}%`;
   container.style.top = `${gri(-10, 90)}%`;
-  container.style.transform = `${angles[gri(0, angles.length)]}deg`;
+  container.style.transform = `scale(.1) rotate(${
+    angles[gri(0, angles.length)]
+  }deg)`;
 
   let img = document.createElement("img");
   img.classList.add("overlay-image");
@@ -26,15 +31,14 @@ function addOverlayGlyph() {
 }
 
 function initOverlay() {
-  const count = 15;
   window.idleSeconds = 0;
-  for (let i = 1; i < count; i++) {
-    addOverlayGlyph();
-  }
   const idleCounter = window.setInterval(function () {
     window.idleSeconds++;
     if (window.idleSeconds > 10) {
-      addOverlayGlyph();
+      overlayCounter++;
+      if (overlayCounter < overlayMax) {
+        addOverlayGlyph();
+      }
     }
   }, 1000);
 

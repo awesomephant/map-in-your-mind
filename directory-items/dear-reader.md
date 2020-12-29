@@ -20,3 +20,5 @@ This Octopus of Offshoots offshoot has been specially produced for the Launch at
 — Introduction excerpt
 
 Contributions and selected work: Adriaan van Leuven, Mariana Lobão, Oliver Boulton, Robert Milne, Line-Gry Hørup and Tabea Nixdorff.
+
+Related Project: [Octopus of Offshoots](/directory/#octopus-of-offshoots-program)

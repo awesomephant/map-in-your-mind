@@ -3,7 +3,6 @@
   mix-blend-mode: unset;
   z-index: 20000;
   pointer-events: none;
-  transform: scale(0.1);
   opacity: 0;
   transition: $fast;
   .overlay-active & {
