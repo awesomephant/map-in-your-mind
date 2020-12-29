@@ -19,17 +19,17 @@ module.exports = function (eleventyConfig) {
   console.log(`${replacements.data.length} text replacements found.`);
 
   eleventyConfig.addCollection("directory_item", function (collectionApi) {
-    return collectionApi.getFilteredByGlob(["./directory-items/*.md"]);
+    const items = collectionApi.getFilteredByGlob(["./directory-items/*.md"]);
     // Sort alphabetically
-    // let sorted = items.sort((a, b) => {
-    //   if (a.data.date < b.data.date) {
-    //     return 1;
-    //   } else if (a.data.date > b.data.date) {
-    //     return -1;
-    //   }
-    //   return 0;
-    // });
-    // return sorted;
+    let sorted = items.sort((a, b) => {
+      if (a.data.title.toLowerCase() < b.data.title.toLowerCase()) {
+        return -1;
+      } else if (a.data.title.toLowerCase() > b.data.title.toLowerCase()) {
+        return 1;
+      }
+      return 0;
+    });
+    return sorted;
   });
 
   eleventyConfig.addFilter("renderMarkdown", function (value) {
