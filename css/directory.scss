@@ -4,11 +4,7 @@
   .site-header {
     font-weight: 700;
     color: white;
-    background: linear-gradient(
-      to bottom,
-      $black 0%,
-      transparent 80%
-    );
+    background: linear-gradient(to bottom, $black 0%, transparent 80%);
   }
 }
 
@@ -23,7 +19,7 @@
   padding-bottom: 1.2rem;
   height: calc(100vh - 4em);
   z-index: 10000;
-  @include bp(l) {
+  @include bp(m) {
     top: 2rem;
     height: calc(100vh - 1.8em);
   }
@@ -85,11 +81,7 @@
     padding-bottom: 1.4em;
     padding-top: 1em;
     z-index: 10000;
-    background: linear-gradient(
-      to bottom,
-      $black 0%,
-      transparent 80%
-    );
+    background: linear-gradient(to bottom, $black 0%, transparent 80%);
     @include bp(m) {
       position: sticky;
       top: 0rem;
@@ -115,7 +107,8 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 1.5vw;
-  grid-auto-rows: min-content;
+  min-height: 100%;
+//  grid-auto-rows: min-content;
   padding-top: 3.7rem;
   padding-left: 2.5rem;
   padding-bottom: 1rem;
@@ -185,7 +178,7 @@
     position: absolute;
     width: 7vw;
     left: 0;
-    top: .4em;
+    top: 0.4em;
     z-index: 10000;
     pointer-events: none;
     transform: translateX(calc(-100% - 1.5vw));
@@ -194,5 +187,41 @@
 .thumbnail_landscape {
   .timeline--item--thumbnail {
     width: 14vw;
+  }
+}
+
+.related-projects {
+  font-family: $everson;
+  line-height: 1.18;
+  grid-column: 1 / 6;
+  margin-top: 3em;
+  margin-bottom: .5em;
+  font-size: var(--ms-0);
+  border: 1px solid white;
+  align-self: end;
+  @include bp(l){
+    grid-column: 1 / 4;
+  }
+  h3 {
+    border-bottom: 1px solid white;
+    padding: 0.5em;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.related-project {
+  padding: 0.5em;
+  border-bottom: 1px solid white;
+  display: block;
+  &:last-of-type {
+    border-bottom: 0;
+  }
+  &:hover {
+    color: $blue;
+  }
+  em {
+    display: block;
+    font-style: normal;
   }
 }

@@ -1,1 +1,22 @@
 {{content}}
+
+
+{% if related_projects %}
+<nav class="related-projects">
+    <h3>Related</h3>
+    {% for p in related_projects %}
+    {% for pr in collections.directory_item %}
+    {% if p == pr.data.title %}
+    <a href="#{{pr.data.title | slug}}" class="related-project">
+        <em>
+            {{pr.data.title}}
+        </em>
+        <span>
+            {{pr.data.subtitle}}
+        </span>
+    </a>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</nav>
+{% endif %}
