@@ -93,7 +93,8 @@ function initDirectory() {
 
   function fetchProjectBySlug(slug) {
     console.log(`fetching ${slug}`);
-    let item = getItemBySlug(slug);
+    const item = getItemBySlug(slug);
+    const nav = document.querySelector(".directory--nav") 
     container.classList.add("loading");
     fetch(`/directory-items/${slug}/index.html`)
     .then((response) => response.text())
@@ -103,6 +104,8 @@ function initDirectory() {
         //window.location.hash = slug;
         activeItem = item;
         item.classList.add("active");
+        console.log(item)
+        nav.scrollTo(0, item.offsetTop - 65)
         currentDirectoryItem.innerHTML = item.getAttribute("data-title");
         currentDirectoryItem.classList.add("active");
         let images = container.querySelectorAll("img");

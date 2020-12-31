@@ -47,6 +47,7 @@
 .directory--nav {
   grid-column: 1 / 13;
   @extend %hide-scrollbar;
+  scroll-behavior: smooth;
   color: white;
   ul {
     padding-bottom: 1rem;
