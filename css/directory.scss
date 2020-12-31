@@ -104,11 +104,15 @@
   @extend %hide-scrollbar;
 }
 .directory--entry--inner {
+  &.loading {
+    opacity: 0;
+  }
+  transition: 100ms;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 1.5vw;
   min-height: 100%;
-//  grid-auto-rows: min-content;
+  //  grid-auto-rows: min-content;
   padding-top: 3.7rem;
   padding-left: 2.5rem;
   padding-bottom: 1rem;
@@ -158,8 +162,9 @@
   font-size: var(--ms-0);
   cursor: pointer;
   position: relative;
-  &:hover,
-  &.active {
+  a:hover,
+  a:focus,
+  &.active a {
     color: $blue;
   }
   &.hidden {
@@ -195,11 +200,11 @@
   line-height: 1.18;
   grid-column: 1 / 6;
   margin-top: 3em;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   font-size: var(--ms-0);
   border: 1px solid white;
   align-self: end;
-  @include bp(l){
+  @include bp(l) {
     grid-column: 1 / 4;
   }
   h3 {

@@ -3,6 +3,7 @@ let spinner = {
   interval: 80,
   currentFrame: 0,
 };
+let activeItem = null;
 
 function initDirectoryFilters() {
   const items = document.querySelectorAll(".directory--item");
@@ -70,24 +71,36 @@ function getItemBySlug(slug) {
   return result;
 }
 
-function cycleSpinner() {}
-
 function initDirectory() {
-  const items = document.querySelectorAll(".directory--item");
   const container = document.querySelector(".directory--entry--inner");
   const currentDirectoryItem = document.querySelector(
     ".current-directory-item"
   );
-  let activeItem = null;
+
+  function initHashLinks(container) {
+    const links = container.querySelectorAll("a[href^='#']");
+    links.forEach((l) => {
+      l.addEventListener("click", (e) => {
+        //e.preventDefault();
+        const slug = l.getAttribute("href").replace("#", "");
+        if (activeItem) {
+          activeItem.classList.remove("active");
+        }
+        fetchProjectBySlug(slug);
+      });
+    });
+  }
 
   function fetchProjectBySlug(slug) {
     console.log(`fetching ${slug}`);
     let item = getItemBySlug(slug);
+    container.classList.add("loading");
     fetch(`/directory-items/${slug}/index.html`)
-      .then((response) => response.text())
-      .then((data) => {
+    .then((response) => response.text())
+    .then((data) => {
+        container.classList.remove("loading");
         container.innerHTML = data;
-        window.location.hash = slug;
+        //window.location.hash = slug;
         activeItem = item;
         item.classList.add("active");
         currentDirectoryItem.innerHTML = item.getAttribute("data-title");
@@ -119,22 +132,11 @@ function initDirectory() {
               }
             });
           });
+          initHashLinks(container)
         }
       });
   }
-
-  items.forEach((item) => {
-    item.addEventListener("click", (e) => {
-      // When the directory item is clicked,
-      // we're going to fetch the project's compiled HTML
-      // and dump it into the DOM
-      const slug = item.getAttribute("data-slug");
-      if (activeItem) {
-        activeItem.classList.remove("active");
-      }
-      fetchProjectBySlug(slug);
-    });
-  });
+  initHashLinks(document.querySelector(".directory--nav"));
   initDirectoryFilters();
   // This fires on load
   if (window.location.hash) {

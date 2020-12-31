@@ -35,7 +35,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("renderMarkdown", function (value) {
     return md.render(value);
   });
-
+  eleventyConfig.addFilter("slug", function (text) {
+    return text.toLowerCase().replace(/\W+/g, "-");
+  });
   eleventyConfig.addShortcode("fig", async function (url, alt, className) {
     let config = {
       widths: [1500],
