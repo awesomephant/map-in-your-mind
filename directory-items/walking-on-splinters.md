@@ -7,7 +7,6 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-walking-on-splinters-a5-fro
 ---
 
 {% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-front.png" "alt" "left" %}
-{% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-0.png" "alt" "" %}
 {% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-1.png" "alt" "" %}
 {% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-2.png" "alt" "" %}
 {% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-3.png" "alt" "" %}
