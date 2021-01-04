@@ -14,8 +14,8 @@
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-4.png",
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-5.png",
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-7.png",
-                "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-11.png",
-                "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-12.png"
+                "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-12.png",
+                "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-11.png"
             ]
         },
         {
@@ -23,7 +23,7 @@
             "directorySlug": "face-vol-4-issue5-winter-2020",
             "subtitle": "Vol. 4, Issue 5 Winter 2020",
             "copy": "Magazine\nPublisher: Wasted Talent Ltd, 2020\nDesign: Arun Gogna, Oliver Boulton\n\n[Purchase Here](https://theface.com/buy-magazine)\n\nStarring: Jorja Smith, Beabadoobee, Dominic Calvert-Lewin, Gabriel Krauze, Munya Chawawa, Ify Adenuga and Stormzy.\n\nSoftback, 288pp.\nOffset CMYK, spot UV, perfect bound, hot melt, 230 × 300mm\nISSN: 0263 1210",
-            "currentImage": [15, 0, 19],
+            "currentImage": [10, 13, 14, 0, 18],
             "images": [
                 "/assets/images/the-face/preview/oliver-boulton-the-face-front.png",
                 "/assets/images/the-face/preview/oliver-boulton-the-face-1.png",
@@ -131,7 +131,7 @@
         {
             "title": "Fine Art 16'",
             "subtitle": "Camberwell College of Art, University of the Arts London (UAL)",
-            "currentImage": [9],
+            "currentImage": [0, 8],
             "directorySlug": "fine-art-2016",
             "copy": "Catalogue\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boulton, Samuel Jones\nEditors:  Oliver Boulton, Kirsten Houser, Sam Jones\n\nContributions and selected work: Alice Theobald, Annette Robinson, Daniel Sturgis, Duncan Wooldridge, Neil Rumming, Paulina Korobkiewicz, Ruth Pilston, Griselda Pollock and the students of Drawing, Painting, Photography and Sculpture at Camberwell College of Arts.\n\nMonoprints by Will Asheton, Jack Ashley, Harry Badrick, Bình Hà, Vanessa Bizarri, Billy Crosby, Callum Farrell, Joy Finzi, Christina Goodall, Thomas Greig, Rebecca Guez, Melloney Harvey, Catherine Hulme, Becca James, Alice Muir, Ben Mullins, Oliver Newman, Tom Penney, Ruth Pilston, Josie Ralfs, Paulo Sousa, Halszka Staniewicz, Cat Thompson, Bethan Wilkins, Josh Wright and Rosie Wyllie.\n\nEdition of 1400, softback, 186pp.\nMonoprint, offset CMYK, PMS ×1, foil block ×1\nperfect bound, hot melt, 190 × 265mm\nISBN: 978-1-908971-47-0",
             "images": [
@@ -159,7 +159,7 @@
         {
             "title": "Walking on Splinters",
             "subtitle": "Oliver Boulton, WT Papier",
-            "currentImage": [0, 6],
+            "currentImage": [0, 5],
             "directorySlug": "walking-on-splinters",
             "copy": "Book\nPublisher: Werkplaats Typografie & WT Papier, 2016\nDesigner: Oliver Boulton\nEditors: Oliver Boulton, Sabo Day, Eloise Harris, Robert Milne\n\nContributions and selected work: Bas Jan Ader, David Bachelor, Josef Bauer, Christian Bök, Sophie Calle, Italo Calvino, Wim Crouwel, René Denizot, James Flint, Vilém Flusser, Paul Gangloff, Myles na gCopaleen (Brian O'Nolan), Dom Sylvester Houédard, Rosalind E. Krauss, François Le Lionnais, Dada Manifesto, Georges Perec, Francis Picabia, Matt Siber, Nicola Simpson, David Thorpe, Sol Le Witt and Thomas Zaunschirm\n\nEdition of 10, softback, 252pp.\nLaser, perfect bound, cold melt, 148 × 210mm",
             "images": [
