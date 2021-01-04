@@ -180,6 +180,10 @@
       opacity: 1;
     }
   }
+  &:last-of-type .timeline--item--thumbnail {
+    top: auto;
+    bottom: 0;
+  }
   .timeline--item--thumbnail {
     opacity: 0;
     position: absolute;
