@@ -113,7 +113,7 @@
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 1.5vw;
   min-height: 100%;
-  //  grid-auto-rows: min-content;
+  grid-auto-rows: min-content;
   padding-top: 3.7rem;
   padding-left: 2.5rem;
   padding-bottom: 1rem;
@@ -124,6 +124,7 @@
   .post-figure {
     grid-column: 1 / 6;
     display: flex;
+    align-items: flex-start;
     margin-bottom: var(--ms-0);
     &:last-child {
       margin-bottom: 0;
