@@ -3,20 +3,21 @@ const markdownIt = require("markdown-it");
 const replacements = require("./_data/replacements.json");
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
+const colors = require('colors');
 const md = new markdownIt({
   breaks: true,
 });
 
 if (process.env.NODE_ENV === "production") {
   console.log(
-    "Creating an optimised production build (This might take a while)"
+    "Creating an optimised production build (This might take a while)".green
   );
 } else {
-  console.log("Development mode, skipping time-consuming build steps.");
+  console.log("Development mode, skipping time-consuming build steps.".green);
 }
 
 module.exports = function (eleventyConfig) {
-  console.log(`${replacements.data.length} text replacements found.`);
+  console.log(`\n${replacements.data.length} text replacements found.\n`);
 
   eleventyConfig.addCollection("directory_item", function (collectionApi) {
     const items = collectionApi.getFilteredByGlob(["./directory-items/*.md"]);
@@ -51,7 +52,6 @@ module.exports = function (eleventyConfig) {
       },
     };
     if (process.env.NODE_ENV === "dev") {
-      //      console.log(`Skipping ${url}`);
       const extension = path.extname(url);
       const name = path.basename(url, extension);
       return `<picture class="post-figure ${className}">
@@ -60,54 +60,69 @@ module.exports = function (eleventyConfig) {
           alt="${alt}">
       </picture>`;
     } else {
-      console.log(`Processing ${url}`);
-      let metadata = await Image("." + url, config);
-      let fallback = metadata.png[0];
-      return `<picture class="post-figure ${className}">
+      console.log(`Processing figure ${url}`);
+      try {
+        let metadata = await Image("." + url, config);
+        let fallback = metadata.png[0];
+        return `<picture class="post-figure ${className}">
         ${Object.values(metadata)
-          .map((imageFormat) => {
-            return `<source type="image/${
-              imageFormat[0].format
-            }" srcset="${imageFormat
-              .map((entry) => entry.srcset)
-              .join(", ")}" sizes="100vw">`;
-          })
-          .join("\n")}
+            .map((imageFormat) => {
+              return `<source type="image/${imageFormat[0].format
+                }" srcset="${imageFormat
+                  .map((entry) => entry.srcset)
+                  .join(", ")}" sizes="100vw">`;
+            })
+            .join("\n")}
           <img
             src="${fallback.url}"
             alt="${alt}">
         </picture>`;
+      } catch (err) {
+        console.log(`${err}`.yellow)
+      }
     }
   });
 
   eleventyConfig.addShortcode("img", async function (src, width) {
-    let formats = ["png", "webp"];
     let config = {
       widths: [width],
-      formats: formats,
+      formats: ["png"],
       urlPath: "/assets/images/",
       outputDir: "./_site/assets/images/",
-      filenameFormat: function (id, src, width, format, options) {
+      filenameFormat: function (id, src, w, format, options) {
         const extension = path.extname(src);
         const name = path.basename(src, extension);
-        return `${name}-${width}w.${format}`;
+        if (width != null){
+          return `${name}-${w}w.${format}`;
+        } else {
+          return `${name}.${format}`;
+        }
       },
     };
     if (process.env.NODE_ENV === "dev") {
       //console.log(`Skipping ${src}`);
       const extension = path.extname(src);
       const name = path.basename(src, extension);
-      return `/assets/images/${name}-${width}w.png`;
-    } else {
-      console.log(`Processing ${src}`);
-      let metadata = await Image("." + src, config);
-      let data;
-      if (metadata.jpeg) {
-        data = metadata.jpeg.pop();
+      if (width != null){
+        return `/assets/images/${name}-${width}w.png`;
       } else {
-        data = metadata.png.pop();
+        return `/assets/images/${name}.png`;
       }
-      return data.url;
+    } else {
+      console.log(`Processing image ${src}`);
+      try {
+        let metadata = await Image("." + src, config);
+
+        //console.log(metadata)
+        let data;
+        if (metadata.png) {
+          data = metadata.png.pop();
+        }
+        return data.url;
+      } catch (err) {
+        console.log(`${err}`.yellow)
+        return ""
+      }
     }
   });
 
