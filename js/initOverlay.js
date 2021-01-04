@@ -19,9 +19,7 @@ function addOverlayGlyph() {
   container.classList.add("overlay-image-container");
   container.style.left = `${gri(-10, 90)}%`;
   container.style.top = `${gri(-10, 90)}%`;
-  container.style.transform = `scale(.1) rotate(${
-    angles[gri(0, angles.length)]
-  }deg)`;
+  container.style.transform = `scale(.1) rotate(${angles[gri(0, angles.length - 1)]}deg)`;
 
   let img = document.createElement("img");
   img.classList.add("overlay-image");
