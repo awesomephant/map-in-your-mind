@@ -4,6 +4,7 @@ subtitle: Oliver Boulton
 description: "Lightbox\nWerkplaats Typografie, Arnhem, (NL)\nVinyl on Plexiglass, 85 × 100cm, 2018"
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-the-way-a-map-in-your-mind-works-1.png"
-thumbnail_is_landscape: false
+thumbnail_is_landscape: true
 ---
-{% fig "/assets/images/map-in-your-mind/oliver-boulton-the-way-a-map-in-your-mind-works-2.png" "alt" "" %}
+{% fig "/assets/images/map-in-your-mind/oliver-boulton-the-way-a-map-in-your-mind-works-2.png" "alt" "big" %}
+{% fig "/assets/images/map-in-your-mind/oliver-boulton-the-way-a-map-in-your-mind-works-1.png" "alt" "big" %}

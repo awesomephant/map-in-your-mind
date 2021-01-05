@@ -11,8 +11,6 @@ thumbnail_is_landscape: false
 
 Into the Fold is a project that questions the ideology of the studio and gallery space, materialising in the form of an exhibition and publication through a temporary and spontaneous community of practice.
 
-This year Into the Fold brought together a diverse range of emerging and established creative practitioners and thinkers from the world of art and design. 
-
-Curated by Marios Stamatis and James Edgar
+Curated by Marios Stamatis and James Edgar; Into the Fold brought together a diverse range of emerging and established creative practitioners and thinkers from art and design. 
 
 Events and workshops by: Oliver Boulton, Edgar-Walker, Europa, Mattia Giussani, Sam Jones, Christopher Lacy, Vanessa Periam, Laure Prouvost, Flaminia Rossi, Eilis Searson, Caz Slattery, Harry Stayt and Konstantinos Trichas.

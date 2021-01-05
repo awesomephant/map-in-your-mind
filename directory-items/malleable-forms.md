@@ -5,6 +5,8 @@ description: "Artist Book\nSelf Published, 2015\nEdition of 100, softback, 28pp.
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-malleable-forms-2.png"
 thumbnail_is_landscape: true
+related_projects:
+    - Malleable Forms Print
 ---
 
 {% fig "/assets/images/malleable-forms/oliver-boulton-malleable-forms-front.png" "alt" "left" %}

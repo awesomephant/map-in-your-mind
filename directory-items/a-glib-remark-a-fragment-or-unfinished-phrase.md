@@ -26,4 +26,3 @@ thumbnail_is_landscape: true
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-16.png" "alt" "big" %}
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-17.png" "alt" "big" %}
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-18.png" "alt" "big" %}
-
