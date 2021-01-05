@@ -3,7 +3,7 @@ title: Into the Fold
 subtitle: Camberwell Space, University of the Arts London (UAL)
 description: "Identity\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boulton, Samuel Jones"
 layout: project
-thumbnail: "/assets/images/thumbnails/oliver-boulton-Into-the-fold-1.png"
+thumbnail: "/assets/images/thumbnails/oliver-boulton-Into-the-fold-thumb.png"
 thumbnail_is_landscape: false
 ---
 
