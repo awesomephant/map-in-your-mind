@@ -5,7 +5,8 @@ description: "Catalogue\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boult
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-fine-art-16-12.png"
 thumbnail_is_landscape: true
-related_projects: ["Fine Art 2015"]
+related_projects:
+    - Fine Art 2015
 ---
 
 {% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-front.png" "alt" "left" %}
@@ -25,6 +26,6 @@ Contributions and selected work: Alice Theobald, Annette Robinson, Daniel Sturgi
 
 Monoprints by Will Asheton, Jack Ashley, Harry Badrick, Bình Hà, Vanessa Bizarri, Billy Crosby, Callum Farrell, Joy Finzi, Christina Goodall, Thomas Greig, Rebecca Guez, Melloney Harvey, Catherine Hulme, Becca James, Alice Muir, Ben Mullins, Oliver Newman, Tom Penney, Ruth Pilston, Josie Ralfs, Paulo Sousa, Halszka Staniewicz, Cat Thompson, Bethan Wilkins, Josh Wright and Rosie Wyllie.
 
-Camberwell’s Fine Art programme is a set of four unique courses — in Drawing, Painting, Photography and Sculpture — which each equip students with a foundation built around specific histories, skills and traditions to question how contemporary art in all its forms is made, is understood, and is relevant to the contemporary world. —  Introduction excerpt
+Camberwell’s Fine Art programme is a set of four unique courses—in Drawing, Painting, Photography and Sculpture—which each equip students with a foundation built around specific histories, skills and traditions to question how contemporary art in all its forms is made, is understood, and is relevant to the contemporary world.—Introduction excerpt
 
 The monoprints were produced over a series of workshops with the Painting department at Camberwell College of Art. Four unique, painted prints are bound into each publication.

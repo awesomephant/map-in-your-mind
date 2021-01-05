@@ -5,6 +5,7 @@ description: "Artist Book\nPublisher: Camberwell Press, 2017\nDesign: Oliver Bou
 Edition of 150, softback, 45pp. + PVC dust jacket + insert\nIndigo, French fold, singer sewn, 249 × 320mm\nISBN: 978-1-908971-53-1"
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-perspectives-front.png"
+thumbnail_is_landscape: false
 ---
 {% fig "/assets/images/perspectives/oliver-boulton-perspectives-front.png" "alt" "" %}
 {% fig "/assets/images/perspectives/oliver-boulton-perspectives-1.png" "alt" "" %}

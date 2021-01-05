@@ -4,6 +4,10 @@ subtitle: Werkplaats Typografie Reader
 description: "Book\nPublisher: Werkplaats Typografie and ArtEZ Press, 2019\nDesign: Oliver Boulton, Adriaan Van Leuven\nEditors: Oliver Boulton, Adriaan van Leuven, Maxine Kopsa\nEdition of 400, softback, 240pp.\nOffset CMYK, perfect bound, cold melt, 230 × 300mm\nISBN: 978-9-49100-30-73"
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-octopus-of-offshoots-front.png"
+thumbnail_is_landscape: false
+related_projects:
+    - Dear Reader
+    - Octopus of Offshoots Program, Kunstverein Amsterdam
 ---
 {% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-front.png" "alt" "left" %}
 {% fig "/assets/images/octopus-of-offshoots/oliver-boulton-octopus-of-offshoots-1.png" "alt" "" %}

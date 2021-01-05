@@ -4,6 +4,7 @@ subtitle: Oliver Boulton
 description: "Essay\nDigital download, 6pp.\nDownloadable PDF"
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver_boulton-tour-of-the-mouths-of-chateau-rouge-front.jpg"
+thumbnail_is_landscape: false
 ---
 
 {% fig "/assets/images/tour-of-the-mouths-of-chateau-rouge/oliver_boulton-a-tour-of-the-mouths-of-chateau-rouge-front.jpg" "alt" "" %}

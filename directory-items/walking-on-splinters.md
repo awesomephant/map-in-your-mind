@@ -4,6 +4,7 @@ subtitle: Oliver Boulton, WT Papier
 description: "Book\nPublisher: Werkplaats Typografie, WT Papier, 2016\nDesign: Oliver Boulton\nEditors: Oliver Boulton, Sabo Day, Eloise Harris, Robert Milne\nLaser, perfect bound, cold melt, 148 × 210mm\nEdition of 10, softback, 126pp.\nLaser, perfect bound, cold melt, 210 × 297mm\nEdition of 10, softback, 252pp."
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-walking-on-splinters-a5-front.png"
+thumbnail_is_landscape: false
 ---
 
 {% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-front.png" "alt" "left" %}

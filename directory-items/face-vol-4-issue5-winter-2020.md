@@ -3,7 +3,8 @@ title: The Face Vol. 4, Issue 5 Winter 2020
 subtitle: The Face
 description: "Magazine\nPublisher: Wasted Talent Ltd, 2020\nDesign: Arun Gogna, Oliver Boulton\nSoftback, 288pp.\nOffset CMYK, spot UV\nPerfect bound, hot melt, 230 × 300mm\nISSN: 0263 1210"
 layout: project
-thumbnail: "/assets/images/the-face/oliver-boulton-the-face-14.png"
+thumbnail: "/assets/images/thumbnails/oliver-boulton-the-face-11.png"
+thumbnail_is_landscape: true
 ---
 
 {% fig "/assets/images/the-face/oliver-boulton-the-face-front.png" "alt" "left" %}
@@ -37,6 +38,6 @@ Headlining it all is our Winter Issue cover star, Jorja Smith. This summer, the 
 
 Someone said something in a meeting a few weeks ago that really stayed with me: ​“signal boost”. It’s not a new phrase by any means, long used by activists to describe the mechanics of sharing something to raise awareness. But it really tallied with what we’ve been trying to do at THE FACE since our relaunch last spring: taking ostensibly small stories and using them to tell big ideas. It was an effort started under the editorship of the outgoing Stuart Brumfitt, to whom we are incredibly thankful, and which we proudly continue here.
 
-As we approach winter, the number of signals in need of boosting is likely only to rise. If we can give you one constant going into 2021, it’s that you’ll continue to see them on the pages of this magazine – wherever you or they may be. For now, we hope you enjoy the issue.—Matthew Whitehouse, Editor
+As we approach winter, the number of signals in need of boosting is likely only to rise. If we can give you one constant going into 2021, it’s that you’ll continue to see them on the pages of this magazine–wherever you or they may be. For now, we hope you enjoy the issue.—Matthew Whitehouse, Editor
 
 Contributors: Avena Gallagher, Bolade Banjo, Cian Oba-Smith, Daisy Davidson, Danika Lawrence, Francis Plummer, Gabriel Krauze, Hanna Moon, Harley Weir, Hazel Gaskin, Heather Glazzard, Jodie Herbage, Joshua Virasami, Joyce Ng, Katsu Naito, Larissa Hofmann, Lauren Cochrane, Letty Schmiterlow, Linda Englehart, Liv Little, Marili Andre, Munya Chawawa, Natty Kasambala, Ondine Azoulay, Roe Ethridge, Stormzy, Tamara Rothstein, Tegen Williams, Theo Cottle, Thistle Brown, Tom Fletcher

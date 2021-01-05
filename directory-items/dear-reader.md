@@ -4,6 +4,10 @@ subtitle: Oliver Boulton, Adriaan van Leuven
 description: "Booklet\nPublisher: Werkplaats Typografie, 2019\nDesign: Adriaan Van Leuven, Oliver Boulton\nEdition of 50, 36pp\nDigital, saddle stitch, 120 × 235mm"
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-dear-reader-front.png"
+thumbnail_is_landscape: false
+related_projects:
+    - Octopus of Offshoots
+    - Octopus of Offshoots Program, Kunstverein Amsterdam
 ---
 {% fig "/assets/images/dear-reader/oliver-boulton-dear-reader-front.png" "alt" "left" %}
 
@@ -16,9 +20,6 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-dear-reader-front.png"
 {% fig "/assets/images/dear-reader/oliver-boulton-dear-reader-back.png" "alt" "left" %}
 
 Dear Reader,\
-This Octopus of Offshoots offshoot has been specially produced for the Launch at Kunstverein (Amsterdam) on the evening of Friday 31st of May. Contributors were invited to respond and further the expedition of Octopus of Offshoots; these new published texts will punctuate the evening’s proceedings—listen closely for readings from Adriaan van Leuven, Mariana Lobão, Oliver Boulton, Robert Milne, Line-Gry Hørup and Tabea Nixdorff.\
-— Introduction excerpt
+This Octopus of Offshoots offshoot has been specially produced for the Launch at Kunstverein (Amsterdam) on the evening of Friday 31st of May. Contributors were invited to respond and further the expedition of Octopus of Offshoots; these new published texts will punctuate the evening’s proceedings—listen closely for readings from Adriaan van Leuven, Mariana Lobão, Oliver Boulton, Robert Milne, Line-Gry Hørup and Tabea Nixdorff.— Introduction excerpt
 
 Contributions and selected work: Adriaan van Leuven, Mariana Lobão, Oliver Boulton, Robert Milne, Line-Gry Hørup and Tabea Nixdorff.
-
-Related Project: [Octopus of Offshoots](/directory/#octopus-of-offshoots-program)

@@ -4,6 +4,7 @@ subtitle: Camberwell Space Projects
 description: "Exhibition Leaflet\nPublisher: Camberwell Press, 2015\nDesign: Oliver Boulton\nEdition of 400, 2pp.\nOffset PMS ×2, folded, 420 × 594mm"
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-walking-through-fiction-1.png"
+thumbnail_is_landscape: false
 ---
 
 {% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-1.png" "alt" "left" %}

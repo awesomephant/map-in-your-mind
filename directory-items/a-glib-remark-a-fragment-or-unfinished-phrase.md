@@ -4,6 +4,8 @@ subtitle: Oliver Boulton
 description: "Sculpture\nSteel, 100 × 20mm, 2018"
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-meter-limb-1.png"
+thumbnail_is_landscape: true
+
 ---
 
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-1.png" "alt" "big" %}
