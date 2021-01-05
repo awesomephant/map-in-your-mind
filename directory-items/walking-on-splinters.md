@@ -24,13 +24,13 @@ Walking on Splinters was first published in 2004 by Werkplaats Typografie, edite
 
 On the occasion of the launch of WT Papier at MOMA PS1, the book was re-worked with content removed, added, chopped and changed to form a collection of personally subject specific content. WT Papier was initiated by Sabo Day, Eloise Harris and Robert Milne. — Introduction excerpt<br><br>
 
-{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-front.png" "alt" "left" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-front.png" "alt" "big" %}
 
-{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-1.png" "alt" "" %}
-{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-2.png" "alt" "" %}
-{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-3.png" "alt" "" %}
-{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-4.png" "alt" "" %}
-{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-5.png" "alt" "" %}
-{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-6.png" "alt" "" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-1.png" "alt" "big" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-2.png" "alt" "big" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-3.png" "alt" "big" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-4.png" "alt" "big" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-5.png" "alt" "big" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-6.png" "alt" "big" %}
 
-{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-back.png" "alt" "left" %}
+{% fig "/assets/images/walking-on-splinters-a4/oliver-boulton-walking-on-splinters-a4-back.png" "alt" "big" %}

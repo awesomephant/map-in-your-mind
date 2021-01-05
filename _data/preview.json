@@ -118,14 +118,15 @@
         {
             "title": "Guttural Flex [echo]",
             "subtitle": "Oliver Boulton",
-            "currentImage": [0, 3],
+            "currentImage": [0, 5],
             "directorySlug": "guttural-flex-echo",
             "copy": "Sculpture\nExhibition: As Nostalgia Meets Time-Pressure\nMediamatic, Netherlands, 2018\n\nAcrylic on Steel, Variable Dimensions\nPhotographs by Franziska Schulz",
             "images": [
                 "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-1.png",
                 "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-2.png",
                 "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-3.png",
-                "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-4.png"
+                "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-4.png",
+                "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-6.png"
             ]
         },
         {

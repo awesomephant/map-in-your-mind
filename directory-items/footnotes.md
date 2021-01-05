@@ -3,7 +3,7 @@ title: Footnotes
 subtitle: Oliver Boulton
 description: "Essay\nPublisher: Revue Diorama (No.2, Geometric City), 2020\nDesign: Oliver Boulton\nDigital download, 7pp.\nDownloadable PDF\nRevue Diorama (No.2, Geometric City)\nEditors & Designers: Marie-mam Sai, Guillaume Sbalchiero\nOffset CMYK, 280 × 210.\nISSN: 2679-8980"
 layout: project
-thumbnail: "/assets/images/thumbnails/oliver-boulton-footnotes-front.jpg"
+thumbnail: "/assets/images/thumbnails/oliver-boulton-footnotes-diorama.png"
 thumbnail_is_landscape: false
 related_projects:
 
