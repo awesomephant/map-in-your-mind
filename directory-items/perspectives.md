@@ -18,4 +18,7 @@ thumbnail_is_landscape: false
 
 There is a dynamism beaming throughout the book, as the corners of images spill onto following pages, echoing the meandering of city streets. The viewer is guided on a tour of housing blocks, steered along a series of steps, elevations, platforms, and balconies. Familiar landscapes are intensified through repetition and sequencing, injecting the pages with movement. Perspectives decodes the classical method of studying images – the focus is not on the individual image, but rather a collective series.
 Korobkiewicz argues, “the book is intended to extend the viewer’s experience of viewing the photographs featured inside it.” Compiled of segments from all the images inside the book, the cover possesses a ‘step-like’ quality. Architectural nuances embedded in the book’s format shift the viewer from simply observing the images to interacting with them, retracing the steps and paths of the everyday.
-— Press release by Maggie Kuzan, London 2017.
+— Press release, Maggie Kuzan, London 2017.
+
+{% fig "/assets/images/perspectives/oliver-boulton-perspectives-invite.gif" "alt" "" %}
+

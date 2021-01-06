@@ -5,6 +5,8 @@ description: "Identity\nPublisher: Camberwell Press, 2016\nDesign: Oliver Boulto
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-Into-the-fold-thumb.png"
 thumbnail_is_landscape: false
+related_projects: 
+    - Particitype
 ---
 
 {% fig "/assets/images/into-the-fold/oliver-boulton-Into-the-fold-1.png" "alt" "" %}
