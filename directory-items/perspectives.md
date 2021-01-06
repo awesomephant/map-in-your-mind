@@ -6,6 +6,10 @@ Edition of 150, softback, 45pp. + PVC dust jacket + insert\nIndigo, French fold,
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-perspectives-front.png"
 thumbnail_is_landscape: false
+related_projects:
+    - Camberwell Book Prize
+    - Off the Sixth Ring of North Beijing I Arrive in Guangdong
+    - Top/Top
 ---
 {% fig "/assets/images/perspectives/oliver-boulton-perspectives-front.png" "alt" "" %}
 {% fig "/assets/images/perspectives/oliver-boulton-perspectives-1.png" "alt" "" %}

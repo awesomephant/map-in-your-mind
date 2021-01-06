@@ -5,6 +5,10 @@ description: "Artist Edition\nPublisher: University of the Arts London (UAL), 20
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-An-Englishman-Abroad-front.png"
 thumbnail_is_landscape: false
+related_projects:
+    - Camberwell Book Prize
+    - Perspectives
+    - Top/Top
 ---
 
 Apologies, file yet to be processed.
