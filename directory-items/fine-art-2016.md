@@ -13,7 +13,6 @@ related_projects:
 {% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-1.png" "alt" "" %}
 {% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-2.png" "alt" "" %}
 {% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-3.png" "alt" "" %}
-{% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-5.png" "alt" "" %}
 {% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-7.png" "alt" "" %}
 {% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-6.png" "alt" "" %}
 {% fig "/assets/images/fine-art-16/oliver-boulton-fine-art-16-14.png" "alt" "" %}

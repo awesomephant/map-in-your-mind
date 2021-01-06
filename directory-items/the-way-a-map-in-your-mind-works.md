@@ -7,4 +7,3 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-the-way-a-map-in-your-mind-
 thumbnail_is_landscape: true
 ---
 {% fig "/assets/images/map-in-your-mind/oliver-boulton-the-way-a-map-in-your-mind-works-2.png" "alt" "big" %}
-{% fig "/assets/images/map-in-your-mind/oliver-boulton-the-way-a-map-in-your-mind-works-1.png" "alt" "big" %}

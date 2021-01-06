@@ -3,7 +3,7 @@ title: Malleable Forms
 subtitle: Oliver Boulton
 description: "Artist Book\nSelf Published, 2015\nEdition of 100, softback, 28pp. + insert\nIndigo, embossed, letterpress printed insert\npamphlet stitch, 185 × 255mm"
 layout: project
-thumbnail: "/assets/images/thumbnails/oliver-boulton-malleable-forms-2.png"
+thumbnail: "/assets/images/thumbnails/oliver-boulton-malleable-forms-thumbnail.png"
 thumbnail_is_landscape: true
 related_projects:
     - Malleable Forms Print
