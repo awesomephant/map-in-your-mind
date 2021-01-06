@@ -86,13 +86,13 @@
 
 .info--colophon {
   grid-column: 1 / 13;
-  line-height: 1.1;
+  line-height: calc(var(--ms--1)*1.2);
   font-size: var(--ms-0);
   position: relative;
   top: -0.2em;
   z-index: 10000;
   .colophon--inner {
-    font-size: var(--ms--1);
+    font-size: calc(var(--ms--1)*.95);
   }
   @include bp(m) {
     grid-column: 1 / 6;

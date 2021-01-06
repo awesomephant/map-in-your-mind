@@ -95,6 +95,7 @@ a {
   }
   a {
     text-decoration: underline;
+    font-weight: inherit;
     &:hover,
     &:focus {
       text-decoration: none;
