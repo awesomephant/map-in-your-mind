@@ -37,7 +37,7 @@ module.exports = function (eleventyConfig) {
     return md.render(value);
   });
   eleventyConfig.addFilter("slug", function (text) {
-    return text.toLowerCase().replace(/\W+/g, "-");
+    return text.toLowerCase().replace(/\W+/g, "-").replace(/-\B/g, "");
   });
   eleventyConfig.addShortcode("fig", async function (url, alt, className) {
     let config = {
