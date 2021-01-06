@@ -5,6 +5,10 @@ description: "Artist Book\nPublisher: Camberwell Press, 2015\nDesign: Oliver Bou
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-top-top-front.png"
 thumbnail_is_landscape: false
+related_projects:
+    - Camberwell Book Prize
+    - Off the Sixth Ring of North Beijing I Arrive in Guangdong
+    - Perspectives
 ---
 
 {% fig "/assets/images/top-top/oliver-boulton-top-top-front-1.png" "alt" "left" %}
