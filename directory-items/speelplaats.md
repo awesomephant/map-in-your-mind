@@ -9,6 +9,7 @@ related_projects:
     - Octopus of Offshoots
     - Octopus of Offshoots Program, Kunstverein Amsterdam
     - Dear Reader
+footer: "LAST UPDATED: Your mums birthday"
 ---
 {% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-1.jpg" "alt" "" %}
 {% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-3.png" "alt" "" %}

@@ -21,3 +21,7 @@ The publication accompanies the opening of Pentagon Petal. This installation pro
 From solitary confinement, to the military organisation of a group as a single unit to today’s neoliberal forms of sociability, the social history of the Rootstein Hopkins Parade Ground represents a cross section through architecture’s power to orchestrate social modes.
 
 Titling typeset in Caslon Egyptian, lent by John Morgan Studio. A digital interpretation of the first acknowledged sans serif typeface designed in 1816, the same year the Millbank Prison took its first prisoners.
+
+{% footer %}
+LAST UPDATED: Your mums birthday
+{% endfooter %}

@@ -59,13 +59,14 @@
   letter-spacing: 0.05em;
   cursor: pointer;
   display: none;
-  @include bp(m){
+  @include bp(m) {
     display: none !important;
   }
   .entry-is-open & {
     display: block;
   }
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     outline: none;
     color: $blue;
   }
@@ -152,15 +153,13 @@
   }
 }
 .directory--entry--inner {
+  display: flex;
+  flex-flow: column;
   &.loading {
     opacity: 0;
   }
   transition: 100ms;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-column-gap: 1.5vw;
   min-height: 100%;
-  grid-auto-rows: min-content;
   font-size: var(--ms-1);
   padding-bottom: 1em;
   color: white;
@@ -226,6 +225,25 @@
   }
 }
 
+.entry--content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 1.5vw;
+  grid-auto-rows: min-content;
+}
+
+.entry--footer {
+  @extend .everson-copy;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
+
+.footer--note {
+  margin-top: 1em;
+}
+
 .directory--item {
   list-style: none;
   font-size: var(--ms-0);
@@ -275,12 +293,11 @@
 .related-projects {
   font-family: $everson;
   line-height: 1.18;
-  grid-column: 1 / 6;
+  max-width: 30em;
   margin-top: 1em;
-  margin-bottom: .1em;
+  margin-bottom: 0.1em;
   font-size: var(--ms-0);
   border: 1px solid white;
-  align-self: end;
   @include bp(l) {
     grid-column: 1 / 5;
   }
