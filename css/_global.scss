@@ -82,10 +82,6 @@ a {
   @include bp(m) {
     hyphens: none;
   }
-  p + p {
-    padding-top: 0.6em;
-    //text-indent: 3em;
-  }
   h3 {
     padding-top: 1.25em;
     font-weight: 300;
@@ -99,10 +95,14 @@ a {
   p {
     font-weight: 300;
     max-width: 40em;
+    margin-bottom: .6em;
     // Need to go up a weight in windows
     // because font rendering issues
     .is-windows & {
       font-weight: 500;
+    }
+    &:last-of-type {
+      margin-bottom: 0;
     }
   }
   a {
