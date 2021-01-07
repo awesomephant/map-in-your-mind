@@ -17,8 +17,8 @@ function addOverlayGlyph() {
   const angles = [-180, -90, -45, 0, 45, 90, 180];
   let container = document.createElement("div");
   container.classList.add("overlay-image-container");
-  container.style.left = `${gri(-10, 90)}%`;
-  container.style.top = `${gri(-10, 90)}%`;
+  container.style.left = `${gri(-25, 60)}vw`;
+  container.style.top = `${gri(-25, 60)}vh`;
   container.style.transform = `scale(.1) rotate(${angles[gri(0, angles.length - 1)]}deg)`;
 
   let img = document.createElement("img");
@@ -50,6 +50,14 @@ function initOverlay() {
   window.addEventListener("touchstart", () => {
     clearOverlay();
   });
+
+  if (sessionStorage.getItem("hasSeenOverlay") === "true") {
+  } else {
+    for (let i = 0; i < overlayMax; i++) {
+      addOverlayGlyph()
+    }
+    sessionStorage.setItem("hasSeenOverlay", "true")
+  }
 }
 
 export default initOverlay;

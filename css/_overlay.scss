@@ -1,5 +1,5 @@
 .overlay-image-container {
-  position: fixed;
+  position: absolute;
   mix-blend-mode: unset;
   z-index: 20000;
   pointer-events: none;
@@ -16,4 +16,13 @@
 }
 .overlay-image {
   filter: brightness(1);
+}
+
+.site-overlays {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
