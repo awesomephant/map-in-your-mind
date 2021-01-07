@@ -93,6 +93,9 @@ a {
       font-weight: 500;
     }
   }
+  .caps {
+    letter-spacing: .01em;
+  }
   p {
     font-weight: 300;
     max-width: 40em;
@@ -114,10 +117,16 @@ a {
 
 .thin {
   display: inline-block;
-  width: 0.2em;
+  width: 0.15em;
 }
 
 .everson-copy {
   font-size: var(--ms-0);
   line-height: 1.18;
+  .mm, .pp {
+    margin-right: .055em;
+  }
+  .caps {
+    letter-spacing: .045em;
+  }
 }

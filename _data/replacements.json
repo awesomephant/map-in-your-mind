@@ -27,6 +27,18 @@
         {
             "search": "(—)",
             "replace": "<i class='thin'></i>—<i class='thin'></i>"
+        },
+        {
+            "search": "[A-Z]{2,}(?![\\S\\s]+<\/head>)",
+            "replace": "<span class='caps'>$&</span>"
+        },
+        {
+            "search": "[0-9]+(?=pp)",
+            "replace": "<span class='pp'>$&</span>"
+        },
+        {
+            "search": "[0-9]+(?=mm)",
+            "replace": "<span class='mm'>$&</span>"
         }
     ]
 }
