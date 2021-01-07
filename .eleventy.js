@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("fig", async function (url, alt, className) {
     let config = {
       widths: [1500],
-      formats: ["webp", "png"],
+      formats: [null],
       urlPath: "/assets/images/",
       outputDir: "./_site/assets/images/",
       filenameFormat: function (id, src, width, format, options) {
@@ -52,18 +52,26 @@ module.exports = function (eleventyConfig) {
       },
     };
     if (process.env.NODE_ENV === "dev") {
-      const extension = path.extname(url);
+      let extension = path.extname(url);
       const name = path.basename(url, extension);
+      if (extension === ".jpg"){
+        extension = ".jpeg"
+      }
       return `<picture class="post-figure ${className}">
         <img
-          src="/assets/images/${name}.webp"
+          src="/assets/images/${name}${extension}"
           alt="${alt}">
       </picture>`;
     } else {
       console.log(`Processing figure ${url}`);
       try {
         let metadata = await Image("." + url, config);
-        let fallback = metadata.png[0];
+        let fallback = ""
+        if (metadata.png){
+         fallback = metadata.png[0];
+        } else if (metadata.jpg){
+          fallback = metadata.jpg[0];
+        }
         return `<picture class="post-figure ${className}">
         ${Object.values(metadata)
             .map((imageFormat) => {
@@ -141,6 +149,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./*.xml");
   eleventyConfig.addPassthroughCopy("./assets/fonts/");
   eleventyConfig.addPassthroughCopy("./assets/favicons/");
+
+  // Sharp doesn't support animated gifs, so we're going to copy them through unchanged
+  eleventyConfig.addPassthroughCopy("./assets/images/**/**.gif");
 
   eleventyConfig.addWatchTarget("./dist/main.js");
   eleventyConfig.addWatchTarget("./css/**.scss");

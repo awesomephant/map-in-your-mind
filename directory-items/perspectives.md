@@ -24,5 +24,5 @@ There is a dynamism beaming throughout the book, as the corners of images spill 
 Korobkiewicz argues, “the book is intended to extend the viewer’s experience of viewing the photographs featured inside it.” Compiled of segments from all the images inside the book, the cover possesses a ‘step-like’ quality. Architectural nuances embedded in the book’s format shift the viewer from simply observing the images to interacting with them, retracing the steps and paths of the everyday.
 — Press release, Maggie Kuzan, London 2017.
 
-{% fig "/assets/images/perspectives/oliver-boulton-perspectives-invite.gif" "alt" "" %}
+![alt text here](/assets/images/perspectives/oliver-boulton-perspectives-invite.gif)
 

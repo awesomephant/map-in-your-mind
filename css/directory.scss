@@ -86,7 +86,7 @@
     }
   }
   @include bp(m) {
-    padding-top: calc(#{$baseline} *1);
+    padding-top: 0;
     grid-column: 7 / 13;
     grid-row: span 2;
     height: 100vh;
@@ -162,11 +162,10 @@
   min-height: 100%;
   grid-auto-rows: min-content;
   font-size: var(--ms-1);
-  padding-bottom: 1rem;
+  padding-bottom: 1em;
   color: white;
   padding-top: 6em;
   @include bp(m) {
-    padding-bottom: 0;
     padding-right: 0;
     padding-top: 3.8em;
     padding-left: 2.5rem;
@@ -278,7 +277,7 @@
   line-height: 1.18;
   grid-column: 1 / 6;
   margin-top: 1em;
-  margin-bottom: 0.3em;
+  margin-bottom: .1em;
   font-size: var(--ms-0);
   border: 1px solid white;
   align-self: end;
