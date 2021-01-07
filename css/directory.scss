@@ -13,16 +13,12 @@
   justify-content: space-between;
   flex-flow: column;
   display: none;
-  top: 2rem;
+  top: 0;
   left: 2rem;
-  padding-top: 1.6rem;
-  padding-bottom: 1.2rem;
-  height: calc(100vh - 4em);
+  padding-top: calc(var(--ms-0) * 4);
+  padding-bottom: calc(var(--ms-0) * 1);
   z-index: 10000;
-  @include bp(m) {
-    top: 2rem;
-    height: calc(100vh - 1.8em);
-  }
+  height: 100vh;
   @media (min-height: 40rem) {
     display: flex;
   }
@@ -114,7 +110,8 @@
   grid-column-gap: 1.5vw;
   min-height: 100%;
   grid-auto-rows: min-content;
-  padding-top: 3.7rem;
+  font-size: var(--ms-1);
+  padding-top: 3.8em;
   padding-left: 2.5rem;
   padding-bottom: 1rem;
   color: white;
@@ -215,7 +212,7 @@
   line-height: 1.18;
   grid-column: 1 / 6;
   margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.3em;
   font-size: var(--ms-0);
   border: 1px solid white;
   align-self: end;
@@ -228,6 +225,10 @@
   }
   a {
     text-decoration: none;
+    color: white;
+    &:hover, &:focus {
+      color: $blue;
+    }
   }
 }
 .related-project {
