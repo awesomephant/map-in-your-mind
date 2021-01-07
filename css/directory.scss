@@ -1,6 +1,8 @@
 .directory {
   background: $black;
-  overflow-y: hidden;
+  @include bp(m) {
+    overflow-y: hidden;
+  }
   .site-header {
     font-weight: 700;
     color: white;
@@ -20,7 +22,9 @@
   z-index: 10000;
   height: 100vh;
   @media (min-height: 40rem) {
-    display: flex;
+    @include bp(m) {
+      display: flex;
+    }
   }
   button {
     text-align: left;
@@ -40,11 +44,41 @@
   }
 }
 
+.close-entry {
+  position: fixed;
+  top: 1rem;
+  z-index: 5000;
+  right: 1rem;
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: $everson;
+  text-transform: uppercase;
+  font-size: var(--ms-0);
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  display: none;
+  @include bp(m){
+    display: none !important;
+  }
+  .entry-is-open & {
+    display: block;
+  }
+  &:hover, &:focus {
+    outline: none;
+    color: $blue;
+  }
+}
+
 .directory--nav {
-  grid-column: 1 / 13;
   @extend %hide-scrollbar;
+  grid-column: 1 / 13;
   scroll-behavior: smooth;
   color: white;
+  grid-row: 1;
+  height: auto;
+  padding-top: calc(#{$baseline} * 2.6);
   ul {
     padding-bottom: 1rem;
     &:last-of-type {
@@ -52,6 +86,7 @@
     }
   }
   @include bp(m) {
+    padding-top: calc(#{$baseline} *1);
     grid-column: 7 / 13;
     grid-row: span 2;
     height: 100vh;
@@ -94,11 +129,27 @@
   }
 }
 .directory--entry {
-  grid-column: 1 / 7;
+  grid-column: 1 / 13;
   overflow-y: scroll;
   height: 100vh;
   grid-row: 1;
   @extend %hide-scrollbar;
+  z-index: 1000;
+  background-color: $black;
+  position: fixed;
+  opacity: 0;
+  transition-delay: 100ms;
+  pointer-events: none;
+  width: calc(100% - 2rem);
+  .entry-is-open & {
+    pointer-events: all;
+    opacity: 1;
+  }
+  @include bp(m) {
+    width: 100%;
+    position: static;
+    grid-column: 1 / 7;
+  }
 }
 .directory--entry--inner {
   &.loading {
@@ -111,12 +162,19 @@
   min-height: 100%;
   grid-auto-rows: min-content;
   font-size: var(--ms-1);
-  padding-top: 3.8em;
-  padding-left: 2.5rem;
   padding-bottom: 1rem;
   color: white;
+  padding-top: 6em;
+  @include bp(m) {
+    padding-right: 0;
+    padding-top: 3.8em;
+    padding-left: 2.5rem;
+  }
   p {
-    grid-column: 1 / 6;
+    grid-column: 1 / 7;
+    @include bp(m) {
+      grid-column: 1 / 6;
+    }
   }
   a {
     color: $blue;
@@ -128,7 +186,10 @@
   }
 
   .post-figure {
-    grid-column: 1 / 6;
+    grid-column: 1 / 7;
+    @include bp(m) {
+      grid-column: 1 / 6;
+    }
     display: flex;
     align-items: flex-start;
     margin-bottom: var(--ms-0);
@@ -191,6 +252,10 @@
     bottom: 0;
   }
   .timeline--item--thumbnail {
+    display: none;
+    @include bp(m) {
+      display: block;
+    }
     opacity: 0;
     position: absolute;
     width: 7vw;
@@ -226,7 +291,8 @@
   a {
     text-decoration: none;
     color: white;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       color: $blue;
     }
   }

@@ -34,9 +34,11 @@ window.addEventListener("DOMContentLoaded", () => {
     // UA-Sniffing to adjust for font rendering
     document.body.classList.add("is-windows");
   }
-  initHome();
   setFavicon();
   initOverlay();
+  if (document.body.classList.contains("home")) {
+    initHome();
+  }
   if (document.body.classList.contains("directory")) {
     initDirectory();
   }

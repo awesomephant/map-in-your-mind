@@ -75,11 +75,21 @@ function getItemBySlug(slug) {
   return result;
 }
 
+function initCloseButton() {
+  const closeButton = document.querySelector(".close-entry")
+  const container = document.querySelector(".directory--entry--inner");
+  closeButton.addEventListener("click", e => {
+    document.body.classList.remove("entry-is-open");
+    container.classList.add("loading");
+  })
+}
+
 function initDirectory() {
   const container = document.querySelector(".directory--entry--inner");
   const currentDirectoryItem = document.querySelector(
     ".current-directory-item"
   );
+  initCloseButton();
 
   function initHashLinks(container) {
     const links = container.querySelectorAll("a[href^='#']");
@@ -100,15 +110,14 @@ function initDirectory() {
     const item = getItemBySlug(slug);
     const nav = document.querySelector(".directory--nav")
     container.classList.add("loading");
+    document.body.classList.add("entry-is-open");
     fetch(`/directory-items/${slug}/index.html`)
       .then((response) => response.text())
       .then((data) => {
         container.classList.remove("loading");
         container.innerHTML = data;
-        //window.location.hash = slug;
         activeItem = item;
         item.classList.add("active");
-        console.log(item)
         nav.scrollTo(0, item.offsetTop - 65)
         currentDirectoryItem.innerHTML = item.getAttribute("data-title");
         currentDirectoryItem.classList.add("active");
