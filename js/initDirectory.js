@@ -31,7 +31,11 @@ function initDirectoryFilters() {
       items.forEach((item) => {
         if (currentFilter.length > 0) {
           item.classList.remove("hidden");
-          if (currentFilter.includes(item.innerText.toLowerCase()[0])) {
+          const re = /\b(an?)\b|(the)/gi;
+          const title = item.querySelector("h3").innerText.replace(re, "").trim()
+          const subtitle = item.querySelector("h4").innerText.replace(re, "").trim()
+          console.log(title)
+          if (currentFilter.includes(title.toLowerCase()[0]) || currentFilter.includes(subtitle.toLowerCase()[0])) {
             item.classList.remove("hidden");
           } else {
             item.classList.add("hidden");
@@ -94,11 +98,11 @@ function initDirectory() {
   function fetchProjectBySlug(slug) {
     console.log(`fetching ${slug}`);
     const item = getItemBySlug(slug);
-    const nav = document.querySelector(".directory--nav") 
+    const nav = document.querySelector(".directory--nav")
     container.classList.add("loading");
     fetch(`/directory-items/${slug}/index.html`)
-    .then((response) => response.text())
-    .then((data) => {
+      .then((response) => response.text())
+      .then((data) => {
         container.classList.remove("loading");
         container.innerHTML = data;
         //window.location.hash = slug;
