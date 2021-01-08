@@ -5,11 +5,11 @@ description: "Workshop\nChelsea College of Arts, Typography Summer School, 2016\
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-up-across-and-along-1.png"
 thumbnail_is_landscape: false
-footer: "Last update: 08-01-21/20:21:37"
+footer: "Last update: 08-01-21/13:23:14"
 ---
 {% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-1.png" "alt" "big" %}
 {% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-2.png" "alt" "big" %}
 {% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-3.png" "alt" "big" %}
 {% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-4.png" "alt" "big" %}
 {% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-5.png" "alt" "big" %}
-{% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-6.png" "alt" "big" %}
+{% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-7.png" "alt" "big" %}
