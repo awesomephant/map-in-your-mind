@@ -7,6 +7,7 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-fine-art-15-front.png"
 thumbnail_is_landscape: false
 related_projects: 
     - Fine Art 2016
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/fine-art-15/oliver-boulton-fine-art-15-front.png" "alt" "left" %}

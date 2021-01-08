@@ -8,6 +8,7 @@ thumbnail_is_landscape: false
 related_projects:
     - Octopus of Offshoots
     - Octopus of Offshoots Program, Kunstverein Amsterdam
+footer: "Last update: 08-01-21/20:21:37"
 ---
 {% fig "/assets/images/dear-reader/oliver-boulton-dear-reader-front.png" "alt" "left" %}
 

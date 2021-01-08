@@ -10,6 +10,7 @@ related_projects:
     - Camberwell Book Prize
     - Off the Sixth Ring of North Beijing I Arrive in Guangdong
     - Top/Top
+footer: "Last update: 08-01-21/20:21:37"
 ---
 {% fig "/assets/images/perspectives/oliver-boulton-perspectives-front.png" "alt" "" %}
 {% fig "/assets/images/perspectives/oliver-boulton-perspectives-1.png" "alt" "" %}

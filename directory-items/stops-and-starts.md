@@ -5,4 +5,5 @@ description: "Poster template, Workshop program\nDesign, Edited: Oliver Boulton\
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-An-Englishman-Abroad-front.png"
 thumbnail_is_landscape: false
+footer: "Last update: 08-01-21/20:21:37"
 ---

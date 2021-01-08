@@ -6,6 +6,7 @@ layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-footnotes-diorama.png"
 thumbnail_is_landscape: true
 related_projects:
+footer: "Last update: 08-01-21/20:21:37"
 
 ---
 

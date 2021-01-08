@@ -7,6 +7,7 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-guttural-flex-5.png"
 thumbnail_is_landscape: false
 related_projects: 
     - Guttural Flex [echo]
+footer: "Last update: 08-01-21/20:21:37"
 ---
 {% fig "/assets/images/guttural-flex/oliver-boulton-guttural-flex-1.png" "alt" "big" %}
 {% fig "/assets/images/guttural-flex/oliver-boulton-guttural-flex-8.png" "alt" "" %}

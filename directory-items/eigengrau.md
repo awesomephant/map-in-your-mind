@@ -5,6 +5,7 @@ description: "Artist Book\nPublisher: Werkplaats Typografie, 2017\nEditing & Des
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-eigengrau-front.png"
 thumbnail_is_landscape: false
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/eigengrau/oliver-boulton-eigengrau-front.png" "alt" "left" %}

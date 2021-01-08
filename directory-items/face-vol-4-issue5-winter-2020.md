@@ -5,6 +5,7 @@ description: "Magazine\nPublisher: Wasted Talent Ltd, 2020\nDesign: Arun Gogna, 
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-the-face-11.png"
 thumbnail_is_landscape: true
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/the-face/oliver-boulton-the-face-front.png" "alt" "left" %}

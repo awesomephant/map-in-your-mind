@@ -7,6 +7,7 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-Into-the-fold-thumb.png"
 thumbnail_is_landscape: false
 related_projects: 
     - Particitype
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/into-the-fold/oliver-boulton-Into-the-fold-1.png" "alt" "" %}

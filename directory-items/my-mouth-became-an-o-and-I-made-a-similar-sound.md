@@ -5,6 +5,7 @@ description: "Essay\nKunstverein, Amsterdam, (NL), 2019\nSubaru, Montreuil, (FR)
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-front.jpg"
 thumbnail_is_landscape: false
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-front.jpg" "alt" "" %}

@@ -5,6 +5,7 @@ description: "Booklet, Flyer, Website\nPublisher: Camberwell Press, 2016\nDesign
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-pentagon-petal-front.png"
 thumbnail_is_landscape: false
+footer: "Last update: 08-01-21/20:21:37"
 ---
 {% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-front.png" "alt" "left" %}
 {% fig "/assets/images/pentagon-petal/oliver-boulton-pentagon-petal-1.png" "alt" "" %}
@@ -20,4 +21,4 @@ The publication accompanies the opening of Pentagon Petal. This installation pro
 
 From solitary confinement, to the military organisation of a group as a single unit to today’s neoliberal forms of sociability, the social history of the Rootstein Hopkins Parade Ground represents a cross section through architecture’s power to orchestrate social modes.
 
-Titling typeset in Caslon Egyptian, lent by John Morgan Studio. A digital interpretation of the first acknowledged sans serif typeface designed in 1816, the same year the Millbank Prison took its first prisoners.
+Titling typeset in Caslon Egyptian, lent by John Morgan Studio. A digital interpretation of the first acknowledged sans serif typeface designed in 1816, the year the Millbank Prison took its first prisoners.

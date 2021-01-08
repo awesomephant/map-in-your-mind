@@ -8,6 +8,7 @@ thumbnail_is_landscape: false
 related_projects:
     - Octopus of Offshoots
     - Dear Reader
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/octopus-of-offshoots-program/oliver-boulton-octopus-of-offshoots-program.png" "alt" "" %}

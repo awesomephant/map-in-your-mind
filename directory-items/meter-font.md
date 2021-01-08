@@ -7,6 +7,7 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-meter-font-1.png"
 thumbnail_is_landscape: false
 related_projects:
     - A Glib Remark, A Fragment or Unfinished Phrase
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/meter-font/oliver-boulton-meter-font-1.png" "alt" "big" %}

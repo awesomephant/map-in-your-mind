@@ -7,6 +7,7 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-glyphs-1.png"
 thumbnail_is_landscape: true
 related_projects:
     - Guttural Flex
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/glyphs/oliver-boulton-glyphs-1.png" "alt" "big" %}
@@ -15,5 +16,3 @@ related_projects:
 {% fig "/assets/images/glyphs/oliver-boulton-glyphs-4.png" "alt" "big" %}
 {% fig "/assets/images/glyphs/oliver-boulton-glyphs-3.png" "alt" "big" %}
 {% fig "/assets/images/glyphs/oliver-boulton-glyphs-5.png" "alt" "big" %}
-
-Last update: 05-01-21/20:21:37

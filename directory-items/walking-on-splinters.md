@@ -5,6 +5,7 @@ description: "Book\nPublisher: Werkplaats Typografie, WT Papier, 2016\nDesign: O
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-walking-on-splinters-a5-front.png"
 thumbnail_is_landscape: false
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/walking-on-splinters-a5/oliver-boulton-walking-on-splinters-a5-front.png" "alt" "left" %}

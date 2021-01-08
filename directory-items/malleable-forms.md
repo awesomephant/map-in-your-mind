@@ -7,6 +7,7 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-malleable-forms-thumbnail.p
 thumbnail_is_landscape: true
 related_projects:
     - Malleable Forms Print
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/malleable-forms/oliver-boulton-malleable-forms-front.png" "alt" "left" %}

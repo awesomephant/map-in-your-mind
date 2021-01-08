@@ -5,6 +5,7 @@ description: "Exhibition Leaflet\nPublisher: Camberwell Press, 2015\nDesign: Oli
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-walking-through-fiction-1.png"
 thumbnail_is_landscape: false
+footer: "Last update: 08-01-21/20:21:37"
 ---
 
 {% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-1.png" "alt" "left" %}

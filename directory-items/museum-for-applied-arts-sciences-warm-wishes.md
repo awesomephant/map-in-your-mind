@@ -7,5 +7,6 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-An-Englishman-Abroad-front.
 thumbnail_is_landscape: false
 related_projects:
     - Powerhouse Precinct at Parramatta, Museum for Applied Arts & Sciences
+footer: "Last update: 08-01-21/20:21:37"
 ---
 Apologies, file yet to be processed.
