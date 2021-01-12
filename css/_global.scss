@@ -90,12 +90,16 @@ a {
     }
   }
   .caps {
-    letter-spacing: .01em;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    .is-windows & {
+      font-weight: 500;
+    }
   }
   p {
     font-weight: 300;
     max-width: 40em;
-    margin-bottom: .6em;
+    margin-bottom: 0.6em;
     // Need to go up a weight in windows
     // because font rendering issues
     .is-windows & {
@@ -124,10 +128,11 @@ a {
   font-size: var(--ms-0);
   line-height: 1.18;
   font-family: $everson;
-  .mm, .pp {
-    margin-right: .055em;
+  .mm,
+  .pp {
+    margin-right: 0.055em;
   }
   .caps {
-    letter-spacing: .045em;
+    letter-spacing: 0.045em;
   }
 }
