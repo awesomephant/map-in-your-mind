@@ -11,9 +11,15 @@
     display: contents;
   }
   &:first-of-type {
+    padding-top: 6rem;
+    @include bp(m){
+      padding-top: 0;
+    }
     .slider,
     .preview-item--header {
-      padding-top: 4rem;
+      @include bp(m){
+        padding-top: 4rem;
+      }
     }
   }
   .slider {
@@ -64,8 +70,10 @@
 }
 
 .slider {
-  margin-bottom: 1rem;
-  min-height: 50vh;
+  @include bp(m){
+    margin-bottom: 1rem;
+    min-height: 50vh;
+  }
   cursor: pointer;
   img {
     display: none;

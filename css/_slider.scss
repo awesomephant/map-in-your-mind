@@ -14,7 +14,8 @@
   top: 50%;
   left: 25%;
   color: $brown;
-  transform: translateY(-100%);
+  // Below we compensate for the height of the image counter
+  transform: translateY(calc(-50% - .75rem));
 }
 
 .slide {
