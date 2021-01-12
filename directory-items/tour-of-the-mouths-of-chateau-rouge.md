@@ -10,4 +10,4 @@ footer: "Last update: 08-01-21/20:21:37"
 
 {% fig "/assets/images/tour-of-the-mouths-of-chateau-rouge/oliver_boulton-a-tour-of-the-mouths-of-chateau-rouge-front.jpg" "alt" "" %}
 
-<a href="/assets/images/tour-of-the-mouths-of-château-rouge/oliver_boulton-a-tour-of-the-mouths-of-château-rouge.pdf" target="_blank">Download Full PDF</a>
+<a href="/assets/images/tour-of-the-mouths-of-chateau-rouge/oliver_boulton-a-tour-of-the-mouths-of-chateau-rouge.pdf" target="_blank">Download Full PDF</a>

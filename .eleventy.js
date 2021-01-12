@@ -152,6 +152,7 @@ module.exports = function (eleventyConfig) {
 
   // Sharp doesn't support animated gifs, so we're going to copy them through unchanged
   eleventyConfig.addPassthroughCopy("./assets/images/**/**.gif");
+  eleventyConfig.addPassthroughCopy("./assets/images/**/**.pdf");
 
   eleventyConfig.addWatchTarget("./dist/main.js");
   eleventyConfig.addWatchTarget("./css/**.scss");
