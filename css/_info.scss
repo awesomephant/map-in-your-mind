@@ -99,7 +99,7 @@
     align-self: flex-end;
   }
   @include bp(l) {
-    grid-row-start: 2;
+    grid-row: 1 / 3;
     align-self: flex-end;
     grid-column: 10 / 13;
   }
