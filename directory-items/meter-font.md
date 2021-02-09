@@ -9,4 +9,4 @@ related_projects:
     - A Glib Remark, A Fragment or Unfinished Phrase
 footer: "Last update: 08-01-21/20:21:37"
 ---
-{% fig "/assets/images/meter-font/oliver-boulton-meter-font-artwork.png" "alt"  %}
+{% fig "/assets/images/meter-font/oliver-boulton-meter-font-artwork.png" "alt" "long" %}

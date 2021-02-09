@@ -213,6 +213,12 @@
     &.big {
       grid-column: 1 / 7;
     }
+    &.long {
+      grid-column: 1 / 7;
+      img {
+        max-height: none;
+      }
+    }
   }
 
   img {
