@@ -3,13 +3,13 @@ title: Camberwell Book Prize
 subtitle: Identity
 description: "Logotype, 2018\nDesign: Oliver Boulton"
 layout: project
-thumbnail: "/assets/images/thumbnails/oliver-boulton-camberwell-book-prize-logo-thumbnail.png"
+thumbnail: "/assets/images/camberwell-book-prize/oliver-boulton-camberwell-book-prize-logo.png"
 thumbnail_is_landscape: false
 related_projects:
     - Off the Sixth Ring of North Beijing I Arrive in Guangdong
     - Perspectives
     - Top/Top
-footer: "Last update: 08-01-21/20:21:37"
+footer: "Last update: 10-02-21/11:32:20"
 ---
 {% fig "/assets/images/camberwell-book-prize/oliver-boulton-camberwell-book-prize-logo.png" "alt" "left" %}
 
