@@ -92,10 +92,12 @@
   position: relative;
   top: -0.2em;
   z-index: 10000;
+  padding-bottom: 1em;
   .colophon--inner {
     font-size: calc(var(--ms--1)*.95);
   }
   @include bp(m) {
+    padding-bottom: 0;
     grid-column: 1 / 6;
     align-self: flex-end;
   }
