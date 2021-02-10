@@ -8,7 +8,6 @@ function initSlider(slider) {
   s.currentSlide = 0;
 
   function setSlide(n) {
-    console.log("Setting " + n)
     slides.forEach((slide, i) => {
       slide.classList.remove("active");
     });
@@ -30,8 +29,9 @@ function initSlider(slider) {
   });
 
   s.addEventListener("touchmove", (e) => {
-    e.preventDefault();
+    //e.preventDefault();
     let xScaled = (e.touches[0].clientX - sliderRect.x) / sliderRect.width;
+    console.log(xScaled)
     xScaledToSlide(xScaled);
   });
   if (slider.getAttribute("data-current")) {
