@@ -9,5 +9,4 @@ footer: "Last update: 08-01-21/20:21:37"
 ---
 
 
-{% fig "/assets/images/letter-like/oliver-boulton-letter-like-2.png" "alt" "left" %}
-{% fig "/assets/images/letter-like/oliver-boulton-letter-like-2.png" "alt" "left" %}
+{% fig "/assets/images/letter-like/oliver-boulton-letter-like-grid.png" "alt" "long" %}
