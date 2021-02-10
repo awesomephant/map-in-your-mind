@@ -7,6 +7,6 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-An-Englishman-Abroad-front.
 thumbnail_is_landscape: false
 footer: "Last update: 08-01-21/20:21:37"
 ---
-{% fig "/assets/images/an-englishman-abroad/oliver-boulton-An-Englishman-Abroad-front.png" "alt" "left" %}
-{% fig "/assets/images/an-englishman-abroad/oliver-boulton-An-Englishman-Abroad-1.png" "alt" "left" %}
-{% fig "/assets/images/an-englishman-abroad/oliver-boulton-An-Englishman-Abroad-2.png" "alt" "left" %}
+{% fig "/assets/images/an-englishman-abroad/oliver-boulton-An-Englishman-Abroad-front.png" "alt" "big" %}
+{% fig "/assets/images/an-englishman-abroad/oliver-boulton-An-Englishman-Abroad-1.png" "alt" "big" %}
+{% fig "/assets/images/an-englishman-abroad/oliver-boulton-An-Englishman-Abroad-2.png" "alt" "big" %}
