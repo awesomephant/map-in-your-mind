@@ -105,7 +105,7 @@ a {
     .is-windows & {
       font-weight: 500;
     }
-    &:last-of-type {
+    &:last-child {
       margin-bottom: 0;
     }
   }
