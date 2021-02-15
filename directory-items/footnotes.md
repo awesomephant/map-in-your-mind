@@ -3,16 +3,16 @@ title: Footnotes
 subtitle: Oliver Boulton
 description: "Essay\nPublisher: Revue Diorama (No.2, Geometric City), 2020\nDesign: Oliver Boulton\nDigital download, 7pp.\nDownloadable PDF\nRevue Diorama (No.2, Geometric City)\nEditors & Designers: Marie-mam Sai, Guillaume Sbalchiero\nOffset CMYK, 280 × 210.\nISSN: 2679-8980"
 layout: project
-thumbnail: "/assets/images/thumbnails/oliver-boulton-footnotes-diorama.png"
-thumbnail_is_landscape: true
+thumbnail: "/assets/images/footnotes/oliver-boulton-footnotes-front-1.png"
+thumbnail_is_landscape: false
 related_projects:
-footer: "Last update: 08-01-21/20:21:37"
+footer: "Last update: 15-02-21/20:38:31"
 
 ---
 
-{% fig "/assets/images/footnotes/oliver-boulton-footnotes-front.jpg" "alt" "" %}
+{% fig "/assets/images/footnotes/oliver-boulton-footnotes-front-1.png" "alt" "left" %}
 
-**Footnotes**
+*Footnotes*
 
 It was the first time I sensed it, like a tooth
 filling beginning to dislodge In a bid to moderate
@@ -48,3 +48,5 @@ took a sharp left turn down a back alley passageway
 between or behind buildings.
 
 <a href="/assets/images/footnotes/oliver-boulton-footnotes.pdf" target="_blank">Download Full PDF</a>
+
+{% fig "/assets/images/thumbnails/oliver-boulton-footnotes-diorama.png" "alt" "left" %}

@@ -3,15 +3,15 @@ title: A Tour of the Mouths of Château Rouge
 subtitle: Oliver Boulton
 description: "Essay\nDigital download, 6pp.\nDownloadable PDF"
 layout: project
-thumbnail: "/assets/images/thumbnails/oliver_boulton-tour-of-the-mouths-of-chateau-rouge-front.jpg"
+thumbnail: "/assets/images/tour-of-the-mouths-of-chateau-rouge/oliver-boulton-tour-1.png"
 thumbnail_is_landscape: false
 footer: "Last update: 08-01-21/20:21:37"
 ---
 
-{% fig "/assets/images/tour-of-the-mouths-of-chateau-rouge/oliver_boulton-a-tour-of-the-mouths-of-chateau-rouge-front.jpg" "alt" "left" %}
+{% fig "/assets/images/tour-of-the-mouths-of-chateau-rouge/oliver-boulton-tour-1.png" "alt" "left" %}
 
 
-**A Tour of the Mouths of Château Rouge**
+*A Tour of the Mouths of Château Rouge*
 
 It's Sunday, 27th of October, 2019 and I've just seen my breath for the first time this year. I do it again, this time pulling deeper into my lungs.
 
