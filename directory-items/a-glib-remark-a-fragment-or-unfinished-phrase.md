@@ -7,10 +7,15 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-meter-limb-1.png"
 thumbnail_is_landscape: true
 related_projects:
     - Meter Font
-footer: "Last update: 10-02-21/12:30:07"
+footer: "Last update: 16-02-21/18:04:02"
 ---
 
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-1.png" "alt" "big" %}
+
+*A Glib Remark, A Fragment or Unfinished Phrase*
+
+A proposed re-sequencing of the Latin alphabet, using a single steel mètre. Breaking forms down to their most elemental. First, the bar is fired using a blowtorch, then  shaped, leaving dextrous, hand-written, durational traces from one form to the next. During the struggle to shape language, unnamed glyphs emerge between forms; letters between letters; letters within letters. <br><br>
+
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-2.png" "alt" "big" %}
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-3.png" "alt" "big" %}
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-4.png" "alt" "big" %}
