@@ -3,12 +3,10 @@ title: My Mouth Became an ‘O’ and I Made a Similar Sound
 subtitle: Oliver Boulton
 description: "Essay\nKunstverein, Amsterdam, (NL), 2019\nSubaru, Montreuil, (FR), 2020\nDigital download, 6pp.\nDownloadable PDF"
 layout: project
-thumbnail: "/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-12.png"
+thumbnail: "/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-1234-1.png"
 thumbnail_is_landscape: false
-footer: "Last update: 15-02-21/16:52:18"
+footer: "Last update: 16-02-21/14:56:37"
 ---
-
-{% fig "/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-1234-12.png" "alt" "left" %}
 
 {% fig "/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-1234-1.png" "alt" "left" %}
 
