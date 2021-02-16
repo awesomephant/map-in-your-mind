@@ -8,9 +8,9 @@ thumbnail_is_landscape: false
 footer: "Last update: 15-02-21/16:52:18"
 ---
 
-{% fig "/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-1234-12" "alt" "left" %}
+{% fig "/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-1234-12.png" "alt" "left" %}
 
-{% fig "/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-1234-1" "alt" "left" %}
+{% fig "/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-1234-1.png" "alt" "left" %}
 
 *My Mouth Became an ‘O’ and I Made a Similar Sound*
 
