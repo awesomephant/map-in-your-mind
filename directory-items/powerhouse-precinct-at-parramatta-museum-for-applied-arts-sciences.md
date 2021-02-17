@@ -10,3 +10,8 @@ footer: "Last update: 08-01-21/20:21:37"
 {% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-front.png" "alt" "left" %}
 {% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-1.png" "alt" "" %}
 {% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-2.png" "alt" "" %}
+{% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-3.png" "alt" "" %}
+{% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-4.png" "alt" "" %}
+{% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-5.png" "alt" "" %}
+{% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-6.png" "alt" "" %}
+{% fig "/assets/images/powerhouse-precinct-at-parramatta/oliver-boulton-powerhouse-precinct-at-parramatta-7.png" "alt" "" %}
