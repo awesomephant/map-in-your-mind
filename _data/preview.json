@@ -5,7 +5,7 @@
             "directorySlug": "eigengrau",
             "subtitle": "Jonito Aerts Arguelles",
             "copy": "Artist Book\nPublisher: Werkplaats Typografie, 2017\nEditor & Designer: Oliver Boulton\n\n[Purchase Here](https://www.werkplaatstypografie.org/shop/#/products/eigengrau?_k=v6du89)\n\nEdition of 400, softback, 273pp.\nOffset black ×2, PMS ×1, foil block ×1\nSwiss bound, 215 × 270mm",
-            "currentImage": [0],
+            "currentImage": [0, 3, 4],
             "images": [
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-front.png",
                 "/assets/images/eigengrau/preview/oliver-boulton-eigengrau-1.png",
@@ -23,7 +23,7 @@
             "directorySlug": "face-vol-4-issue5-winter-2020",
             "subtitle": "Vol. 4, Issue 5 Winter 2020",
             "copy": "Magazine\nPublisher: Wasted Talent Ltd, 2020\nDesign: Arun Gogna, Oliver Boulton\n\n[Purchase Here](https://theface.com/buy-magazine)\n\nStarring: Jorja Smith, Beabadoobee, Dominic Calvert-Lewin, Gabriel Krauze, Munya Chawawa, Ify Adenuga and Stormzy.\n\nSoftback, 288pp.\nOffset CMYK, spot UV, perfect bound, hot melt, 230 × 300mm\nISSN: 0263 1210",
-            "currentImage": [10, 13, 8, 0, 18, 19],
+            "currentImage": [13, 14, 8, 0, 15, 16, 18, 19],
             "images": [
                 "/assets/images/the-face/preview/oliver-boulton-the-face-front.png",
                 "/assets/images/the-face/preview/oliver-boulton-the-face-1.png",
@@ -103,7 +103,7 @@
         {
             "title": "Perspectives",
             "subtitle": "Paulina Korobkiewicz",
-            "currentImage": [0],
+            "currentImage": [0, 2],
             "directorySlug": "perspectives",
             "copy": "Artist Book\nPublisher: Camberwell Press, 2017\nDesign: Oliver Boulton, Samuel Jones\nEditors:  Oliver Boulton, James Edgar, Sigune Hamann, Sam Jones, Duncan Wooldridge\n\nEdition of 150, softback, 45pp. + PVC dust jacket + insert\nIndigo, French fold, singer sewn, 249 × 320mm\nISBN: 978-1-908971-53-1",
             "images": [

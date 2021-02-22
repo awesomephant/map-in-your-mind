@@ -12,6 +12,4 @@ footer: "Last update: 22-02-21/14:04:03"
 {% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-3.png" "alt" "big" %}
 {% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-4.png" "alt" "big" %}
 {% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-5.png" "alt" "big" %}
-{% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-7.png" "alt" "big" %}
-
 {% fig "/assets/images/up-across-and-along/oliver-boulton-up-across-and-along-selection.png" "alt" "long" %}
