@@ -21,4 +21,4 @@ I left the living room for the bedroom in seek of refuge from the drumming; for 
 
 Upon reaching the final full stop of my book, I made my way home and began thinking of silence and its curious relationship between public and private spaces; what is expected of us in these spaces and in exchange what do we expect. How do the architectural patterns modulate our patterns of speech?
 
-<a href="/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-front.pdf" target="_blank">Download Full PDF</a>
+<a href="/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-front.pdf" target="_blank">Download Full PDF (3.3 MB)</a>

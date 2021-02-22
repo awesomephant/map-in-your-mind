@@ -47,6 +47,6 @@ the oncoming traffic congestion at the tube exit, I
 took a sharp left turn down a back alley passageway
 between or behind buildings.
 
-<a href="/assets/images/footnotes/oliver-boulton-footnotes.pdf" target="_blank">Download Full PDF</a>
+<a href="/assets/images/footnotes/oliver-boulton-footnotes.pdf" target="_blank">Download Full PDF (587 KB)</a>
 
 {% fig "/assets/images/thumbnails/oliver-boulton-footnotes-diorama.png" "alt" "left" %}

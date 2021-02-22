@@ -27,4 +27,4 @@ aside front doors interrupting the pedestrians path like rotund full stops lodge
 
 The *bouches de lavage* gargles up from within and babbles out in public. From gut to gutter. Purling past the collected debris with the water racing downstream to the base of the street. Here on Chicken Street, the mouths are open all day, as is the market; full flow seven days a week.
 
-<a href="/assets/images/tour-of-the-mouths-of-chateau-rouge/oliver_boulton-a-tour-of-the-mouths-of-chateau-rouge.pdf" target="_blank">Download Full PDF</a>
+<a href="/assets/images/tour-of-the-mouths-of-chateau-rouge/oliver_boulton-a-tour-of-the-mouths-of-chateau-rouge.pdf" target="_blank">Download Full PDF (3.9 MB)</a>

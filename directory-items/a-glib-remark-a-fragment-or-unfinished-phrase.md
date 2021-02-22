@@ -15,6 +15,7 @@ footer: "Last update: 16-02-21/18:04:02"
 *A Glib Remark, A Fragment or Unfinished Phrase*
 
 A proposed re-sequencing of the Latin alphabet, using a single steel mètre. Breaking forms down to their most elemental. First, the bar is fired using a blowtorch, then  shaped, leaving dextrous, hand-written, durational traces from one form to the next. During the struggle to shape language, unnamed glyphs emerge between forms; letters between letters; letters within letters. <br><br>
+
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-1.png" "alt" "big" %}
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-2.png" "alt" "big" %}
 {% fig "/assets/images/meter-limb/oliver-boulton-meter-limb-3.png" "alt" "big" %}
