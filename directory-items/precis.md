@@ -1,5 +1,5 @@
 ---
-title: Pré•cis Display
+title: Précis Display
 subtitle: Oliver Boulton, Alex Herrera, Sally Palmen, Rachel Treliving
 description: "Font\nSelf Published, 2015"
 layout: project
