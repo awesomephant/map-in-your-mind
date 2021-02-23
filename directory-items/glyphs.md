@@ -11,17 +11,16 @@ footer: "Last update: 16-02-21/18:04:24"
 ---
 
 {% fig "/assets/images/glyphs/oliver-boulton-glyphs-1.png" "alt" "big" %}
-{% fig "/assets/images/glyphs/oliver-boulton-glyphs-2.png" "alt" "big" %}
 
 *Glyph(s)*
 
 A series of site-specific sculptural typographies, consisting of both made and found street furnitures. Conceived during a residency at the Hoffmitz Milken Center for Typography. 
 
-A column support divides the path in one of two directions; traversing one way is an industrially produced steel bike-rack, which steers you away from the walls edge into space. Along the far wall, a heavy-duty steel fence encourages you to step forward. At the centre, a concrete road block stops you dead.
+A column support divides the path in one of two directions; traversing one way is an industrially produced steel bike-rack, which steers you away from the walls edge. Along the far wall, a heavy-duty steel fence encourages you to step forward. At the centre, a concrete road block stops you dead.
 
 The glyphs consider their likeness to syntax systems. Familiar street furnitures revealing themselves as embodied punctuative marks; be it a comma or connector between spaces and on occasion a more forcible physical delay. Breaking. Pausing. Stopping. Choreographing the flow through rooms.
 <br><br>
 
-{% fig "/assets/images/glyphs/oliver-boulton-glyphs-4.png" "alt" "left" %}
-{% fig "/assets/images/glyphs/oliver-boulton-glyphs-3.png" "alt" "left" %}
-{% fig "/assets/images/glyphs/oliver-boulton-glyphs-5.png" "alt" "left" %}
+{% fig "/assets/images/glyphs/oliver-boulton-glyphs-2.png" "alt" "big" %}
+
+
