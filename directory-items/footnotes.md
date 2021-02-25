@@ -13,6 +13,7 @@ footer: "Last update: 15-02-21/20:38:31"
 {% fig "/assets/images/footnotes/oliver-boulton-footnotes-front-1.png" "alt" "left" %}
 
 *Footnotes*
+<br>Published by Diorama Revue No.2—Geometric City, 2020
 
 It was the first time I sensed it, like a tooth
 filling beginning to dislodge In a bid to moderate

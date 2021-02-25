@@ -1,7 +1,7 @@
 ---
 title: Camberwell Book Prize
 subtitle: Identity
-description: "Logotype, 2018\nDesign: Oliver Boulton"
+description: "Logotype, 2015-20\nDesign: Oliver Boulton"
 layout: project
 thumbnail: "/assets/images/camberwell-book-prize/oliver-boulton-camberwell-book-prize-logo.png"
 thumbnail_is_landscape: false

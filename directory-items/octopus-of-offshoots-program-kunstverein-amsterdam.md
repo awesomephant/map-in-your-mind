@@ -1,7 +1,7 @@
 ---
 title: Octopus of Offshoots Program, Kunstverein Amsterdam
 subtitle: Oliver Boulton, Adriaan van Leuven
-description: "Program, 2019\nDigital, 297 x 420mm"
+description: "Event, 2019\nDigital, 297 x 420mm"
 layout: project
 thumbnail: "/assets/images/thumbnails/oliver-boulton-octopus-of-offshoots-program.png"
 thumbnail_is_landscape: false

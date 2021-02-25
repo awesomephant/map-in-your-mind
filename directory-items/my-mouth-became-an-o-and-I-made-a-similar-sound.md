@@ -10,7 +10,7 @@ footer: "Last update: 16-02-21/14:56:37"
 
 {% fig "/assets/images/my-mouth-became-an-o-and-I-made-a-similar-sound/oliver-boulton-my-mouth-became-an-o-and-i-made-a-similar-sound-1234-1.png" "alt" "left" %}
 
-*My Mouth Became an ‘O’ and I Made a Similar Sound*
+*My Mouth Became an ‘O’ and I Made a Similar Sound* <br>Performed at Kunstverein, Netherlands, 31 May 2019
 
 I struggle to read when someone is talking. When the words I'm reading jar towards the words I'm hearing. When the words I'm hearing hit me as hard as the words I'm reading. I find myself having to give voice to the words; sounding them back to myself as I read or write. Like many I find it difficult to fully digest or compose them under such circumstance, when an unchosen flutter of voices reach and interrupt me. By relaying the words back to myself helps give shape to my conversation; and by my own admission drown out the potentially more interesting conversations in the room.
 
