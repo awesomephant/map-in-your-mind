@@ -27,6 +27,11 @@ footer: "Last update: 06-03-21/11:24:34"
 {% fig "/assets/images/camberwell-press-interviews/oliver-boulton-camberwell-press-interviews-18.jpg" "alt" "" %}
 {% fig "/assets/images/camberwell-press-interviews/oliver-boulton-camberwell-press-interviews-19.jpg" "alt" "left" %}
 
+{% fig "/assets/images/camberwell-press-interviews/test3_27.eps" "alt" "left" %}
+{% fig "/assets/images/camberwell-press-interviews/test3_26.eps" "alt" "left" %}
+{% fig "/assets/images/camberwell-press-interviews/anti-alias.png" "alt" "" %}
+{% fig "/assets/images/camberwell-press-interviews/no-anti-alias.png" "alt" "" %}
+
 
 <a href="/assets/images/camberwell-press-interviews/oliver-boulton-camberwell-press-interviews-spreads.pdf" target="_blank">Download Full PDF (Spreads) (7.3 MB)</a>
 
