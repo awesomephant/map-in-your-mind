@@ -1,13 +1,3 @@
----
-title: Malleable Forms Print 
-subtitle: Oliver Boulton
-description: "Print\nSelf Published, 2015\nEdition of 26\nLetterpress print, 594mm × 841mm"
-layout: project
-thumbnail: "/assets/images/thumbnails/oliver-boulton-malleable-forms-print-1.png"
-thumbnail_is_landscape: false
-related_projects:
-    - Malleable Forms
-footer: "Last update: 08-01-21/20:21:37"
----
-
-{% fig "/assets/images/malleable-forms-print/oliver-boulton-malleable-forms-print-1.png" "alt" "" %}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bd96633d596b0e8a096c91ec3e2833f689941df12a84a596b578551a64d4d06
+size 466
