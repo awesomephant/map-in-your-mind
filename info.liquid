@@ -1,3 +1,100 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a3b8d2c929bb6122067fe32bd0f907b4ace6adaf596478948ed0d1af66eaea0a
-size 4797
+---
+layout: base
+class: info
+title: Information
+---
+
+<article class="info--text helvetica-copy">
+
+    <p>
+        Oliver Boulton (b. 1991, Portsmouth, UK) is an artist and designer working between Paris and London. His interests
+        are focused on the development of printed matter for individuals and organisations.
+    </p>
+    <p>
+        His practice explores the production of language in the built environment. Through analogies of way finding,
+        traffic regulation, punctuation, architecture and sculpture he reveals ways in which language, reasoning, the
+        organisation of public space and social conduct are interrelated and inform one another. Boulton’s work
+        culminates in both made and found sculptural typographies, books and writing. Turning street furniture into
+        punctuation, the metric system modelled as an alphabet and handrails turned into sensuous typographic limbs.
+    </p>
+
+    <h3>Education</h3>
+    <p>
+        MA, Werkplaats Typografie, Arnhem (ArtEZ, NL)<br>
+        BA, Camberwell College of Art, London (UAL, UK)<br>
+    </p>
+    <h3>Contact</h3>
+    <p>
+    32 Rue Poulet<br> 75018, Paris, FR<br>  
+
+    <a href="mailto:studio@oliverboulton.com?Subject=🎤%20">studio(at)oliverboulton(dot)com</a></br>
+    </p>
+
+    <div id="mc_embed_signup">
+        <p>Subscribe for updates</p>
+        <form
+            action="https://oliverboulton.us7.list-manage.com/subscribe/post?u=545673584a20141d06853a5e6&amp;id=182a5aed7e"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+            target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL">Email</label>
+                    <input type="email" value="" placeholder="your@email.com" name="EMAIL" class="required email"
+                        id="mce-EMAIL">
+                </div>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_545673584a20141d06853a5e6_182a5aed7e" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe"
+                        class="button"></div>
+            </div>
+        </form>
+    </div>
+</article>
+
+<section class="info--timeline">
+    <ul class='timeline everson-copy'>
+        <li class="subtitle">
+            <h2>Recent and Current</h2>
+        </li>
+        {% for item in timeline.recent %}
+        <li class="timeline--item">
+            <h3 class="timeline--item--title">{{item.title}}</h3>
+            <div class="timeline--item--copy">
+                {{item.copy}}
+            </div>
+            <div class="place">
+                {{item.place}}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    <ul class='timeline everson-copy'>
+        <li class="subtitle">
+            <h2>Exhibitions, Publications, Workshops etc.</h2>
+        </li>
+        {% for item in timeline.archive %}
+        <li class="timeline--item">
+            <h3 class="timeline--item--title">{{item.title}}</h3>
+            <div class="timeline--item--copy">
+                {{item.copy}}
+            </div>
+            <div class="place">
+                {{item.place}}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+<aside class="info--colophon">
+    <div class="colophon--inner">
+        <h2>Colophon</h2>
+        <p>
+        </p>The site is designed and developed by Oliver Boulton and <a href="https://maxkoehler.com/">Max Köhler</a>. Built with <a href="https://shopify.github.io/liquid/">Liquid</a> and <a href="https://www.markdownguide.org/">Markdown</a> on <a href="https://www.11ty.dev/">Eleventy</a> via <a href="https://github.com//">Github</a>. Pages are typeset in <a href="https://evertype.com/emono/">Everson Mono</a>, Michael Everson and <a href="https://www.monotype.com/fonts/helvetica-now">Helvetica Now</a>, Monotype Studio. Last updated: Jan 11, 2021. Unless otherwise indicated, all material on these pages are copyrighted by Oliver Boulton. All trademarks and brand names are acknowledged as belonging to their respective owners. The sourcecode is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC (BY)-(NC)-(SA)</a>.
+
+    </div>
+</aside>

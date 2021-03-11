@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d6a55dc7117d2d9deb1ab051c5e206cd3f92f887c63c2e2516396314d560ed5c
-size 740
+<main class="entry--content">
+    {{content}}
+</main>
+<aside class="entry--footer">
+    {% if footer %}
+    <div class="footer--note">
+        {{footer | renderMarkdown }}
+    </div>
+    {% endif %}
+    {% if related_projects %}
+    <nav class="related-projects">
+        <h3>Related</h3>
+        {% for p in related_projects %}
+        {% for pr in collections.directory_item %}
+        {% if p == pr.data.title %}
+        <a href="#{{pr.data.title | slug}}" class="related-project">
+            <em>
+                {{pr.data.title}}
+            </em>
+            <span>
+                {{pr.data.subtitle}}
+            </span>
+        </a>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+    </nav>
+    {% endif %}
+</aside>
