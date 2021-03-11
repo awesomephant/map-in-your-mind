@@ -1,3 +1,39 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bfa3153901e5229379acb29d43950158c7370823d5b1db8ec051061ed69766ca
-size 612
+.slider {
+  width: 100%;
+  position: relative;
+}
+.slider--slides {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider--index {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: $brown;
+  // Below we compensate for the height of the image counter
+  transform: translateY(calc(-50% - .75rem));
+}
+
+.slide {
+  position: absolute;
+  top: -2%;
+  left: 0;  
+  width: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  img {
+    display: block;
+    width: 100%;
+  }
+  &.active {
+    visibility: visible;
+  }
+  &:last-of-type {
+    position: relative;
+    top: -1rem;
+  }
+}

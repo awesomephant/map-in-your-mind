@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b5f23a40249b70b16669d2df0cda844c9cdf0a349721c2a104dc49572da259ef
-size 472
+.overlay-image-container {
+  position: absolute;
+  mix-blend-mode: unset;
+  z-index: 20000;
+  pointer-events: none;
+  opacity: 0;
+  transition: $fast;
+  .overlay-active & {
+    opacity: 1;
+  }
+  @for $i from 1 to 15 {
+    &:nth-of-type(#{$i}) {
+      transition-delay: 25ms * $i;
+    }
+  }
+}
+.overlay-image {
+  filter: brightness(1);
+}
+
+.site-overlays {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}

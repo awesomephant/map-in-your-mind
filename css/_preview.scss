@@ -1,3 +1,96 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:508eb71b6540314dfa02cf9066921127ed08bcff81f8d3665a70f1421e89d211
-size 1389
+.preview-items {
+  display: contents;
+}
+.preview-item {
+  grid-column: 1 / 13;
+  display: flex;
+  flex-flow: column-reverse;
+  list-style: none;
+  margin-bottom: 2rem;
+  @include bp(m) {
+    display: contents;
+  }
+  &:first-of-type {
+    padding-top: 6rem;
+    @include bp(m){
+      padding-top: 0;
+    }
+    .slider,
+    .preview-item--header {
+      @include bp(m){
+        padding-top: 4rem;
+      }
+    }
+  }
+  .slider {
+    @include bp(m) {
+      grid-column: 1 / 9;
+    }
+  }
+}
+
+.preview-item--header {
+  margin-bottom: 0.5em;
+  text-align: center;
+  grid-column: 1 / 13;
+  @include bp(m) {
+    text-align: left;
+    grid-column: 9 / 13;
+  }
+}
+.preview-item--title {
+  color: $brown;
+
+}
+
+.preview-item--subtitle {
+  color: $black;
+  display: block;
+  @include bp(m) {
+    color: inherit;
+    margin-bottom: 1em;
+  }
+}
+.preview-item--copy {
+  text-align: left;
+  display: none;
+
+  @include bp(m) {
+    display: block;
+  }
+  p {
+    margin-bottom: 1em;
+  } 
+  a {
+    color: $brown;
+    &:hover, &:focus {
+      color: $navy;
+    }
+  }
+}
+
+.slider {
+  @include bp(m){
+    margin-bottom: 1rem;
+    min-height: 50vh;
+  }
+  cursor: pointer;
+  img {
+    display: none;
+    width: 100%;
+    &:first-of-type {
+      display: block;
+    }
+  }
+}
+
+.slider--slides {
+  margin-bottom: 0.5em;
+}
+
+.slider-count {
+  text-align: center;
+  position: relative;
+  top: -1rem;
+  font-size: var(--ms-0);
+}

@@ -1,3 +1,106 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9b3bec8264fad08a5d763cf98b1e549f1dad85e2a54ea92a0ed8cd099d88883c
-size 2562
+@mixin bp($point) {
+  @if $point==xl {
+    @media (min-width: 1800px) {
+      @content;
+    }
+  }
+  @if $point==l {
+    @media (min-width: 1350px) {
+      @content;
+    }
+  } @else if $point==m {
+    @media (min-width: 1000px) {
+      @content;
+    }
+  } @else if $point==s {
+    @media (min-width: 400px) {
+      @content;
+    }
+  } @else if $point== "landscape" {
+    @media (orientation: landscape) {
+      @content;
+    }
+  }
+}
+
+@mixin baselineGrid($n, $lineWidth, $c) {
+	background-image: linear-gradient(
+		to bottom,
+		transparent 0px,
+		transparent #{$n},
+		$c calc(#{$n})
+	);
+	background-size: 100vw calc(#{$n} * 2);
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+
+%hide-scrollbar {
+  scrollbar-width: none; /* Firefox implementation */
+  &::-webkit-scrollbar {
+    display: none; /* webkit browsers implementation */
+  }
+}
+
+@font-face {
+  font-family: "everson";
+  src: url("./assets/fonts/everson-subset.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica-now";
+  src: url("./assets/fonts/Monotype-Helvetica-Now-Text.otf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "helvetica-now";
+  src: url("./assets/fonts/Monotype-Helvetica-Now-Text-ExtraLight.otf") format("truetype");
+  font-display: swap;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "helvetica-now";
+  src: url("./assets/fonts/Monotype-Helvetica-Now-Text-Light.otf") format("truetype");
+  font-display: swap;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "helvetica-now";
+  src: url("./assets/fonts/Monotype-Helvetica-Now-Text-Lt-It.otf") format("truetype");
+  font-display: swap;
+  font-weight: 300;
+  font-style: italic;
+}
+
+$everson: "everson", Courier New, monospace;
+$helvetica: "helvetica-now", "Helvetica", sans-serif;
+$navy: #020585;
+//$blue: #00ffeb;
+$blue: #5f62f7;
+$brown: #845013;
+$black: #171000;
+$baseline: calc(var(--ms-0) * 1.18);
+$fast: 100ms;
+
+:root {
+  @media (min-resolution: 125dpi) {
+    // scale down type on high-res screens
+    font-size: 14px;
+  }
+
+  // Modular Scale with variable base
+  --ratio: 1.125;
+  --ms-0: clamp(0.815rem, calc(0.7vw + 0.15rem), 1.4rem);
+  --ms--3: calc(var(--ms--2) / var(--ratio));
+  --ms--2: calc(var(--ms--1) / var(--ratio));
+  --ms--1: calc(var(--ms-0) / var(--ratio));
+  --ms-1: calc(var(--ms-0) * var(--ratio));
+  --ms-2: calc(var(--ms-1) * var(--ratio));
+  --ms-3: calc(var(--ms-2) * var(--ratio));
+  --ms-4: calc(var(--ms-3) * var(--ratio));
+  --ms-5: calc(var(--ms-4) * var(--ratio));
+}

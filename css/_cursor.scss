@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5533e3db23547617f49ef3a1786dd4809333117a25c1967cf906e1da751ed77f
-size 396
+.site-cursor {
+  display: none;
+  font-family: $everson;
+  .has-cursor & {
+    display: block;
+  }
+  .cursor-left-right & {
+    content: "↔"
+  }
+  width: 3rem;
+  height: 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: black;
+  will-change: transform;
+  z-index: 10000;
+  pointer-events: none;
+  transform: translateX(var(--mouse-x)) translateY(var(--mouse-y))
+    translateX(-12px);
+}
