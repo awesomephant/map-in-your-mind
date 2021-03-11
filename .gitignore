@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a33f104ecd7dc45defbdae68e6b0c51bf2d87c4f93b92c961f23133d36aaf5ae
-size 85
+node_modules/
+_site/
+dist/
+documentation/
+*.psd
+# Local Netlify folder
+.netlify
+.yarn
