@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0bf50294d631b4824a72f184207373528ced0e759bc9dee35327bca9882dd81e
-size 326
+---
+title: Yllin
+subtitle: Identity
+description: "Logotype, 2015\nDesign: Oliver Boulton"
+layout: project
+thumbnail: "/assets/images/thumbnails/oliver-boulton-yllin-2.png"
+thumbnail_is_landscape: true
+footer: "Last update: 10-02-21/13:51:52"
+---
+
+{% fig "/assets/images/yllin/oliver-boulton-yllin-logotype.png" "alt" "big" %}

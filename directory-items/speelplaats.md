@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2688940e3c4b0223b32c92b42f6786a0392efecc99941a7d60baa3795058ccc4
-size 1028
+---
+title: Speelplaats, 2018
+subtitle: Oliver Boulton, Adriaan Van Leuven
+description: "Poster template, Workshop program\nDesign: Oliver Boulton, Adriaan van Leuven\nListed Speelplaats Posters:\n(1) Adriaan van Leuven\n(4) Yeliz Secerli, Moriz Oberberger\n(8) Austin Redman\n(10) Andrea Salerno, Sarah Cleeremans\nRisograph, 420 × 594mm"
+layout: project
+thumbnail: "/assets/images/thumbnails/oliver-boulton-speelplaats-5.png"
+thumbnail_is_landscape: false
+related_projects:
+    - Octopus of Offshoots
+    - Octopus of Offshoots Program, Kunstverein Amsterdam
+    - Dear Reader
+footer: "Last update: 08-01-21/20:21:37"
+---
+{% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-1.jpg" "alt" "" %}
+{% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-3.png" "alt" "" %}
+{% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-4.png" "alt" "" %}
+{% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-5.png" "alt" "" %}
+{% fig "/assets/images/speelplaats/oliver-boulton-speelplaats-6.png" "alt" "" %}

@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3c8fccbcf8d7ac8e8e24a5459e2f53cf26cdaf6acdfe698ae429d20a49054a28
-size 1015
+---
+title: Guttural Flex [echo]
+subtitle: Oliver Boulton
+description: "Sculpture\nAs Nostalgia Meets Time-Pressure\nMediamatic, Amsterdam, (NL)\nAcrylic on Steel, Variable Dimensions, 2018\nPhotography: Franziska Schulz"
+layout: project
+thumbnail: "/assets/images/thumbnails/oliver-boulton-guttural-flex-echo-1.png"
+thumbnail_is_landscape: true
+related_projects:
+    - Guttural Flex
+footer: "Last update: 08-01-21/20:21:37"
+---
+{% fig "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-1.png" "alt" "big" %}
+{% fig "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-2.png" "alt" "big" %}
+{% fig "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-3.png" "alt" "big" %}
+{% fig "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-4.png" "alt" "big" %}
+{% fig "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-5.png" "alt" "big" %}
+{% fig "/assets/images/guttural-flex-echo/oliver-boulton-guttural-flex-echo-6.png" "alt" "big" %}

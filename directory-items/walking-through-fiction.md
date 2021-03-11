@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:977ee94e981108c4c547325525b57194246169b7e5b17d62432b9385c97a013d
-size 827
+---
+title: Walking Through Fiction
+subtitle: Camberwell Space Projects
+description: "Exhibition Leaflet\nPublisher: Camberwell Press, 2015\nDesign: Oliver Boulton\nEdition of 400, 2pp.\nOffset PMS ×2, folded, 420 × 594mm"
+layout: project
+thumbnail: "/assets/images/thumbnails/oliver-boulton-walking-through-fiction-1.png"
+thumbnail_is_landscape: false
+footer: "Last update: 10-02-21/11:32:56"
+---
+
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-1.png" "alt" "left" %}
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-3.png" "alt" "left" %}
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-5.png" "alt" "" %}
+{% fig "/assets/images/walking-through-fiction/oliver-boulton-walking-through-fiction-4.png" "alt" "" %}

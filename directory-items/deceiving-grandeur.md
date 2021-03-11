@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:549138b7748553e91d5f4d56fbea955cec06cccc39c589582c4dcd5693066e54
-size 774
+---
+title: Deceiving Grandeur
+subtitle: Alexander Devereux
+description: "Exhibition Leaflet\nPublisher: Camberwell Space Projects, 2015\nDesign: Oliver Boulton\nEdition of 250, 2pp.\nRisograph, folded, 297 × 420mm"
+layout: project
+thumbnail: "/assets/images/thumbnails/oliver-boulton-deceiving-grandeur-4.png"
+thumbnail_is_landscape: false
+footer: "Last update: 08-01-21/20:21:37"
+---
+
+{% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-1.png" "alt" "left" %}
+{% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-2.png" "alt" "" %}
+{% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-3.png" "alt" "left" %}
+{% fig "/assets/images/deceiving-grandeur/oliver-boulton-deceiving-grandeur-4.png" "alt" "" %}
