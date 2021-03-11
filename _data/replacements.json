@@ -1,3 +1,44 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:730b475ad93dccc8c2c1c785f8b39bcfe7d1ec20cb0269640aa919b05417695e
-size 1146
+{
+    "data": [
+        {
+            "search": "( × )|( x )",
+            "replace": "<i class='thin'></i>×<i class='thin'></i>"
+        },
+        {
+            "search": "( \\+ )",
+            "replace": "<i class='thin'></i>+<i class='thin'></i>"
+        },
+        {
+            "search": "(  )",
+            "replace": " "
+        },
+        {
+            "search": "( -- )",
+            "replace": "—"
+        },
+        {
+            "search": "( - )",
+            "replace": "<i class='thin'></i>-<i class='thin'></i>"
+        },
+        {
+            "search": "( — )",
+            "replace": "<i class='thin'></i>—<i class='thin'></i>"
+        },
+        {
+            "search": "(—)",
+            "replace": "<i class='thin'></i>—<i class='thin'></i>"
+        },
+        {
+            "search": "[A-Z]{2,}(?![\\S\\s]+<\/head>)",
+            "replace": "<span class='caps'>$&</span>"
+        },
+        {
+            "search": "[0-9]+(?=pp)",
+            "replace": "<span class='pp'>$&</span>"
+        },
+        {
+            "search": "[0-9]+(?=mm)",
+            "replace": "<span class='mm'>$&</span>"
+        }
+    ]
+}
