@@ -21,6 +21,7 @@ title: Directory
             <h2>2015–2020</h2>
         </li>
         {% for item in collections.directory_item%}
+        {% if item.data.draft != true %}
         <li class="timeline--item directory--item {% if item.data.thumbnail_is_landscape %}thumbnail_landscape{% endif %}"
             data-title="{{item.data.title}}" data-slug="{{item.fileSlug | slug}}">
             <a href="#{{item.fileSlug | slug }}">
@@ -36,6 +37,7 @@ title: Directory
                 </div>
             </a>
         </li>
+        {% endif %}
         {% endfor %}
     </ul>
 </section>

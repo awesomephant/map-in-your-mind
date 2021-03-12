@@ -5,6 +5,7 @@ description: "Artist Edition\nPublisher: University of the Arts London (UAL), 20
 layout: project
 thumbnail: 
 thumbnail_is_landscape: false
+draft: true
 related_projects:
     - Camberwell Book Prize
     - Perspectives
