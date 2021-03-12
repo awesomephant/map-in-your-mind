@@ -23,14 +23,26 @@ footer: "Last update: 22-02-21/19:16:37"
 {% fig "/assets/images/stops-starts/oliver-boulton-stops-starts-back.png" "alt" "left" %}
 
 
-1&emsp;Punctuation Marks<br>Lectures In America<br>Gertrude Stein, 1985
+1&emsp;Punctuation Marks\
+Lectures In America\
+Gertrude Stein, 1985
 
-2&emsp;Punctuation Marks<br>The Antioch Review, Vol. 48, No. 3 Poetry Today<br>Theodor Adorno, 1990
+2&emsp;Punctuation Marks\
+The Antioch Review, Vol. 48, No. 3 Poetry Today\
+Theodor Adorno, 1990
 
-3&emsp;Pedestrian Utterings<br>Practices of Space<br>Michael De Certeau, 1985
+3&emsp;Pedestrian Utterings\
+Practices of Space\
+Michael De Certeau, 1985
 
-4&emsp;Manifesto<br>Art International no. 5<br>Charlotte Posenenske, 1968
+4&emsp;Manifesto\
+Art International no. 5\
+Charlotte Posenenske, 1968
 
-5&emsp;The Flow Through Rooms<br>A Pattern Language<br>Christopher Alexander, 1977
+5&emsp;The Flow Through Rooms\
+A Pattern Language\
+Christopher Alexander, 1977
 
-6&emsp;Doors<br>Species of Spaces and Other Pieces<br>Georges Perec, 1997 
+6&emsp;Doors\
+Species of Spaces and Other Pieces\
+Georges Perec, 1997 
