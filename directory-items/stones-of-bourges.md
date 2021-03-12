@@ -9,7 +9,10 @@ related_projects:
 footer: "Last update: 25-02-21/10:07:07"
 
 ---
-![alt text here](/assets/images/stones-of-bourges/oliver-boulton-stones-of-bourges-front.gif)
+
+<figure class="post-figure left">
+<img alt="" src="/assets/images/stones-of-bourges/oliver-boulton-stones-of-bourges-front.gif">
+</figure>
 
 *The Stones of Bourges*
 
