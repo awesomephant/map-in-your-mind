@@ -26,7 +26,7 @@
 .info--timeline {
   grid-column: 1 / 13;
   @extend %hide-scrollbar;
-  z-index: 5000;
+  z-index: 10000;
   ul {
     padding-bottom: 2.3em;
     &:last-of-type {
