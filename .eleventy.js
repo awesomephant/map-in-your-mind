@@ -23,9 +23,11 @@ module.exports = function (eleventyConfig) {
     const items = collectionApi.getFilteredByGlob(["./directory-items/*.md"]);
     // Sort alphabetically
     let sorted = items.sort((a, b) => {
-      if (a.data.title.toLowerCase() < b.data.title.toLowerCase()) {
+      titleA = a.data.title.toLowerCase().replace(/(the )/gi, "")
+      titleB = b.data.title.toLowerCase().replace(/(the )/gi, "")
+      if (titleA < titleB) {
         return -1;
-      } else if (a.data.title.toLowerCase() > b.data.title.toLowerCase()) {
+      } else if (titleA > titleB) {
         return 1;
       }
       return 0;
@@ -54,7 +56,7 @@ module.exports = function (eleventyConfig) {
     if (process.env.NODE_ENV === "dev") {
       let extension = path.extname(url);
       const name = path.basename(url, extension);
-      if (extension === ".jpg"){
+      if (extension === ".jpg") {
         extension = ".jpeg"
       }
       return `<picture class="post-figure ${className}">
@@ -67,9 +69,9 @@ module.exports = function (eleventyConfig) {
       try {
         let metadata = await Image("." + url, config);
         let fallback = ""
-        if (metadata.png){
-         fallback = metadata.png[0];
-        } else if (metadata.jpg){
+        if (metadata.png) {
+          fallback = metadata.png[0];
+        } else if (metadata.jpg) {
           fallback = metadata.jpg[0];
         }
         return `<picture class="post-figure ${className}">
@@ -100,7 +102,7 @@ module.exports = function (eleventyConfig) {
       filenameFormat: function (id, src, w, format, options) {
         const extension = path.extname(src);
         const name = path.basename(src, extension);
-        if (width != null){
+        if (width != null) {
           return `${name}-${w}w.${format}`;
         } else {
           return `${name}.${format}`;
@@ -111,7 +113,7 @@ module.exports = function (eleventyConfig) {
       //console.log(`Skipping ${src}`);
       const extension = path.extname(src);
       const name = path.basename(src, extension);
-      if (width != null){
+      if (width != null) {
         return `/assets/images/${name}-${width}w.png`;
       } else {
         return `/assets/images/${name}.png`;
