@@ -17,13 +17,22 @@
   display: none;
   top: 0;
   left: 2rem;
-  padding-top: calc(var(--ms-0) * 4);
-  padding-bottom: calc(var(--ms-0) * 1);
   z-index: 10000;
   height: 100vh;
   @media (min-height: 40rem) {
     @include bp(m) {
       display: flex;
+      padding-bottom: calc(var(--ms-0) * 1);
+      padding-top: calc(var(--ms-0) * 7);
+      .long-title & {
+        padding-top: calc(var(--ms-0) * 8);
+      }
+    }
+    @include bp(l) {
+      padding-top: calc(var(--ms-0) * 4);
+      .long-title & {
+        padding-top: calc(var(--ms-0) * 4);
+      }
     }
   }
   button {
@@ -164,10 +173,18 @@
   padding-bottom: 1em;
   color: white;
   padding-top: 6em;
+  .long-title & {
+    padding-top: 7em;
+  }
   @include bp(m) {
+    padding-left: 2.5rem;
+  }
+  @include bp(l) {
     padding-right: 0;
     padding-top: 3.8em;
-    padding-left: 2.5rem;
+    .long-title & {
+      padding-top: 3.8em;
+    }
   }
   p {
     grid-column: 1 / 7;

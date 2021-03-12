@@ -120,6 +120,11 @@ function initDirectory() {
         item.classList.add("active");
         nav.scrollTo(0, item.offsetTop - 65)
         currentDirectoryItem.innerHTML = item.getAttribute("data-title");
+        
+        document.body.classList.remove("long-title")
+        if (item.getAttribute("data-title").length > 40){
+          document.body.classList.add("long-title")
+        }
         currentDirectoryItem.classList.add("active");
         let images = container.querySelectorAll("img");
         if (images.length > 0) {
