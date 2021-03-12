@@ -1,7 +1,6 @@
 .overlay-image-container {
   position: absolute;
   mix-blend-mode: unset;
-  z-index: 20000;
   pointer-events: none;
   opacity: 0;
   transition: $fast;
@@ -26,4 +25,5 @@
   height: 100vh;
   overflow: hidden;
   pointer-events: none;
+  z-index: 1000;
 }

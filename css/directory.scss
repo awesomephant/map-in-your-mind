@@ -164,6 +164,8 @@
 .directory--entry--inner {
   display: flex;
   flex-flow: column;
+  // Potential fix for rendering issue
+  background: $black;
   &.loading {
     opacity: 0;
   }
