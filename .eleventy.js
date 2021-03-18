@@ -43,7 +43,7 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addShortcode("fig", async function (url, alt, className) {
     let config = {
-      widths: [1500],
+      widths: [1000],
       formats: [null],
       urlPath: "/assets/images/",
       outputDir: "./_site/assets/images/",
@@ -60,7 +60,7 @@ module.exports = function (eleventyConfig) {
         extension = ".jpeg"
       }
       return `<picture class="post-figure ${className}">
-        <img
+      <img
           src="/assets/images/${name}${extension}"
           alt="${alt}">
       </picture>`;

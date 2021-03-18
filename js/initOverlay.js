@@ -7,11 +7,13 @@ function clearOverlay() {
   const outer = document.querySelector(".site-overlays");
   document.body.classList.remove("overlay-active");
   window.idleSeconds = 0;
+  overlayCounter = 0;
   window.setTimeout(function () {
     outer.innerHTML = "";
   }, 1000);
 }
 function addOverlayGlyph() {
+  document.body.classList.add("overlay-active");
   const outer = document.querySelector(".site-overlays");
   let filename = overlays[gri(0, overlays.length - 1)];
   const angles = [-180, -90, -45, 0, 45, 90, 180];
@@ -35,6 +37,7 @@ function initOverlay() {
     if (window.idleSeconds > 10) {
       overlayCounter++;
       if (overlayCounter < overlayMax) {
+        console.log("adding glyph")
         addOverlayGlyph();
       }
     }
@@ -52,7 +55,9 @@ function initOverlay() {
   });
 
   if (sessionStorage.getItem("hasSeenOverlay") === "true") {
+    console.log("has seen overlay")
   } else {
+    console.log("hasn't seen the overlay")
     for (let i = 0; i < overlayMax; i++) {
       addOverlayGlyph()
     }

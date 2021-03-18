@@ -27,7 +27,6 @@ title: Directory
             <a href="#{{item.fileSlug | slug }}">
                 <h3>{{item.data.title}}</h3>
                 <h4>{{item.data.subtitle}}</h4>
-
                 {% if item.data.thumbnail %}
                 <img class="timeline--item--thumbnail" src="{% img item.data.thumbnail 400%}"
                     alt="{{item.data.title}} Thumbnail" />
