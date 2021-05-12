@@ -16,6 +16,7 @@ footer: "Last update: 12-05-21/11:01:16"
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-front-3.jpeg" "alt" "left" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-front-4.jpeg" "alt" "left" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-14.png" "alt" "" %}
+{% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-33.png" "alt" "" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-52.png" "alt" "" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-67.png" "alt" "" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-70.png" "alt" "" %}
