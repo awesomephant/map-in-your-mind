@@ -7,7 +7,7 @@ thumbnail: "/assets/images/thumbnails/oliver-boulton-meter-font-1.png"
 thumbnail_is_landscape: false
 related_projects:
     - A Glib Remark, A Fragment or Unfinished Phrase
-    - clash-issue-118-2021
+    - Clash
     - The Face Vol. 4, Issue 6 Spring 2021
 footer: "Last update: 10-03-21/13:44:57"
 ---

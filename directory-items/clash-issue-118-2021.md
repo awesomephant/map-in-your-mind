@@ -7,7 +7,6 @@ thumbnail: "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-front-2.j
 thumbnail_is_landscape: false
 related_projects:
 - Meter Font
-- The Face Vol. 4, Issue 5 Winter 2020
 footer: "Last update: 12-05-21/11:01:16"
 ---
 
@@ -37,3 +36,5 @@ footer: "Last update: 12-05-21/11:01:16"
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-146.png" "alt" "" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-150.png" "alt" "" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-154.png" "alt" "" %}
+
+Contributors: Ollie Adegboye, Thibault-Theodore Babin, Aaron Bishop, Grant Brydon, Josh Crowe, Michael Delaney, Rachel Finn, Marianne Gallagher, Josie Hall, Susan Hansen, Lucy Harbron, Jamie Hewlett, John Heyes, Tochi Imo, Robert Kazandjian, Matthew Kent, Ana Lamond, Amy Lidgett, Scot Louie, James Luxford, Sophie Mayanne, Cal McIntyre, Ian McRae, Kellie Miller, Wale Oloworekende, Paul Phung, Zoya Raza-Sheikh, Takahito Sasaki, Scrdofme, Zarina Shukri, Lydia Simpson, Freddie Stisted, Paige Strabala, Jamie Wilde, Meg Myfanwy Young.
