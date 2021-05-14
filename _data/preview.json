@@ -88,22 +88,21 @@
         {
             "title": "Clash",
             "subtitle": "Issue 118, Spring 2021",
-            "currentImage": [0, 5, 9, 15],
+            "currentImage": [0, 5, 9, 14],
             "directorySlug": "clash-issue-118-2021",
             "copy": "Magazine\nPublisher: Music Republic Ltd, 2021\nDesign: Oliver Boulton\n\n[Purchase Here](https://theclashshop.com/collections/latest-issues/products/issue-118-mahmood)\n\nStarring: Gorillaz, Bobby Gillespie, IDK, Madison Beer, Mahmood, Central Cee, Griff and Laurie Anderson.\n\nSoftback, Cover ×4, 194pp.\nOffset CMYK, perfect bound, hot melt, 205×275mm",
             "images": [
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-front.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-14.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-33.png",
+                "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-52.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-67.png",
-                "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-70.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-74.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-83.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-86.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-88.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-91.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-94.png",
-                "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-98.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-106.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-108.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-116.png",
@@ -112,7 +111,8 @@
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-139.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-146.png",
                 "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-150.png",
-                "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-155.png"            ]
+                "/assets/images/clash-118-2021/preview/oliver-boulton-the-clash-preview-118-155.png"   
+                     ]
         },
         {
             "title": "Perspectives",

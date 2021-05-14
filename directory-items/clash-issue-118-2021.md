@@ -1,6 +1,6 @@
 ---
-title: Clash
-subtitle: Issue 118, Spring 2021
+title: Clash, Issue 118, Spring 2021
+subtitle: Clash
 description: "Magazine\nPublisher: Music Republic Ltd, 2021\nDesign: Oliver Boulton\nSoftback, Cover ×4, 194pp.\nOffset CMYK, perfect bound, hot melt, 205×275mm"
 layout: project
 thumbnail: "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-front-2.jpeg"
@@ -25,7 +25,6 @@ footer: "Last update: 14-05-21/13:22:54"
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-88.png" "alt" "" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-91.png" "alt" "" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-94.png" "alt" "" %}
-{% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-98.png" "alt" "" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-106.png" "alt" "" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-108.png" "alt" "" %}
 {% fig "/assets/images/clash-118-2021/oliver-boulton-the-clash-118-112.png" "alt" "" %}
